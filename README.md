@@ -1,4 +1,4 @@
-<img src="assets/images/urban-paws-transparent" style="margin: 0;">
+<img src="assets/images/urban-paws-transparent.png" width="230">
 
 # Urban Paws Website
 
