@@ -21,20 +21,23 @@ Include well presented mock-up images of website on different devices
 
 ## User Experience Design
 
-### Strategy - work out if should use these headers
+### Strategy
 
-The business goals for debveloping the website are:
+The business goals for developing the website are:
 
 - To attract users to the company website to promote the company and brand awareness and to drive online enquiries.
 - To provide a simple, attractive, modern and responsive website.
 - To present a consistent brand image to users.
 
-### User Stories
+### Scope
+
+#### User Stories
 
 #### Business
 
 - As the business owner, I want the company branding template to be applied to the website, so that the company presents a consistent brand image.
-- As the business owner, I want the website to be load quickly, so that users are not left waiting for the website to respond.
+- As the business owner, I want the company website latency to be optimised, so that users are less likely to abandon our website whilst using it.
+- As the business owner, I want my company website to be search engine optimised, so that users can esily find our website.
 
 #### First time visitors
 
@@ -47,15 +50,29 @@ The business goals for debveloping the website are:
 
 - As a returning visitor, I want to be able to contact the company, so that I can ask questions or receive announcements and updates about the company.
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
-
-### Scope
-
 ### Structure
+
+Talk about consistency across the pages in the website - common logo, menu etc.
 
 ### Skeleton
 
+#### Wireframes
+
+- Small device [wireframes](assets/design/Urban_Paws_Wireframes_Small_v1.0.pdf)
+- Medium device [wireframes](assets/design/Urban_Paws_Wireframes_Medium_v1.0.pdf)
+- Large device [wireframes](assets/design/Urban_Paws_Wireframes_Large_v1.0.pdf)
+
 ### Surface
+
+#### Branding
+
+
+#### Colours
+
+
+
+#### Typography
+
 
 ## Features
 
