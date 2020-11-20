@@ -1,5 +1,7 @@
 <img src="assets/images/urban-paws-transparent.png" width="230">
 
+<!-- Remember to add link to website from logo -->
+
 # Urban Paws Website
 
 Working with the company director, this website has been developed as the first iteration for a new start-up company Urban Paws. The website provides potential customers with an overview of the company and information in relation to products that are currently being developed and that will be for sale in the near future. The site was developed using knowledge gained from the Code Institute HTML, CSS and User Centric Frontend Development modules.
@@ -8,7 +10,7 @@ The client requested a simple, attractive and modern website that is responsive 
 
 View the live website [here.](https://.......)
 
-Include well presented mock-up images of website on different devices
+<!-- Include well presented mock-up images of website on different devices -->
 
 ## Contents
 
@@ -35,24 +37,26 @@ The business goals for developing the website are:
 
 #### Business
 
-- As the business owner, I want the company branding template to be applied to the website, so that the company presents a consistent brand image.
-- As the business owner, I want the company website latency to be optimised, so that users are less likely to abandon our website whilst using it.
-- As the business owner, I want my company website to be search engine optimised, so that users can esily find our website.
+- As the branding director, I want the company branding template to be applied to the website so that the company presents a consistent brand image.
+- As the business owner, I want the company website latency to be optimised so that users are less likely to abandon our website whilst using it.
+- As the business owner, I want the company website to be search engine optimised, so that users can easily find our website.
 
 #### First time visitors
 
-- As a first time visitor to the website, I want to be able to access the website on different devices, so that i can use the device that is most convenient to me at the time.
-- As a first time visitor, I want to be able to easily navigate the website, so that i can find out more about the company and it's offerings.
-- As a first time visitor, I want to be able to follow the company on social media platforms, so that I can stay informed about the company.
+- As a first-time visitor to the website, I want to be able to access the website on different devices so that i can use the device that is most convenient to me at the time.
+- As a first-time visitor, I want to be able to easily navigate the website so that I can find out more about the company and it's offerings.
+- As a first-time visitor, I want to be able to follow the company on social media platforms so that I can stay informed about the company.
 
 
 #### Returning visitors
 
-- As a returning visitor, I want to be able to contact the company, so that I can ask questions or receive announcements and updates about the company.
+- As a returning visitor, I want to be able to contact the company so that I can ask questions or receive announcements and updates about the company.
+- As a returning visitor, I want to see new products that have been added so that I can decide on whether I want to purchase them.
+<!-- Maybe add some customer reviews -->
 
 ### Structure
 
-Talk about consistency across the pages in the website - common logo, menu etc.
+<!-- Talk about consistency across the pages in the website - common logo, menu etc. -->
 
 ### Skeleton
 
@@ -68,7 +72,6 @@ Talk about consistency across the pages in the website - common logo, menu etc.
 
 
 #### Colours
-
 
 
 #### Typography
@@ -87,18 +90,10 @@ For some/all of your features, you may choose to reference the specific project 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
-- Another feature idea
 
-### Branding
-
-
-### Colours
-
-
-
-### Typography
-
-
+- Blog
+- Shopping cart
+- eCommerce capabilities
 
 ## Technologies Used
 
@@ -107,7 +102,7 @@ In this section, you should mention all of the languages, frameworks, libraries,
 - [JQuery](https://jquery.com)
     - The project uses **JQuery** to simplify DOM manipulation.
 
-Remeber to include JIRA, Trello etc.
+<!-- Remember to include JIRA, Trello etc. -->
 
 ## Testing
 
