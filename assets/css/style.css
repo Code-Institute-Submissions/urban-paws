@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Oswald&family=Raleway&family=Roboto&family=Open+Sans&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* --------------------------- General */
+i {
+    color: #6E7F80;
+}
+
+body {
+    font-family: "Raleway", sans-serif
+}
+
+.fa:hover {
+    transition: 0.5s;
+    color: black;
+}
+
+/* Not working - to resolve
+
+.fa-copyright {
+    pointer-events: none;
+} */
+
+/* --------------------------- Header */
+
+#logo {
+    height: 50px;
+    width: 228.95px;
+}
+
+header {
+    background-color: #F6F7F7;
+}
+
+/* --------------------------- Navigation */
+
+.navbar-brand {
+    padding: 10px 0 20px 10px;
+}
+
+.navbar-nav {
+    padding-top: 20px;
+}
+
+.navbar li {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #6E7F80;
+}
+
+/* code from https://stackoverflow.com/questions/50668594/remove-border-color-for-navbar-toggler-hamburger-icon-bootstrap-4
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: #6E7F80;
+    box-shadow: #6E7F80;
+} */
+/* --------------------------- Section-one-index */
+
+.section-one {
+    background: url("../images/dog-cat-two.png") no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-text: center;
+    justify-content: center;
+    padding: 0;
+    position: relative;
+}
+
+.section-one div {
+    color: #fafafa;
+    text-align: center;
+    background-color: rgba(0, 0, 0, .25);
+    border-color: rgba(0, 0, 0, .25);
+    height: inherit;
+    width: inherit;
+}
+
+/* --------------------------- Section-two-home */
+
+.section-two {
+    /*display: flex;*/
+    width: 100vw;
+    color: #6E7F80;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* --------------------------- Section-three-home */
+
+.section-three {
+    width: 100vw;
+    color: #6E7F80;
+    text-align: center;
+    background-color: #FF9569;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.padd-padding {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* --------------------------- Footer */
+
+footer {
+    display: flex;
+    font-family: "Montserrat", sans-serif;
+    color: #6E7F80;
+    background-color: #F6F7F7;
+    height: 150px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+}
+
+/* To centre footer items on smaller screens. Note: breaks at 276px wide - to resolve if required */
+@media all and (max-width: 800px) {
+    footer {
+        justify-content: space-around;
+    }
+}
+
+.copyright {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    padding: 20px 0 20px 20px;
+    margin: 0;
+}
+
+/* .address {
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+} */
+.social-media {
+    padding: 20px 0px 20px 0px;
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0 20px 0 20px;
+}
+
+.social-media li {
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+.social-media i {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 28px;
+}
