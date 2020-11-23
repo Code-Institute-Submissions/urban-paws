@@ -85,10 +85,8 @@ header {
 /* --------------------------- Section-two-home */
 
 .section-two {
-  /*display: flex;*/
   width: 100vw;
   color: #6e7f80;
-  text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -123,7 +121,7 @@ footer {
   flex-wrap: wrap-reverse;
 }
 
-/* To centre footer items on smaller screens. Note: breaks at 276px wide - to resolve if required */
+/* To centre footer items on smaller screens. Note: breaks at 330px wide - to resolve if required */
 @media all and (max-width: 800px) {
   footer {
     justify-content: space-around;
