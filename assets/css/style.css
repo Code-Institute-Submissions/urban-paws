@@ -14,12 +14,6 @@ body {
   color: black;
 }
 
-/* Not working - to resolve
-
-.fa-copyright {
-    pointer-events: none;
-} */
-
 /* --------------------------- Header */
 
 #logo {
@@ -166,7 +160,7 @@ footer {
 }
 
 /* To centre footer items on smaller screens. Note: breaks at 330px wide - to resolve if required */
-@media all and (max-width: 800px) {
+@media all and (max-width: 768px) {
   footer {
     justify-content: space-around;
   }
@@ -178,6 +172,10 @@ footer {
   font-size: 12px;
   padding: 20px 0 20px 20px;
   margin: 0;
+}
+
+.fa-Copyright {
+    pointer-events: none;
 }
 
 /* .address {
@@ -206,4 +204,101 @@ ul {
   padding-bottom: 10px;
   padding-top: 10px;
   font-size: 28px;
+}
+
+/* --------------------------- Contact-us */
+
+.form-section {
+    background: url("../images/running-dog.jpg") no-repeat top left fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+     height: 100vh;
+     width: 100vw;
+    background-position: 67% 25%;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    position: relative;
+}
+
+.contactus-form {
+  margin-top: 75px;
+  color: #f6f7f7;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
+  max-width: 400px;
+  position: absolute;
+  left: 10%;
+  padding: 30px;
+}
+
+.fa-envelope {
+    pointer-events: none;
+}
+
+.contactus-form i {
+  color: #f6f7f7;
+}
+
+.contactus-form h2 {
+  color: #f6f7f7;
+  margin-bottom: 20px;
+}
+
+.text-input {
+  background: solid;
+  background-color: #f6f7f7;
+  width: 100%;
+  height: 25px;
+  margin: 5px 0px 20px 0px;
+  border: 1px solid #f6f7f7;
+  border-radius: 5px;
+}
+
+.text-input:hover {
+    border-color: #FF834F;
+  }
+
+/* Need to change the colour of borders in text fields and radio button borders and fill from blue to another colour to fit with branding */
+
+.text-area {
+    height: 100px;
+    width: 100%;
+    border: 1px solid #fafafa;
+    border-radius: 5px;
+    background-color: #f6f7f7;
+    color: #6e7f80;
+
+    /* Need to align text top left and wrap at right edge and limit input to specific number of characters - characters left should be dipalyed to user*/
+}
+
+.text-area:hover {
+    border-color: #FF834F;
+}
+
+.contactus-button {
+  margin-top: 20px;
+  border-radius: 5px;
+  border: none;
+  padding: 20px 40px 20px 40px;
+  text-align: center;
+  background-color: #FF834F;
+  color: #f6f7f7;
+  display: block;
+}
+
+.contactus-button:hover {
+  background-color: green;
+  color: #f6f7f7;
+  font-weight:700;
+}
+
+/* Max width for contact form on small devices */
+
+@media all and (max-width: 600px) {
+  .contactus-form {
+    max-width: 300px;
+  }
 }
