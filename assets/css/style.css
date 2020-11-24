@@ -21,9 +21,9 @@ body {
   width: 228.95px;
 }
 
-header {
+/*header {
   background-color: #f6f7f7;
-}
+}*/
 
 /* --------------------------- Navigation */
 
@@ -42,6 +42,28 @@ header {
   color: #6e7f80;
 }
 
+/* Decide if want to fix navbar */
+
+.navbar-fixed {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    background-color: #f6f7f7;
+}
+
+.dropdown-menu {
+    background-color: #f6f7f7;
+    text-align: center;
+    min-width: 10rem;
+}
+
+.dropdown-item {
+    border-color: #6e7f80;
+    color: #6e7f80;
+}
+
 /* code from https://stackoverflow.com/questions/50668594/remove-border-color-for-navbar-toggler-hamburger-icon-bootstrap-4
 .navbar-toggler:focus,
 .navbar-toggler:active,
@@ -49,6 +71,7 @@ header {
     outline: #6E7F80;
     box-shadow: #6E7F80;
 } */
+
 /* --------------------------- Section-one-home */
 
 .section-one {
@@ -104,45 +127,23 @@ header {
 
 /* --------------------------- Section-one-shop */
 
-.section-one-shop {
-    background: url("../images/jack-russel.jpg") no-repeat center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 600px;
-    width: 100%;
-    display: flex;
-    background-position: 68% 40%;
-    /*align-items: center;*/
-    justify-content: center;
-    padding: 0;
-    position: relative;
-}
+.product {
 
-.section-one-shop div {
-    height: 600px;
-    color: #fafafa;
+    margin-top: 96px;
+    color: #6e7f80;
     text-align: center;
-    background-color: rgba(0, 0, 0, .25);
-    border-color: rgba(0, 0, 0, .25);
+    background-color: white;
+    border-color: white;
     width: inherit;
 }
 
-/* --------------------------- Section-two-shop */
-
-.section-two-shop {
-    height: 600;
-    color: #6E7F80;
-    text-align: center;
-    /*background-color: #6E7F80;*/
-    padding-top: 20px;
-    padding-bottom: 20px;
+.shop-title {
+    padding: 40px 0 40px 0;
 }
 
-.padd-padding-shop {
-    padding-top: 20px;
-    padding-bottom: 20px;
+.col-sm {
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 /* --------------------------- Footer */
@@ -209,18 +210,18 @@ ul {
 /* --------------------------- Contact-us */
 
 .form-section {
+    height: 100vh;
     background: url("../images/running-dog.jpg") no-repeat top left fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover; 
-     height: 100vh;
-     width: 100vw;
+    background-size: cover;
     background-position: 67% 25%;
     display: flex;
     justify-content: center;
     padding: 0;
     position: relative;
+    width: 100vw;
 }
 
 .contactus-form {
