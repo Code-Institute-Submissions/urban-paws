@@ -1,4 +1,4 @@
-<img src="assets/images/urban-paws-transparent.png" width="230">
+[<img src="assets/images/urban-paws-transparent.png" width="230">](https://matty-el.github.io/urban-paws/)
 
 <!-- Remember to add link to website from logo -->
 
@@ -8,7 +8,7 @@ Working with the company director, this website has been developed as the first 
 
 The client requested a simple, attractive and modern website that is responsive and easy to navigate and that allows potential customers to sign up for email updates on company news.
 
-View the live website [here.](https://.......)
+View the live website [here.](https://matty-el.github.io/urban-paws/)
 
 <!-- Include well presented mock-up images of website on different devices -->
 
