@@ -2,47 +2,39 @@
 
 /* --------------------------- General */
 i {
-  color: #6e7f80;
+    color: #6E7F80;
 }
 
 body {
-  font-family: "Raleway", sans-serif;
+    font-family: "Raleway", sans-serif;
 }
 
 .fa:hover {
-  transition: 0.5s;
-  color: black;
+    transition: 0.5s;
+    color: #FF834F;
 }
-
-/* --------------------------- Header */
-
-#logo {
-  height: 50px;
-  width: 228.95px;
-}
-
-/*header {
-  background-color: #f6f7f7;
-}*/
 
 /* --------------------------- Navigation */
 
+#logo {
+    height: 50px;
+    width: 228.95px;
+}
+
 .navbar-brand {
-  padding: 10px 0 20px 10px;
+    padding: 10px 0 20px 0;
 }
 
 .navbar-nav {
-  padding-top: 20px;
+    padding-top: 20px;
 }
 
 .navbar li {
-  font-family: "Montserrat", sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  color: #6e7f80;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #6E7F80;
 }
-
-/* Decide if want to fix navbar */
 
 .navbar-fixed {
     position: fixed;
@@ -50,18 +42,7 @@ body {
     right: 0;
     left: 0;
     z-index: 1030;
-    background-color: #f6f7f7;
-}
-
-.dropdown-menu {
-    background-color: #f6f7f7;
-    text-align: center;
-    min-width: 10rem;
-}
-
-.dropdown-item {
-    border-color: #6e7f80;
-    color: #6e7f80;
+    background-color: #F6F7F7;
 }
 
 /* code from https://stackoverflow.com/questions/50668594/remove-border-color-for-navbar-toggler-hamburger-icon-bootstrap-4
@@ -72,139 +53,218 @@ body {
     box-shadow: #6E7F80;
 } */
 
+/* --------------------------- Navigation-shop-dropdown */
+
+.dropdown-menu {
+    background-color: #F6F7F7;
+    text-align: center;
+    min-width: 10rem;
+}
+
+.dropdown-item {
+    border-color: #6E7F80;
+    color: #6E7F80;
+}
+
 /* --------------------------- Section-one-home */
 
 .section-one {
-  background: url("../images/dog-cat-two.png") no-repeat center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-position: 50% 50%;
-  height: 100vh;
-  width: 100vw;
-  display: flex;
-  align-text: center;
-  justify-content: center;
-  padding: 0;
-  position: relative;
+    background: url("../images/dog-cat-two.png") no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 96px;
+    padding: 0;
+    position: relative;
+
+    /* inspired by Love Running - only use if can resolve the issue with scaling to 1.1 and bleed into lower sections
+
+    animation-name: hero-zoom;
+    animation-duration: 3s;
+    animation-fill-mode: forwards; */
+}
+
+@keyframes hero-zoom {
+    from {
+        transform: scale(1.0)
+    }
+
+    to {
+        transform: scale(1.0)
+    }
 }
 
 .section-one div {
-  color: #fafafa;
-  text-align: center;
-  background-color: rgba(0, 0, 0, 0.25);
-  border-color: rgba(0, 0, 0, 0.25);
-  height: inherit;
-  width: inherit;
+    background-color: rgba(0, 0, 0, 0.25);
+    border-color: rgba(0, 0, 0, 0.25);
+    height: inherit;
+    width: inherit;
+    position: relative;
+}
+
+.section-one div h1 {
+    color: #F6F7F7;
+    margin: 0;
+    position: absolute;
+    width: inherit;
+    text-align: center;
+    /* from reading w3 schools - CSS layout - Horizontal and vertical align */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 /* --------------------------- Section-two-home */
 
 .section-two {
-  width: 100vw;
-  text-align: center;
-  color: #6e7f80;
-  padding-top: 20px;
-  padding-bottom: 20px;
+    width: 100vw;
+    text-align: center;
+    color: #6E7F80;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 /* --------------------------- Section-three-home */
 
 .section-three {
-  width: 100vw;
-  color: #6e7f80;
-  text-align: center;
-  background-color: #ff9569;
-  padding-top: 20px;
-  padding-bottom: 20px;
+    width: 100vw;
+    color: #6E7F80;
+    text-align: center;
+    background-color: #FF834F;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-.padd-padding {
-  padding-top: 20px;
-  padding-bottom: 20px;
+.highlight-product-padding {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-/* --------------------------- Section-one-shop */
+/* --------------------------- Shop */
 
 .product {
-
     margin-top: 96px;
-    color: #6e7f80;
+    color: #6E7F80;
     text-align: center;
     background-color: white;
     border-color: white;
     width: inherit;
 }
 
-.shop-title {
-    padding: 40px 0 40px 0;
+.product-item {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin: 10px 40px 20px 40px;
+    padding: 15px;
+    border-radius: 10px;
 }
 
-.col-sm {
-    margin-top: 40px;
-    margin-bottom: 40px;
+.product-item img {
+    padding: 20px;
+}
+
+.price {
+    font-size: 24px;
+}
+
+.product-item ul {
+    text-align: left;
+    padding: 0 20px 20px 60px;
+}
+
+.product-item button {
+    border: #6E7F80;
+    border-radius: 10px;
+    padding: 15px;
+    color: white;
+    background-color: #6E7F80;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+.product-item button:hover {
+    opacity: 0.8;
+}
+
+.shop-title {
+    padding: 40px 0 40px 0;
 }
 
 /* --------------------------- Footer */
 
 footer {
-  display: flex;
-  font-family: "Montserrat", sans-serif;
-  color: #6e7f80;
-  background-color: #f6f7f7;
-  height: 150px;
-  width: 100%;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap-reverse;
-}
-
-/* To centre footer items on smaller screens. Note: breaks at 330px wide - to resolve if required */
-@media all and (max-width: 768px) {
-  footer {
-    justify-content: space-around;
-  }
+    display: flex;
+    font-family: "Montserrat", sans-serif;
+    color: #6E7F80;
+    background-color: #F6F7F7;
+    height: 150px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
 }
 
 .copyright {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  font-size: 12px;
-  padding: 20px 0 20px 20px;
-  margin: 0;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    padding: 20px 0 20px 20px;
+    margin: 0;
 }
 
-.fa-Copyright {
+.fa-copyright {
     pointer-events: none;
 }
 
-/* .address {
+/* Decide if want to include - if so to sort footer wrapping and expand flex
+
+.address {
     font-weight: 400;
     font-size: 16px;
     padding-top: 20px;
     padding-bottom: 20px;
     margin: 0;
 } */
+
 .social-media {
-  padding: 20px 0px 20px 0px;
-  margin: 0;
+    padding: 20px 0px 20px 0px;
+    margin: 0;
 }
 
 ul {
-  margin: 0;
-  padding: 0 20px 0 20px;
+    margin: 0;
+    padding: 0 20px 0 20px;
 }
 
 .social-media li {
-  display: inline;
-  padding: 0 20px 0 20px;
+    display: inline;
+    padding: 0 20px 0 20px;
 }
 
 .social-media i {
-  padding-bottom: 10px;
-  padding-top: 10px;
-  font-size: 28px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 28px;
+}
+
+/* To centre footer items on smaller screens. Note: breaks at 330px wide - to resolve if required */
+
+@media all and (max-width: 768px) {
+    footer {
+        justify-content: space-around;
+    }
+    .copyright {
+        padding-left: 0;
+    }
 }
 
 /* --------------------------- Contact-us */
@@ -219,20 +279,22 @@ ul {
     background-position: 67% 25%;
     display: flex;
     justify-content: center;
+    margin-top: 96px;
     padding: 0;
     position: relative;
     width: 100vw;
 }
 
 .contactus-form {
-  margin-top: 75px;
-  color: #f6f7f7;
-  background-color: rgba(0, 0, 0, 0.6);
-  border-radius: 5px;
-  max-width: 400px;
-  position: absolute;
-  left: 10%;
-  padding: 30px;
+    margin-top: 75px;
+    color: #F6F7F7;
+    background-color: rgba(0, 0, 0, 0.6);
+    /* should this be left black? */
+    border-radius: 5px;
+    max-width: 400px;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
 }
 
 .fa-envelope {
@@ -240,38 +302,38 @@ ul {
 }
 
 .contactus-form i {
-  color: #f6f7f7;
+    color: #F6F7F7;
 }
 
 .contactus-form h2 {
-  color: #f6f7f7;
-  margin-bottom: 20px;
+    color: #F6F7F7;
+    margin-bottom: 20px;
 }
 
 .text-input {
-  background: solid;
-  background-color: #f6f7f7;
-  width: 100%;
-  height: 25px;
-  margin: 5px 0px 20px 0px;
-  border: 1px solid #f6f7f7;
-  border-radius: 5px;
+    background: solid;
+    background-color: #F6F7F7;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0px 20px 0px;
+    border: 1px solid #F6F7F7;
+    border-radius: 5px;
 }
+
+/* Need to change the colour of borders in text fields and radio button borders and fill from blue to another colour to fit with branding */
 
 .text-input:hover {
     border-color: #FF834F;
-  }
-
-/* Need to change the colour of borders in text fields and radio button borders and fill from blue to another colour to fit with branding */
+}
 
 .text-area {
     height: 100px;
     width: 100%;
-    border: 1px solid #fafafa;
+    border: 1px solid rgba(250, 250, 250, 0.6);
+    /* should this be left black? */
     border-radius: 5px;
-    background-color: #f6f7f7;
-    color: #6e7f80;
-
+    background-color: #F6F7F7;
+    color: #6E7F80;
     /* Need to align text top left and wrap at right edge and limit input to specific number of characters - characters left should be dipalyed to user*/
 }
 
@@ -280,26 +342,28 @@ ul {
 }
 
 .contactus-button {
-  margin-top: 20px;
-  border-radius: 5px;
-  border: none;
-  padding: 20px 40px 20px 40px;
-  text-align: center;
-  background-color: #FF834F;
-  color: #f6f7f7;
-  display: block;
+    display: block;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+    padding: 20px 40px 20px 40px;
+    text-align: center;
+    background-color: #FF834F;
+    color: #F6F7F7;
+    display: block;
 }
 
 .contactus-button:hover {
-  background-color: green;
-  color: #f6f7f7;
-  font-weight:700;
+    background-color: #6E7F80;
+    color: #F6F7F7;
+    font-weight: 700;
 }
 
-/* Max width for contact form on small devices */
+/* Max width for contact form on small devices - check pixel size correct */
 
-@media all and (max-width: 600px) {
-  .contactus-form {
-    max-width: 300px;
-  }
+@media all and (max-width: 480px) {
+    .contactus-form {
+        max-width: 300px;
+        margin-top: 10px;
+    }
 }
