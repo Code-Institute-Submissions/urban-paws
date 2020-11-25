@@ -68,6 +68,8 @@ The business goals for developing the website are:
 
 ### Surface
 
+Working with the client an [Urban Paws Branding Template](assets/design/Urban_Paws_Branding_Template.pdf) has been developed to ensure a strong and consistent brand image has been applied to the Urban Paws website.
+
 #### Branding
 
 
