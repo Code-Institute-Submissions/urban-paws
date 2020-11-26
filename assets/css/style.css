@@ -15,7 +15,6 @@ body {
 }
 
 /* --------------------------- Navigation */
-
 #logo {
     height: 50px;
     width: 228.95px;
@@ -53,8 +52,7 @@ body {
     box-shadow: #6E7F80;
 } */
 
-/* --------------------------- Navigation-shop-dropdown */
-
+/* --------------------------- Navigation - shop dropdown */
 .dropdown-menu {
     background-color: #F6F7F7;
     text-align: center;
@@ -66,9 +64,8 @@ body {
     color: #6E7F80;
 }
 
-/* --------------------------- Section-one-home */
-
-.section-one {
+/* --------------------------- Hero index */
+.hero-section {
     background: url("../images/dog-cat-two.png") no-repeat center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -83,25 +80,9 @@ body {
     margin-top: 96px;
     padding: 0;
     position: relative;
-
-    /* inspired by Love Running - only use if can resolve the issue with scaling to 1.1 and bleed into lower sections
-
-    animation-name: hero-zoom;
-    animation-duration: 3s;
-    animation-fill-mode: forwards; */
 }
 
-@keyframes hero-zoom {
-    from {
-        transform: scale(1.0)
-    }
-
-    to {
-        transform: scale(1.0)
-    }
-}
-
-.section-one div {
+.hero-section div {
     background-color: rgba(0, 0, 0, 0.25);
     border-color: rgba(0, 0, 0, 0.25);
     height: inherit;
@@ -109,7 +90,7 @@ body {
     position: relative;
 }
 
-.section-one div h1 {
+.hero-section div h1 {
     color: #F6F7F7;
     margin: 0;
     position: absolute;
@@ -121,25 +102,63 @@ body {
     transform: translate(-50%, -50%);
 }
 
-/* --------------------------- Section-two-home */
+.btn {
+    color: #F6F7F7;
+    background-color: #FF834F;
+    text-align: center;
+    position: absolute;
+    /* need to find better way of centering button */
+    top: 55%;
+    left: 50%;
+}
 
-.section-two {
+/* --------------------------- The team about */
+.the-team-section {
     width: 100vw;
     text-align: center;
     color: #6E7F80;
+    background-color: #F6F7F7;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
-/* --------------------------- Section-three-home */
-
-.section-three {
+/* --------------------------- What we do index */
+.what-we-do-section {
     width: 100vw;
+    text-align: left;
+    margin: auto;
     color: #6E7F80;
+    background-color: #F6F7F7;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+/* need to find correct width */
+
+@media all and (max-width: 1000px) {
+    .what-we-do-section {
+        text-align: center;
+    }
+    .what-we-do-section h1 {
+        padding-top: 40px;
+    }
+}
+
+/* --------------------------- Product index */
+.product-section {
+    width: 100vw;
+    color: #F6F7F7;
     text-align: center;
-    background-color: #FF834F;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#dog {
+    background-color: #6E7F80;
+}
+
+#cat {
+    background-color: #806F6E;
 }
 
 .highlight-product-padding {
@@ -148,7 +167,6 @@ body {
 }
 
 /* --------------------------- Shop */
-
 .product {
     margin-top: 96px;
     color: #6E7F80;
@@ -200,7 +218,6 @@ body {
 }
 
 /* --------------------------- Footer */
-
 footer {
     display: flex;
     font-family: "Montserrat", sans-serif;
@@ -234,7 +251,6 @@ footer {
     padding-bottom: 20px;
     margin: 0;
 } */
-
 .social-media {
     padding: 20px 0px 20px 0px;
     margin: 0;
@@ -257,18 +273,17 @@ ul {
 }
 
 /* To centre footer items on smaller screens. Note: breaks at 330px wide - to resolve if required */
-
 @media all and (max-width: 768px) {
     footer {
         justify-content: space-around;
     }
+
     .copyright {
         padding-left: 0;
     }
 }
 
 /* --------------------------- Contact-us */
-
 .form-section {
     height: 100vh;
     background: url("../images/running-dog.jpg") no-repeat top left fixed;
@@ -321,7 +336,6 @@ ul {
 }
 
 /* Need to change the colour of borders in text fields and radio button borders and fill from blue to another colour to fit with branding */
-
 .text-input:hover {
     border-color: #FF834F;
 }
@@ -360,7 +374,6 @@ ul {
 }
 
 /* Max width for contact form on small devices - check pixel size correct */
-
 @media all and (max-width: 480px) {
     .contactus-form {
         max-width: 300px;
