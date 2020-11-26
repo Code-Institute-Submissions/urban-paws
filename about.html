@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+    <!-- for dropdown menu on shop page to link to products <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
+		integrity="sha512-csw0Ma4oXCAgd/d4nTcpoEoz4nYvvnk21a8VA2h2dzhPAvjbUIK6V3si7/g/HehwdunqqW18RwCJKpD7rL67Xg=="
+		crossorigin="anonymous" /> -->
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <title>Urban Paws</title>
+</head>
+
+<body>
+    <header id="header">
+
+        <!-- Navigation -->
+
+        <nav class="navbar navbar-light navbar-expand-md navbar-fixed">
+            <a href="index.html" class="navbar-brand mr-auto"><img id="logo" src="assets/images/urban-paws-transparent.png" alt="Urban Paws logo" /></a>
+            <!-- from bootstrap website -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- from bootstrap website end-->
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                    </li>
+
+                    <!-- From Bootstrap website -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="shop.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Shop
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="shop-dog.html"><img src="assets/images/daisy.jpeg" class="rounded-circle" height="75" width="75" alt="shop dog" /><br>Shop Dog</a>
+                            <a class="dropdown-item" href="shop-cat.html"><img src="assets/images/percy-scream.jpg" class="rounded-circle" height="75" width="75" alt="shop cat" /><br />Shop Cat</a>
+                            <!-- <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a> -->
+                        </div>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa fa-shopping-basket" id="shopping-basket"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Navigation end -->
+    </header>
+    <main role="main">
+        <!-- Hero image and Urban Paws headline -->
+
+        <section>
+            <div class="container-fluid hero-section">
+                <div class="row">
+                    <div class="col">
+                        <h1>OUR TEAM</h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Introduction to the team and what Urban Paws does -->
+
+        <section>
+            <div class="container-fluid the-team-section">
+                <div class="row">
+                    <div class="col">
+                        <h1></h1>
+                    </div>
+                    <div class="w-100"></div>
+                    <div class="col-sm">
+                        <h2>Jane</h2>
+                        <p>
+                            <img src="assets/images/daisy.jpeg" class="rounded-circle" height="150" width="150" alt="cat" /><br /><br />The Boss
+                        </p>
+                    </div>
+                    <div class="col-sm">
+                        <h2>Percy</h2>
+                        <p>
+                            <img src="assets/images/percy-scream.jpg" class="rounded-circle" height="150" width="150" alt="cat" /><br /><br />Just noisy
+                        </p>
+                    </div>
+                    <div class="col-sm">
+                        <h2>Aggie</h2>
+                        <p>
+                            <img src="assets/images/aggie.jpeg" class="rounded-circle" height="150" width="150" alt="dog" /><br /><br />The brains
+                        </p>
+                    </div>
+                    <div class="col-sm">
+                        <h2>Daisy</h2>
+                        <p>
+                            <img src="assets/images/daisy.jpeg" class="rounded-circle" height="150" width="150" alt="dog" /><br /><br />Where's my bone?
+                        </p>
+                    </div>
+                </div>
+                <!-- <div class="row">
+                    <div class="col what-we-do-section">
+                        <h1>What we do</h1>
+                        <p>
+                            <img src="assets/images/design.jpg" height="200" width="200" alt="design" align="left" />
+                            We are a team of pet perfectionists who demand nothing but the
+                            best from our owners. We test and design pet gear that performs
+                            to the highest standards and make these products available to
+                            our brothers and sisters around the world.
+                        </p>
+                    </div>
+                </div> -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="copyright">
+            <span>Copyright <i class="fa fa-copyright"></i> Urban
+                Paws 2020</span>
+        </div>
+        <!-- <div class="address">
+            <p>65 Samborne Drive <br> Wokingham <br> RG40 1GF</p>
+        </div> -->
+
+        <!-- Social media links -->
+
+        <div>
+            <ul class="social-media">
+                <li>
+                    <a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com" target="_blank"><i class="fa fa-youtube"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.pinterest.com" target="_blank"><i class="fa fa-pinterest"></i></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
