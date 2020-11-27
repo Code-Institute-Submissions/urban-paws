@@ -60,28 +60,29 @@
         <!-- Navigation end -->
     </header>
     <main role="main">
+
         <!-- Hero image and Urban Paws headline -->
 
         <section>
             <div class="container-fluid hero-section">
                 <div class="row">
                     <div class="col">
-                        <h1>The best of British designed products for your pet</h1>
-                        <!-- <button type="button" onclick="location.href='contact.html'" class="btn btn-lg">Find Out More</button> -->
+                        <h1>The very best of British designed products for your pet</h1>
+                        <button type="button" onclick="location.href='contact.html'" class="btn btn-lg hero-button">Find Out More</button>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Introduction to the team and what Urban Paws does -->
+        <!-- What Urban Paws does -->
 
         <section>
             <div class="container-fluid what-we-do-section">
                 <div class="row">
-                    <div class="col-lg-6">
-                        <img class="img-fluid" src="assets/images/design.jpg" alt="design" align="left" />
+                    <div class="col-lg-4">
+                        <img class="img-fluid" src="assets/images/design.jpg" alt="design" align="center" height="400" width="600" />
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-8">
                         <h1>What we do</h1>
                         <p>
                             We are a team of pet perfectionists who demand nothing but the
@@ -94,35 +95,38 @@
             </div>
         </section>
 
-        <!-- The main products -->
+        <!-- New product information -->
 
         <section>
             <div class="container-fluid product-section">
-                <div class="row">
-                    <div class="col-lg-6 highlight-product-padding" id="dog">
-                        <div>
-                            <h1>PADD Dog</h1>
-                            <img src="assets/images/daisy.jpeg" alt="dog" class="rounded-circle" height="200" width="200" />
-                        </div>
+                <div class="row flex-column-reverse flex-lg-row">
+                    <!-- from https://stackoverflow.com/questions/46672633/bootstrap-4-how-reverse-the-order-of-columns -->
+                    <div class="col-lg-8">
+                        <h1>PADD Suit</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices sagittis orci a scelerisque. Egestas diam in arcu cursus euismod. Iaculis nunc sed augue
+                            lacus viverra vitae congue. Vitae nunc sed velit dignissim sodales ut. Aliquet risus feugiat in ante metus. Mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare. Sapien pellentesque habitant morbi tristique
+                            senectus et netus. Nullam vehicula ipsum a arcu cursus vitae. Sed sed risus pretium quam vulputate dignissim suspendisse in est. Ornare massa eget egestas purus viverra accumsan. Sit amet consectetur adipiscing elit ut
+                            aliquam. Vel risus commodo viverra maecenas accumsan lacus vel facilisis volutpat.
+                        </p>
+                        <button type="button" onclick="location.href='shop-dog.html'" class="btn btn-lg product-button-dog">Shop Dog</button>
+                        <button type="button" onclick="location.href='shop-cat.html'" class="btn btn-lg product-button-cat">Shop Cat</button>
                     </div>
-                    <div class="col-lg-6 highlight-product-padding" id="cat">
-                        <div>
-                            <h1>PADD Cat</h1>
-                            <img src="assets/images/percy-scream.jpg" alt="cat" class="rounded-circle" height="200" width="200" />
-                        </div>
+                    <div class="col-lg-4">
+                        <img class="img-fluid" src="assets/images/dog-suit.jpg" alt="design" align="center" height="400" width="600" /> <!-- dog suit https://unsplash.com/@mattseymour -->
                     </div>
                 </div>
             </div>
         </section>
     </main>
     <footer>
+
+        <!-- Copyright -->
+
         <div class="copyright">
             <span>Copyright <i class="fa fa-copyright"></i> Urban
                 Paws 2020</span>
         </div>
-        <!-- <div class="address">
-            <p>65 Samborne Drive <br> Wokingham <br> RG40 1GF</p>
-        </div> -->
 
         <!-- Social media links -->
 
