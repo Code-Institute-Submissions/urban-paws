@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&family=Oswald&family=Raleway&family=Roboto&family=Open+Sans&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
-/* --------------------------- General */
+/* --------------------------- General - consider what can be applied generally or what should be specific. Also consider id vs classes*/
+
 i {
     color: #6E7F80;
 }
@@ -44,14 +45,13 @@ body {
     background-color: #F6F7F7;
 }
 
-/* code from https://stackoverflow.com/questions/50668594/remove-border-color-for-navbar-toggler-hamburger-icon-bootstrap-4
+/* Need to get working - code from https://stackoverflow.com/questions/50668594/remove-border-color-for-navbar-toggler-hamburger-icon-bootstrap-4
 .navbar-toggler:focus,
 .navbar-toggler:active,
 .navbar-toggler-icon:focus {
     outline: #6E7F80;
     box-shadow: #6E7F80;
 } */
-
 /* --------------------------- Navigation - shop dropdown */
 .dropdown-menu {
     background-color: #F6F7F7;
@@ -64,7 +64,7 @@ body {
     color: #6E7F80;
 }
 
-/* --------------------------- Hero index */
+/* --------------------------- Hero index - understand exactly how to position images prior to submission */
 .hero-section {
     background: url("../images/dog-cat-two.png") no-repeat center fixed;
     -webkit-background-size: cover;
@@ -72,9 +72,9 @@ body {
     -o-background-size: cover;
     background-size: cover;
     background-position: 50% 50%;
-    height: 100vh;
-    width: 100vw;
+    height: 85vh;
     display: flex;
+    width: 100vw;
     justify-content: center;
     align-items: center;
     margin-top: 96px;
@@ -90,55 +90,52 @@ body {
     position: relative;
 }
 
-.hero-section div h1 {
+.hero-section h1 {
     color: #F6F7F7;
     margin: 0;
-    position: absolute;
+    position: relative;
     width: inherit;
     text-align: center;
     /* from reading w3 schools - CSS layout - Horizontal and vertical align */
-    top: 50%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.btn {
+.hero-button {
     color: #F6F7F7;
-    background-color: #FF834F;
-    text-align: center;
-    position: absolute;
-    /* need to find better way of centering button */
-    top: 55%;
+    background-color: #FF7136;
+    font-weight: bold;
+    position: relative;
+    top: 37.5%;
     left: 50%;
+    transform: translate(-50%, -50%)
 }
 
-/* --------------------------- The team about */
-.the-team-section {
-    width: 100vw;
-    text-align: center;
-    color: #6E7F80;
-    background-color: #F6F7F7;
-    padding-top: 20px;
-    padding-bottom: 20px;
+.hero-button:hover {
+    color: #566465;
+    font-weight: 700;
 }
+
 
 /* --------------------------- What we do index */
 .what-we-do-section {
     width: 100vw;
     text-align: left;
     margin: auto;
-    color: #6E7F80;
-    background-color: #F6F7F7;
+    max-width: 1400px;
+    color: #566465;
+    background-color: white;
     padding-top: 40px;
     padding-bottom: 40px;
 }
 
 /* need to find correct width */
-
 @media all and (max-width: 1000px) {
     .what-we-do-section {
         text-align: center;
     }
+
     .what-we-do-section h1 {
         padding-top: 40px;
     }
@@ -147,23 +144,49 @@ body {
 /* --------------------------- Product index */
 .product-section {
     width: 100vw;
+    text-align: left;
+    margin: auto;
+    max-width: 1400px;
+    color: #566465;
+    background-color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+@media all and (max-width: 1000px) {
+    .product-section {
+        text-align: center;
+    }
+
+    .product-section h1 {
+        padding-top: 40px;
+    }
+}
+
+.product-button-dog {
     color: #F6F7F7;
+    background-color: #FF7136;
     text-align: center;
-    padding-top: 0;
-    padding-bottom: 0;
+    position: relative;
+    margin: 20px 0 20px 20px;
 }
 
-#dog {
-    background-color: #6E7F80;
+.product-button-dog:hover {
+    color: #F6F7F7;
+    font-weight: 700;
 }
 
-#cat {
-    background-color: #806F6E;
+.product-button-cat {
+    color: #F6F7F7;
+    background-color: #FF7136;
+    text-align: center;
+    position: relative;
+    margin: 20px;
 }
 
-.highlight-product-padding {
-    padding-top: 20px;
-    padding-bottom: 20px;
+.product-button-cat:hover {
+    color: #566465;
+    font-weight: 700;
 }
 
 /* --------------------------- Shop */
@@ -223,7 +246,6 @@ footer {
     font-family: "Montserrat", sans-serif;
     color: #6E7F80;
     background-color: #F6F7F7;
-    height: 150px;
     width: 100%;
     align-items: center;
     justify-content: space-between;
@@ -234,7 +256,8 @@ footer {
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
     font-size: 12px;
-    padding: 20px 0 20px 20px;
+    text-align: center;
+    padding: 60px 0 60px 20px;
     margin: 0;
 }
 
@@ -242,15 +265,6 @@ footer {
     pointer-events: none;
 }
 
-/* Decide if want to include - if so to sort footer wrapping and expand flex
-
-.address {
-    font-weight: 400;
-    font-size: 16px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin: 0;
-} */
 .social-media {
     padding: 20px 0px 20px 0px;
     margin: 0;
@@ -258,7 +272,8 @@ footer {
 
 ul {
     margin: 0;
-    padding: 0 20px 0 20px;
+    padding: 40px 20px 40px 20px;
+    text-align: center;
 }
 
 .social-media li {
@@ -272,7 +287,6 @@ ul {
     font-size: 28px;
 }
 
-/* To centre footer items on smaller screens. Note: breaks at 330px wide - to resolve if required */
 @media all and (max-width: 768px) {
     footer {
         justify-content: space-around;
@@ -283,24 +297,82 @@ ul {
     }
 }
 
-/* --------------------------- Contact-us */
-.form-section {
-    height: 100vh;
-    background: url("../images/running-dog.jpg") no-repeat top left fixed;
+/* --------------------------- The team about */
+.team-image-section {
+    background: url("../images/team.jpg") no-repeat center fixed;
+    /* https://unsplash.com/@anoirchafik?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background-position: 67% 25%;
+    background-position: 50% 50%;
+    height: 85vh;
+    width: 100vw;
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin-top: 96px;
+    padding: 0;
+    position: relative;
+}
+
+.team-image-section div {
+    background-color: rgba(0, 0, 0, 0.25);
+    border-color: rgba(0, 0, 0, 0.25);
+    height: inherit;
+    width: inherit;
+    position: relative;
+}
+
+.team-image-section div h1 {
+    color: #F6F7F7;
+    margin: 0;
+    position: absolute;
+    width: inherit;
+    text-align: center;
+    /* from reading w3 schools - CSS layout - Horizontal and vertical align */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.team-section p {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.team-section {
+    width: 100vw;
+    max-width: 1400px;
+    text-align: center;
+    color: #566465;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.team-padding {
+    padding: 20px 20px 20px 20px;
+}
+
+/* --------------------------- Contact */
+.form-section {
+    height: 100vh;
+    background: url("../images/contact-dog.png") no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: 25% 50%;
+    display: flex;
+    /* justify-content: center; */
     margin-top: 96px;
     padding: 0;
     position: relative;
     width: 100vw;
 }
 
-.contactus-form {
+.contact-form {
     margin-top: 75px;
     color: #F6F7F7;
     background-color: rgba(0, 0, 0, 0.6);
@@ -308,7 +380,7 @@ ul {
     border-radius: 5px;
     max-width: 400px;
     position: absolute;
-    left: 10%;
+    left: 5%;
     padding: 30px;
 }
 
@@ -316,11 +388,11 @@ ul {
     pointer-events: none;
 }
 
-.contactus-form i {
+.contact-form i {
     color: #F6F7F7;
 }
 
-.contactus-form h2 {
+.contact-form h2 {
     color: #F6F7F7;
     margin-bottom: 20px;
 }
@@ -355,19 +427,19 @@ ul {
     border-color: #FF834F;
 }
 
-.contactus-button {
+.contact-button {
     display: block;
     margin-top: 20px;
     border-radius: 5px;
     border: none;
     padding: 20px 40px 20px 40px;
     text-align: center;
-    background-color: #FF834F;
+    background-color: #FF7136;
     color: #F6F7F7;
     display: block;
 }
 
-.contactus-button:hover {
+.contact-button:hover {
     background-color: #6E7F80;
     color: #F6F7F7;
     font-weight: 700;
@@ -375,7 +447,7 @@ ul {
 
 /* Max width for contact form on small devices - check pixel size correct */
 @media all and (max-width: 480px) {
-    .contactus-form {
+    .contact-form {
         max-width: 300px;
         margin-top: 10px;
     }
