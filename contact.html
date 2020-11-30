@@ -38,8 +38,6 @@
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="shop-dog.html"><img src="assets/images/daisy-team.png" class="rounded-circle" height="75" width="75" alt="shop dog" /><br>Shop Dog</a>
                             <a class="dropdown-item" href="#"><img src="assets/images/percy-team.png" class="rounded-circle" height="75" width="75" alt="shop cat" /><br />Shop Cat</a>
-                            <!-- <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Something else here</a> -->
                         </div>
                     </li>
                     <li class="nav-item">
@@ -58,32 +56,31 @@
 
     </header>
 
+    <!-- Contact form -->
+
     <section class="form-section">
-
-        <!-- Contact form -->
-
-        <form id="form" class="contact-form" action="#" method="post">
-            <h2>What's new? <i class="fa fa-envelope"></i></h2>
-            <p>
+        <div class="container contact-form-container">
+            <form id="form" class="contact-form" action="#" method="post">
+                <h2>What's new? <i class="fa fa-envelope"></i></h2>
                 <label for="fname">First Name</label>
-                <input class="text-input" id="fname" type="text" name="first_name" required>
+                <input class="text-input" id="fname" type="text" name="first_name" placeholder="Enter your first name here..." required>
                 <label for="lname">Last Name</label>
-                <input class="text-input" id="lname" type="text" name="last_name" required>
+                <input class="text-input" id="lname" type="text" name="last_name" placeholder="Enter your last name here..." required>
                 <label for="email">Email Address</label>
-                <input class="text-input" id="email" type="email" name="email_address" required>
+                <input class="text-input" id="email" type="email" name="email_address" placeholder="Enter your email address here..." required>
                 <label for="comments">Comments or enquiry</label>
-                <input class="text-area" id="comments" type="text" name="comments" placeholder="Please type your comment or enquiry here..." cols="30" rows="10">
-            <fieldset>
-                <label for="road">Dog</label>
-                <input type="radio" value="dog" id="dog" name="pet_preference" required>
-                <label for="trail">Cat</label>
-                <input type="radio" value="cat" id="cat" name="pet_preference" required>
-                <label for="both">Both</label>
-                <input type="radio" value="both" id="both" name="pet_preference" required>
-            </fieldset>
-            <input class="contact-button" type="submit" value="Contact Us">
-            </p>
-        </form>
+                <textarea class="text-area" id="comments" type="text" name="comments" wrap="hard" placeholder="Please type your comment or enquiry here..." rows="10"></textarea>
+                <fieldset class="contact-fieldset">
+                    <label for="dog" id="radio-label-dog">Dog</label>
+                    <input type="radio" value="dog" id="dog" name="pet_type" required>
+                    <label for="cat" class="radio-label">Cat</label>
+                    <input type="radio" value="cat" id="cat" name="pet_type" required>
+                    <label for="both" class="radio-label">Both</label>
+                    <input type="radio" value="both" id="both" name="pet_type" required>
+                </fieldset>
+                <input class="contact-button" type="submit" value="Contact Us">
+            </form>
+        </div>
     </section>
 
     <footer>
