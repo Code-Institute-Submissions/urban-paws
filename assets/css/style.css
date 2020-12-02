@@ -2,576 +2,603 @@
 
 /* --------------------------- General - consider what can be applied generally or what should be specific. Also consider id vs classes*/
 i {
-    color: #6E7F80;
+  color: #6e7f80;
 }
 
 body {
-    font-family: "Raleway", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .fa:hover {
-    transition: 0.5s;
-    color: #FF834F;
+  transition: 0.5s;
+  color: #ff834f;
 }
 
 .radio-label {
-    padding-left: 10px;
-    padding-right: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 /* --------------------------- Navigation */
 #logo {
-    height: 50px;
-    width: 228.95px;
+  height: 50px;
+  width: 228.95px;
 }
 
 .navbar-brand {
-    padding: 10px 0 20px 0;
+  padding: 10px 0 20px 0;
 }
 
 .navbar-nav {
-    float: left;
-    text-align: left;
-    padding-top: 20px;
-    padding-bottom: 20px;
+  float: left;
+  text-align: left;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .navbar li {
-    font-family: "Montserrat", sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    color: #6E7F80;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #6e7f80;
 }
 
 .navbar-fixed {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 1030;
-    background-color: #F6F7F7;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  background-color: #f6f7f7;
 }
 
 /* To remove blue border in Chrome when hamburger menu selected */
-
-/*button:focus {
+.navbar-toggler:focus {
   outline: none !important;
   box-shadow: 1px 1px 1px 1px rgba(255, 131, 79, 0.5) !important;
-}*/
-
-/* Need to get working - code from https://stackoverflow.com/questions/50668594/remove-border-color-for-navbar-toggler-hamburger-icon-bootstrap-4*/
-
-.navbar-toggler:focus {
-      outline: none !important;
-      box-shadow: 1px 1px 1px 1px rgba(255, 131, 79, 0.5) !important;
-    }
-
-
-
-/*.navbar-toggler:active {
-    border: #FF834F;
-    outline: #FF834F;
 }
-
-
-.navbar-toggler-icon:focus {
-    border: #FF834F;
-    outline: #FF834F;
-}*/
 
 /* --------------------------- Navigation - shop dropdown */
 .dropdown-menu {
-    background-color: #ffffff;
-    text-align: center;
-    max-width: 10rem;
+  background-color: #ffffff;
+  text-align: center;
+  max-width: 10rem;
 }
 
 .dropdown-item {
-    padding-top: 20px;
-    border-color: #6E7F80;
-    color: #6E7F80;
+  padding-top: 20px;
+  border-color: #6e7f80;
+  color: #6e7f80;
 }
 
 .dropdown-item:hover {
-    color: #FF834F;
+  color: #ff834f;
 }
 
 .dropdown-item:active {
-    border-color: #6E7F80;
-    background-color: #F6F7F7;
-    color: #FF834F;
+  border-color: #6e7f80;
+  background-color: #f6f7f7;
+  color: #ff834f;
 }
-
 
 /* --------------------------- Hero index - understand exactly how to position images prior to submission */
 .hero-section {
-    background: url("../images/dog-cat-two.png") no-repeat center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-position: 50% 50%;
-    height: 85vh;
-    display: flex;
-    width: 100vw;
-    justify-content: center;
-    align-items: center;
-    margin-top: 96px;
-    padding: 0;
-    position: relative;
+  background: url("../images/dog-cat-two.png") no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 100vh;
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  margin-top: 96px;
+  padding: 0;
+  position: relative;
 }
 
 .hero-section div {
-    background-color: rgba(0, 0, 0, 0.25);
-    border-color: rgba(0, 0, 0, 0.25);
-    height: inherit;
-    width: inherit;
-    position: relative;
+  background-color: rgba(0, 0, 0, 0.25);
+  border-color: rgba(0, 0, 0, 0.25);
+  height: inherit;
+  width: inherit;
+  position: relative;
 }
 
 .hero-section h1 {
-    font-family: "Montserrat", sans-serif;
-    font-size: 48px;
-    color: #F6F7F7;
-    margin: 0;
-    position: relative;
-    width: inherit;
-    text-align: center;
-    /* from reading w3 schools - CSS layout - Horizontal and vertical align */
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.hero-button {
-    color: #ffffff;
-    background-color: #FF834F;
-    font-weight: bold;
-    position: relative;
-    top: 46%;
-    left: 50%;
-    transform: translate(-50%, -50%)
-}
-
-.hero-button:hover {
-    color: #ffffff;
-    background-color: #FF5F1C;
+  font-family: "Montserrat", sans-serif;
+  font-size: 48px;
+  color: #f6f7f7;
+  margin: 0;
+  position: relative;
+  width: inherit;
+  text-align: center;
+  /* from reading w3 schools - CSS layout - Horizontal and vertical align */
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /* --------------------------- What we do index */
 .what-we-do-section {
-    width: 100vw;
-    text-align: left;
-    margin: auto;
-    max-width: 1200px;
-    color: #566465;
-    background-color: white;
-    padding-top: 40px;
-    padding-bottom: 40px;
+  width: 100vw;
+  text-align: left;
+  margin: auto;
+  max-width: 1200px;
+  color: #566465;
+  background-color: white;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .what-we-do-section-image {
-    height: 300px;
-    width: 450px;
+  height: 300px;
+  width: 450px;
 }
 
 /* need to find correct width */
 @media all and (max-width: 992px) {
-    .what-we-do-section {
-        text-align: center;
-    }
+  .what-we-do-section {
+    text-align: center;
+  }
 
-    .what-we-do-section h1 {
-        padding-top: 40px;
-    }
+  .what-we-do-section h1 {
+    padding-top: 40px;
+  }
+}
+
+.hero-button {
+  color: #ffffff;
+  background-color: #ff834f;
+  width: 180px;
+  text-align: center;
+  position: relative;
+  margin: 20px 0 20px 0;
+}
+
+.hero-button:hover {
+  color: #ffffff;
+  background-color: #ff5f1c;
 }
 
 /* --------------------------- Product index */
-
 /* check correct max width */
-
 .product-section {
-    width: 100vw;
-    text-align: left;
-    margin: auto;
-    max-width: 1200px;
-    color: #566465;
-    background-color: white;
-    padding-top: 40px;
-    padding-bottom: 40px;
+  width: 100vw;
+  text-align: left;
+  margin: auto;
+  max-width: 1200px;
+  color: #566465;
+  background-color: #ffffff;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .product-section-image {
-    height: 300px;
-    width: 450px;
-}
-
-.card {
-    height: 100%;
-    max-width: 320px;
+  height: 300px;
+  width: 450px;
 }
 
 .shop-button {
-    color: #ffffff;
-    background-color: #FF834F;
-    width: 130px;
-    text-align: center;
-    position: relative;
-    margin: 20px 0 20px 0;
+  color: #ffffff;
+  background-color: #ff834f;
+  width: 130px;
+  text-align: center;
+  position: relative;
+  margin: 20px 0 20px 0;
 }
 
 .shop-button:hover {
-    color: #ffffff;
-    background-color: #FF5F1C;
+  color: #ffffff;
+  background-color: #ff5f1c;
 }
 
 /* --------------------------- Shop */
 .shop-title {
-    margin-top: 96px;
-    padding-top: 50px;
-    padding-bottom: 30px;
-    width: 100vw;
-    color: #6E7F80;
-    text-align: center;
-    background-color: #ffffff;
+  margin-top: 96px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  width: 100vw;
+  color: #6e7f80;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.card {
+  height: 100%;
+  max-width: 320px;
 }
 
 .products {
-    color: #6E7F80;
-    width: 100vw;
-    background-color: #ffffff;
+  color: #6e7f80;
+  width: 100vw;
+  background-color: #ffffff;
 }
 
 .product-image {
-    max-width: 100%;
-    max-height: 275px;
-    padding-bottom: 20px;
+  max-width: 100%;
+  max-height: 275px;
+  padding-bottom: 20px;
 }
 
 .price {
-    font-size: 24px;
+  font-size: 24px;
+}
+
+/*  Colour swatches for products page */
+
+/* from https://bootsnipp.com/snippets/56bAW */
+.color {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
+  height: 1.5em;
+  width: 1.5em;
+  border-radius: 5px;
+}
+
+.color:first-of-type {
+  margin-left: 5px;
+}
+
+.colors {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  margin-bottom: 0;
+}
+
+/* Suit colours */
+
+.red {
+  background: #ff0000;
+}
+
+.navy {
+  background: #000080;
+}
+
+.black {
+  background: #000000;
+}
+
+/* Bowl colours */
+
+.orange {
+  background: #ff834f;
+}
+
+.grey {
+  background: #6e7f80;
+}
+
+.white {
+  background: #ffffff;
+}
+
+/* Collar colours - suit colours plus bowl orange plus below */
+
+.brown {
+  background: #624a2e;
+}
+
+.pink {
+  background: #de3163;
 }
 
 .select-list {
-    margin: 0 0 10px 0;
-    color: #6E7F80;
-    border-color: rgba(110, 127, 128, 0.5);
-    border-radius: 5px;
-    width: 40%;
-    min-height: 30px;
+  margin: 0;
+  color: #6e7f80;
+  border-color: rgba(110, 127, 128, 0.5);
+  border-radius: 5px;
+  width: 100%;
+  min-height: 30px;
 }
 
 /* To remove blue border in Chrome when options selected*/
-
 select:focus {
   outline: none !important;
 }
 
-.select-list {
-    width: 100%;
-}
-
 .product-colour {
-    margin: 10px 0 10px 0;
+  margin: 10px 0 10px 0;
 }
 
 .basket-button {
-    border: #FF834F;
-    border-radius: 10px;
-    padding: 15px;
-    margin-top: 20px;
-    color: #ffffff;
-    background-color: #FF834F;
-    text-align: center;
-    cursor: pointer;
-    width: 50%;
-    font-size: 16px;
+  border: #ff834f;
+  border-radius: 5px;
+  padding: 15px;
+  margin-top: 20px;
+  color: #ffffff;
+  background-color: #ff834f;
+  text-align: center;
+  cursor: pointer;
+  width: 50%;
+  font-size: 16px;
 }
 
 .basket-button:hover {
-    border: #FF5F1C;
-    background-color: #FF5F1C;
+  border: #ff5f1c;
+  background-color: #ff5f1c;
 }
 
 .basket-button:focus {
-    border: green;
-    background-color: green;
-    box-shadow: none;
+  border: green;
+  background-color: green;
+  box-shadow: none;
 }
 
 .basket-button:active:focus {
-    border: #FF5F1C;
-    background-color: #FF5F1C!important;
-    box-shadow: none!important;
+  border: #ff5f1c;
+  background-color: #ff5f1c !important;
+  box-shadow: none !important;
 }
 
 /* --------------------------- Footer */
 footer {
-    display: flex;
-    font-family: "Montserrat", sans-serif;
-    color: #6E7F80;
-    background-color: #F6F7F7;
-    width: 100%;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap-reverse;
+  display: flex;
+  font-family: "Montserrat", sans-serif;
+  color: #6e7f80;
+  background-color: #f6f7f7;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap-reverse;
 }
 
 .copyright {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 400;
-    font-size: 12px;
-    text-align: center;
-    padding: 40px 0 40px 20px;
-    margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  text-align: center;
+  padding: 40px 0 40px 20px;
+  margin: 0;
 }
 
 .fa-copyright {
-    pointer-events: none;
+  pointer-events: none;
 }
 
 /* Review all padding below as looks like can achieve what is needed with less adjustments */
-
 .social-media {
-    text-align: center;
-    padding: 20px 0px 20px 0px;
-    margin: 0;
+  text-align: center;
+  padding: 20px 0px 20px 0px;
+  margin: 0;
 }
 
 .social-media ul {
-    margin: 0;
-    padding: 40px 20px 40px 20px;
+  margin: 0;
+  padding: 40px 20px 40px 20px;
 }
 
 .social-media li {
-    display: inline;
-    padding: 0 20px 0 20px;
+  display: inline;
+  padding: 0 20px 0 20px;
 }
 
 .social-media i {
-    padding-bottom: 10px;
-    padding-top: 10px;
-    font-size: 28px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-size: 28px;
 }
 
 @media all and (max-width: 768px) {
-    footer {
-        justify-content: space-around;
-    }
+  footer {
+    justify-content: space-around;
+  }
 
-    .copyright {
-        padding-left: 0;
-    }
+  .copyright {
+    padding-left: 0;
+  }
 }
 
 /* --------------------------- The team about */
 .team-image-section {
-    background: url("../images/team.jpg") no-repeat center fixed;
-    /* https://unsplash.com/@anoirchafik?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText */
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-position: 50% 50%;
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 96px;
-    padding: 0;
-    position: relative;
+  background: url("../images/team.jpg") no-repeat center fixed;
+  /* https://unsplash.com/@anoirchafik?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 96px;
+  padding: 0;
+  position: relative;
 }
 
 .team-image-section div {
-    background-color: rgba(0, 0, 0, 0.25);
-    border-color: rgba(0, 0, 0, 0.25);
-    height: inherit;
-    width: inherit;
-    position: relative;
+  background-color: rgba(0, 0, 0, 0.25);
+  border-color: rgba(0, 0, 0, 0.25);
+  height: inherit;
+  width: inherit;
+  position: relative;
 }
 
 .team-image-section div h1 {
-    font-family: "Montserrat", sans-serif;
-    font-size: 48px;
-    color: #F6F7F7;
-    margin: 0;
-    position: absolute;
-    width: inherit;
-    text-align: center;
-    /* from reading w3 schools - CSS layout - Horizontal and vertical align */
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  font-family: "Montserrat", sans-serif;
+  font-size: 48px;
+  color: #f6f7f7;
+  margin: 0;
+  position: absolute;
+  width: inherit;
+  text-align: center;
+  /* from reading w3 schools - CSS layout - Horizontal and vertical align */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .team-image {
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-    padding: 20px;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  padding: 20px;
 }
 
 .team-section {
-    width: 100vw;
-    height: 80vh;
-    max-width: 1200px;
-    text-align: center;
-    color: #566465;
-    background-color: #ffffff;
-    padding-top: 20px;
-    padding-bottom: 20px;
+  width: 100vw;
+  height: 80vh;
+  max-width: 1200px;
+  text-align: center;
+  color: #566465;
+  background-color: #ffffff;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .team-section p {
-    padding-left: 40px;
-    padding-right: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .team-member {
-    padding: 20px;
+  padding: 20px;
 }
 
 /* --------------------------- Contact */
 .form-section {
-    background: url("../images/contact-dog.png") no-repeat center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-position: 25% 50%;
-    display: flex;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    margin-top: 96px;
-    position: relative;
-    height: 100vh:;
-    width: 100vw;
+  background: url("../images/contact-dog.png") no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: 25% 50%;
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 96px;
+  position: relative;
+  width: 100vw;
 }
 
 .contact-form-container {
-    margin: 0;
+  margin: 0;
 }
 
 .contact-form {
-    margin: 0px 30px 0px 30px;
-    color: #F6F7F7;
-    background-color: rgba(110, 127, 128, 0.8);
-    border-radius: 5px;
-    max-width: 450px;
-    position: relative;
-    padding: 30px 30px 30px 30px;
+  margin: 0 30px 0 30px;
+  color: #f6f7f7;
+  background-color: rgba(110, 127, 128, 0.8);
+  border-radius: 5px;
+  max-width: 450px;
+  position: relative;
+  padding: 30px 30px 30px 30px;
 }
 
 .fa-envelope {
-    pointer-events: none;
+  pointer-events: none;
 }
 
 .contact-form i {
-    color: #F6F7F7;
+  color: #f6f7f7;
 }
 
 .contact-form h2 {
-    color: #F6F7F7;
-    margin-bottom: 20px;
+  color: #f6f7f7;
+  margin-bottom: 20px;
 }
 
 .text-input {
-    background-color: #F6F7F7;
-    color: #6E7F80;
-    width: 100%;
-    height: 25px;
-    margin: 5px 0px 20px 0px;
-    border: 1px solid rgba(110, 127, 128, 0.8);
-    border-radius: 5px;
+  background-color: #f6f7f7;
+  color: #6e7f80;
+  width: 100%;
+  height: 25px;
+  margin: 5px 0px 20px 0px;
+  border: 1px solid rgba(110, 127, 128, 0.8);
+  border-radius: 5px;
 }
 
 .text-input:hover {
-    border-color: #FF834F;
+  border-color: #ff834f;
 }
 
 .text-input:focus {
-    outline: #FF834F;
+  outline: #ff834f;
 }
 
 .text-area {
-    height: 75px;
-    width: 100%;
-    border: 1px solid rgba(110, 127, 128, 0.8);
-    border-radius: 5px;
-    background-color: #F6F7F7;
-    color: #6E7F80;
+  height: 75px;
+  width: 100%;
+  border: 1px solid rgba(110, 127, 128, 0.8);
+  border-radius: 5px;
+  background-color: #f6f7f7;
+  color: #6e7f80;
 }
 
 .text-area:hover {
-    border-color: #FF834F;
+  border-color: #ff834f;
 }
 
 .text-area:focus {
-    outline-color: #FF834F;
-    background-color: #F6F7F7;
+  outline-color: #ff834f;
+  background-color: #f6f7f7;
 }
 
 .contact-button {
-    display: inline;
-    height: 60px;
-    line-height: 0px;
-    margin-top: 20px;
-    border-radius: 5px;
-    border: none;
-    padding: 20px;
-    text-align: center;
-    background-color: #FF834F;
-    color: #F6F7F7;
+  display: inline;
+  line-height: 0px;
+  border-radius: 5px;
+  border-color: #ff834f;
+  padding: 20px;
+  text-align: center;
+  background-color: #ff834f;
+  color: #ffffff;
 }
 
 .contact-button:hover {
-    border: #FF5F1C;
-    background-color: #FF5F1C;
+  border: #ff5f1c;
+  background-color: #ff5f1c;
 }
 
 .contact-button:focus {
-    outline:green;
-    border: green;
-    background-color: green;
-    box-shadow: none;
+  outline: green;
+  border: green;
+  background-color: green;
+  box-shadow: none;
 }
 
 .contact-fieldset {
-    padding-top: 20px;
+  padding-top: 20px;
 }
 
 #radio-label-dog {
-    padding-left: 0;
-    padding-right:10px;
+  padding-left: 0;
+  padding-right: 10px;
 }
 
 /* https://stackoverflow.com/questions/4253920/how-do-i-change-the-color-of-radio-buttons/4253939#comment72798876_4253939 */
-
-.contact-fieldset input[type='radio']:after {
-    width: 15px;
-    height: 15px;
-    border-radius: 15px;
-    top: -2px;
-    left: -1px;
-    position: relative;
-    background-color: #ffffff;
-    content: '';
-    display: inline-block;
-    visibility: visible;
-    border: 2px solid white;
+.contact-fieldset input[type="radio"]:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: #ffffff;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid #ffffff;
 }
 
-.contact-fieldset input[type='radio']:checked:after {
-    width: 15px;
-    height: 15px;
-    border-radius: 15px;
-    top: -2px;
-    left: -1px;
-    position: relative;
-    background-color: #FF834F;
-    content: '';
-    display: inline-block;
-    visibility: visible;
-    border: 2px solid white;
+.contact-fieldset input[type="radio"]:checked:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: #ff834f;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid #ffffff;
 }
