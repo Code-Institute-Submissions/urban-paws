@@ -71,12 +71,13 @@
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" href="shop-dog.html"
                   ><img
-                    src="assets/images/daisyteam.png"
+                    src="assets/images/daisy-team.png"
                     class="rounded-circle"
                     height="75"
                     width="75"
                     alt="shop dog"
-                  /><br />Shop Dog</a
+                  />
+                  <p>Shop Dog</p></a
                 >
                 <a class="dropdown-item" href="shop-cat.html"
                   ><img
@@ -85,10 +86,9 @@
                     height="75"
                     width="75"
                     alt="shop cat"
-                  /><br />Shop Cat</a
+                  />
+                  <p>Shop Cat</p></a
                 >
-                <!-- <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Something else here</a> -->
               </div>
             </li>
             <li class="nav-item">
@@ -107,75 +107,174 @@
       </nav>
     </header>
 
-    <section>
+    <main>
       <!-- Products listing -->
 
-      <div class="container-fluid product">
+      <div class="container shop-title">
         <div class="row">
-          <div class="col shop-title">
-            <h1>Shop Cat</h1>
-          </div>
-          <div class="w-100"></div>
-          <div class="col-sm product-item">
-            <img src="assets/images/percy-team.png" height="200" width="200" />
-            <h2>PADD Suit Cat</h2>
-            <p class="price">£25</p>
-            <p>
-              The latest UK designed PADD suit. Protects your cat following
-              surgery or injury to prevent pulled stitches and infection to
-              wounds. Practical and easy to put on with specially designed
-              adjustable velcro fastenings. Fully tested by our team of in-house
-              testers.
-            </p>
-            <ul>
-              <li>Easy access velcro fastenings</li>
-              <li>4 way stretch sustainable bamboo fabric</li>
-              <li>Machine washable</li>
-              <li>No small parts</li>
-            </ul>
-            <button>Add to Basket</button>
-          </div>
-          <div class="col-sm product-item">
-            <img src="assets/images/percy-team.png" height="200" width="200" />
-            <h2>PADD Suit caption</h2>
-            <p class="price">£25</p>
-            <p>
-              The latest UK designed PADD suit. Protects your cat following
-              surgery or injury to prevent pulled stitches and infection to
-              wounds. Practical and easy to put on with specially designed
-              adjustable velcro fastenings. Fully tested by our team of in-house
-              testers.
-            </p>
-            <ul>
-              <li>Easy access velcro fastenings</li>
-              <li>4 way stretch sustainable bamboo fabric</li>
-              <li>Machine washable</li>
-              <li>No small parts</li>
-            </ul>
-            <button>Add to Basket</button>
-          </div>
-          <div class="col-sm product-item">
-            <img src="assets/images/percy-team.png" height="200" width="200" />
-            <h2>PADD Suit Cat</h2>
-            <p class="price">£25</p>
-            <p>
-              The latest UK designed PADD suit. Protects your cat following
-              surgery or injury to prevent pulled stitches and infection to
-              wounds. Practical and easy to put on with specially designed
-              adjustable velcro fastenings. Fully tested by our team of in-house
-              testers.
-            </p>
-            <ul>
-              <li>Easy access velcro fastenings</li>
-              <li>4 way stretch sustainable bamboo fabric</li>
-              <li>Machine washable</li>
-              <li>No small parts</li>
-            </ul>
-            <button>Add to Basket</button>
+          <div class="col">
+            <h1><i class="fa fa-shopping-basket"></i> Cat</h1>
           </div>
         </div>
       </div>
-    </section>
+      <div class="container products">
+        <div class="row justify-content-center">
+          <div class="col-auto mb-4">
+            <div class="card">
+              <img
+                class="img-fluid product-image"
+                src="assets/images/percy-team.png"
+                alt="PADD suit for cat"
+              />
+              <div class="card-body">
+                <h3>PADD Suit</h3>
+                <h4>£20</h4>
+                <p>
+                  The latest UK designed PADD suit. Protects your cat following
+                  surgery or injury to prevent pulled stitches and infection to
+                  wounds. Fully tested by our team of in-house testers.
+                </p>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    4 way stretch sustainable bamboo fabric
+                  </li>
+                  <li class="list-group-item">Easy access velcro fastenings</li>
+                  <li class="list-group-item">Machine washable</li>
+                  <li class="list-group-item">No small parts</li>
+                </ul>
+              </div>
+              <div class="card-footer">
+                <label for="suit-colour"></label>
+                <select
+                  class="select-list"
+                  name="colour"
+                  id="suit-colour"
+                  required
+                >
+                  <option value="" selected disabled hidden>Colour</option>
+                  <option value="red">Red</option>
+                  <option value="blue">Blue</option>
+                  <option value="black">Black</option>
+                </select>
+                <label for="suit-size"></label>
+                <select class="select-list" name="size" id="suit-size" required>
+                  <option value="" selected disabled hidden>Size</option>
+                  <option value="small">Small</option>
+                  <option value="medium">Medium</option>
+                  <option value="large">Large</option>
+                </select>
+                <button class="btn btn-primary basket-button">
+                  Add to Basket
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-auto mb-4">
+            <div class="card">
+              <img
+                class="img-fluid product-image"
+                src="assets/images/percy-team.png"
+                alt="Cat food bowl"
+              />
+              <div class="card-body">
+                <h3>Urban Paws Bowl</h3>
+                <h4>£10</h4>
+                <p>
+                  Smart dining for your cat. Quality ceramic bowl available in
+                  Urban Paws colours and white. Available in a range of sizes.
+                </p>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Highest quality ceramic</li>
+                  <li class="list-group-item">Dishwasher safe</li>
+                  <li class="list-group-item">Range of colours</li>
+                </ul>
+              </div>
+              <div class="card-footer">
+                <label for="bowl-colour"></label>
+                <select
+                  class="select-list"
+                  name="colour"
+                  id="bowl-colour"
+                  required
+                >
+                  <option value="" selected disabled hidden>Colour</option>
+                  <option value="orange">Urban Paws Orange</option>
+                  <option value="grey">Urban Paws Grey</option>
+                  <option value="white">White</option>
+                </select>
+                <label for="bowl-size"></label>
+                <select class="select-list" name="size" id="bowl-size" required>
+                  <option value="" selected disabled hidden>Size</option>
+                  <option value="small">Small</option>
+                  <option value="medium">Medium</option>
+                  <option value="large">Large</option>
+                </select>
+                <button class="btn btn-primary basket-button">
+                  Add to Basket
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-auto mb-4">
+            <div class="card">
+              <img
+                class="img-fluid product-image"
+                src="assets/images/percy-team.png"
+                alt="Cat collar"
+              />
+              <div class="card-body">
+                <h3>Urban Paws Collar</h3>
+                <h4>£20</h4>
+                <p>
+                  Lead your dog in style with this high quality durable
+                  sustainable material collar. Available in a range of colours
+                  to suit your cat's individual fashion sense.
+                </p>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    High quality sustainable material
+                  </li>
+                  <li class="list-group-item">Extremely strong</li>
+                  <li class="list-group-item">Easy clean</li>
+                </ul>
+              </div>
+              <div class="card-footer">
+                <label for="collar-colour"></label>
+                <select
+                  class="select-list"
+                  name="colour"
+                  id="collar-colour"
+                  required
+                >
+                  <option value="" selected disabled hidden>Colour</option>
+                  <option value="red">Red</option>
+                  <option value="blue">Blue</option>
+                  <option value="black">Black</option>
+                  <option value="black">Brown - natural</option>
+                  <option value="black">Pink</option>
+                  <option value="black">Urban Paws Orange</option>
+                </select>
+                <label for="collar-size"></label>
+                <select
+                  class="select-list"
+                  name="size"
+                  id="collar-size"
+                  required
+                >
+                  <option value="" selected disabled hidden>Size</option>
+                  <option value="small">Small</option>
+                  <option value="medium">Medium</option>
+                  <option value="large">Large</option>
+                </select>
+                <button class="btn btn-primary basket-button">
+                  Add to Basket
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
 
     <footer>
       <!-- Copyright -->

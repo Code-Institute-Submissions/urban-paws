@@ -1,230 +1,333 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
     <!-- for dropdown menu on shop page to link to products <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
 		integrity="sha512-csw0Ma4oXCAgd/d4nTcpoEoz4nYvvnk21a8VA2h2dzhPAvjbUIK6V3si7/g/HehwdunqqW18RwCJKpD7rL67Xg=="
 		crossorigin="anonymous" /> -->
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>Urban Paws</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header id="header">
+      <!-- Navigation -->
 
-        <!-- Navigation -->
+      <nav class="navbar navbar-light navbar-expand-md navbar-fixed">
+        <a href="index.html" class="navbar-brand mr-auto"
+          ><img
+            id="logo"
+            src="assets/images/urban-paws-transparent.png"
+            alt="urban paws logo"
+        /></a>
+        <!-- from bootstrap website -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!-- from bootstrap website end-->
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
 
-        <nav class="navbar navbar-light navbar-expand-md navbar-fixed">
-            <a href="index.html" class="navbar-brand mr-auto"><img id="logo" src="assets/images/urban-paws-transparent.png" alt="urban paws logo" /></a>
-            <!-- from bootstrap website -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <!-- from bootstrap website end-->
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                    </li>
-
-                    <!-- From Bootstrap website -->
-                    <li class="nav-item dropdown active">
-                        <a class="nav-link dropdown-toggle" href="shop.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Shop
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="shop-dog.html"><img src="assets/images/daisy-team.png" class="rounded-circle" height="75" width="75" alt="shop dog" /></i><br>Shop Dog</a>
-                            <a class="dropdown-item" href="shop-cat.html"><img src="assets/images/percy-team.png" class="rounded-circle" height="75" width="75" alt="shop cat" /><br />Shop Cat</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="fa fa-shopping-basket" id="shopping-basket"></i></a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+            <!-- From Bootstrap website -->
+            <li class="nav-item dropdown active">
+              <a
+                class="nav-link dropdown-toggle"
+                href="shop.html"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Shop
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="shop-dog.html"
+                  ><img
+                    src="assets/images/daisy-team.png"
+                    class="rounded-circle"
+                    height="75"
+                    width="75"
+                    alt="shop dog"
+                  />
+                  <p>Shop Dog</p></a
+                >
+                <a class="dropdown-item" href="shop-cat.html"
+                  ><img
+                    src="assets/images/percy-team.png"
+                    class="rounded-circle"
+                    height="75"
+                    width="75"
+                    alt="shop cat"
+                  />
+                  <p>Shop Cat</p></a
+                >
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><i class="fa fa-shopping-basket"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
 
-    <section>
-
-        <!-- Products listing -->
-
-        <div class="container-fluid shop-title">
-            <div class="row">
-                <div class="col">
-                    <h1>Shop Dog</h1>
-                </div>
-            </div>
+    <!-- Products listing -->
+    <main>
+      <div class="container shop-title">
+        <div class="row">
+          <div class="col">
+            <h1><i class="fa fa-shopping-basket"></i> Dog</h1>
+          </div>
         </div>
-        <div class="container-fluid products">
-            <div class="row justify-content-center">
-                <div class="col-sm-5 product-item">
-                    <div class="product-image">
-                        <img src="assets/images/daisy-team.png" height="200" width="200">
-                    </div>
-                    <div class="product-detail">
-                        <h2>PADD Suit Dog</h2>
-                        <p class="price">£25</p>
-                        <p>The latest UK designed PADD suit. Protects your dog following surgery or injury to prevent pulled stitches and infection to wounds. Practical and easy to put on with specially designed adjustable velcro fastenings. Fully
-                            tested
-                            by our
-                            team
-                            of
-                            in-house testers.</p>
-                            <p>
-                                Easy access velcro fastenings, 4 way stretch sustainable bamboo fabric, machine washable, no small parts
-                            </p>
-                        <div class="product-form">
-                            <form action="#">
-                                <select class="product-select" name="size" id="size" required>
-                                    <option value="" selected disabled hidden>
-                                        Select an Option</option>
-                                    <option value="small">Small</option>
-                                    <option value="medium">Medium</option>
-                                    <option value="large">Large</option>
-                                </select>
-                                <fieldset class="product-fieldset">
-                                    <label for="red" class="radio-label">Red</label>
-                                    <input type="radio" value="red" id="red" name="colour" class="red" required>
-                                    <label for="blue" class="radio-label">Blue</label>
-                                    <input type="radio" value="blue" id="blue" name="colour" required>
-                                    <label for="black" class="radio-label">Black</label>
-                                    <input type="radio" value="black" id="black" name="colour" required>
-                                </fieldset>
-                                <input class="basket-button" type="submit" value="Add to Basket">
-                            </form>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-5 product-item">
-                    <div class="product-image">
-                        <img src="assets/images/daisy-team.png" height="200" width="200">
-                    </div>
-                    <div class="product-detail">
-                        <h2>Urban Paws Bowl</h2>
-                        <p class="price">£10</p>
-                        <p>The latest UK designed PADD suit. Protects your dog following surgery or injury to prevent pulled stitches and infection to wounds. Practical and easy to put on with specially designed adjustable velcro fastenings. Fully
-                            tested
-                            by our
-                            team
-                            of
-                            in-house testers.</p>
-                        <p>
-                            Quality ceramic, Urban Paws decals, dishwasher safe
-                        </p><br>
-                        <div class="product-form">
-                            <form action="#">
-                                <select class="product-select" name="size" id="size" required>
-                                    <option value="" selected disabled hidden>
-                                        Select an Option</option>
-                                    <option value="small">Small</option>
-                                    <option value="medium">Medium</option>
-                                    <option value="large">Large</option>
-                                </select>
-                                <fieldset class="product-fieldset">
-                                    <label for="red" class="radio-label">Red</label>
-                                    <input type="radio" value="red" id="red" name="colour" class="red" required>
-                                    <label for="blue" class="radio-label">Blue</label>
-                                    <input type="radio" value="blue" id="blue" name="colour" required>
-                                    <label for="black" class="radio-label">Black</label>
-                                    <input type="radio" value="black" id="black" name="colour" required>
-                                </fieldset>
-                                <input class="basket-button" type="submit" value="Add to Basket">
-                            </form>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-5 product-item">
-                    <div class="product-image">
-                        <img src="assets/images/daisy-team.png" height="200" width="200">
-                    </div>
-                    <div class="product-detail">
-                        <h2>PADD Suit Dog</h2>
-                        <p class="price">£25</p>
-                        <p>The latest UK designed PADD suit. Protects your dog following surgery or injury to prevent pulled stitches and infection to wounds. Practical and easy to put on with specially designed adjustable velcro fastenings. Fully
-                            tested
-                            by our
-                            team
-                            of
-                            in-house testers.</p>
-                            <p>
-                                Easy access velcro fastenings, 4 way stretch sustainable bamboo fabric, machine washable, no small parts
-                            </p>
-                        <div class="product-form">
-                            <form action="#">
-                                <select class="product-select" name="size" id="size" required>
-                                    <option value="" selected disabled hidden>
-                                        Select an Option</option>
-                                    <option value="small">Small</option>
-                                    <option value="medium">Medium</option>
-                                    <option value="large">Large</option>
-                                </select>
-                                <fieldset class="product-fieldset">
-                                    <label for="red" class="radio-label">Red</label>
-                                    <input type="radio" value="red" id="red" name="colour" class="red" required>
-                                    <label for="blue" class="radio-label">Blue</label>
-                                    <input type="radio" value="blue" id="blue" name="colour" required>
-                                    <label for="black" class="radio-label">Black</label>
-                                    <input type="radio" value="black" id="black" name="colour" required>
-                                </fieldset>
-                                <input class="basket-button" type="submit" value="Add to Basket">
-                            </form>
-                        </div>
-                    </div>
-                </div>
+      </div>
+      <div class="container-fluid products">
+        <div class="row justify-content-center">
+          <div class="col-auto mb-4">
+            <div class="card">
+              <img
+                class="img-fluid product-image"
+                src="assets/images/daisy-team.png"
+                alt="PADD suit for dog"
+              />
+              <div class="card-body">
+                <h3>PADD Suit</h3>
+                <h4>£25</h4>
+                <p>
+                  The latest UK designed PADD suit. Protects your dog following
+                  surgery or injury to prevent pulled stitches and infection to
+                  wounds. Fully tested by our team of in-house testers.
+                </p>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    4 way stretch sustainable bamboo fabric
+                  </li>
+                  <li class="list-group-item">Easy access velcro fastenings</li>
+                  <li class="list-group-item">Machine washable</li>
+                  <li class="list-group-item">No small parts</li>
+                </ul>
+              </div>
+              <div class="card-footer">
+                <label for="suit-colour"></label>
+                <select
+                  class="select-list"
+                  name="colour"
+                  id="suit-colour"
+                  required
+                >
+                  <option value="" selected disabled hidden>Colour</option>
+                  <option value="red">Red</option>
+                  <option value="blue">Blue</option>
+                  <option value="black">Black</option>
+                </select>
+                <label for="suit-size"></label>
+                <select class="select-list" name="size" id="suit-size" required>
+                  <option value="" selected disabled hidden>Size</option>
+                  <option value="small">Small</option>
+                  <option value="medium">Medium</option>
+                  <option value="large">Large</option>
+                </select>
+                <button class="btn btn-primary basket-button">
+                  Add to Basket
+                </button>
+              </div>
             </div>
+          </div>
+          <div class="col-auto mb-4">
+            <div class="card">
+              <img
+                class="img-fluid product-image"
+                src="assets/images/daisy-team.png"
+                alt="PADD suit for dog"
+              />
+              <div class="card-body">
+                <h3>Urban Paws Bowl</h3>
+                <h4>£10</h4>
+                <p>
+                  Smart dining for your dog. Quality ceramic bowl available in
+                  Urban Paws colours and white. Available in a range of sizes.
+                </p>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Highest quality ceramic</li>
+                  <li class="list-group-item">Dishwasher safe</li>
+                  <li class="list-group-item">Range of colours</li>
+                </ul>
+              </div>
+              <div class="card-footer">
+                <label for="bowl-colour"></label>
+                <select
+                  class="select-list"
+                  name="colour"
+                  id="bowl-colour"
+                  required
+                >
+                  <option value="" selected disabled hidden>Colour</option>
+                  <option value="black">Urban Paws Orange</option>
+                  <option value="black">Urban Paws Grey</option>
+                  <option value="red">White</option>
+                </select>
+                <label for="bowl-size"></label>
+                <select class="select-list" name="size" id="bowl-size" required>
+                  <option value="" selected disabled hidden>Size</option>
+                  <option value="small">Small</option>
+                  <option value="medium">Medium</option>
+                  <option value="large">Large</option>
+                </select>
+                <button class="btn btn-primary basket-button">
+                  Add to Basket
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-auto mb-4">
+            <div class="card">
+              <img
+                class="img-fluid product-image"
+                src="assets/images/daisy-team.png"
+                alt="PADD suit for dog"
+              />
+              <div class="card-body">
+                <h3>Urban Paws Collar</h3>
+                <h4>£20</h4>
+                <p>
+                  Lead your dog in style with this high quality durable
+                  sustainable material collar. Available in a range of colours
+                  to suit your dogs individual fashion sense.
+                </p>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    High quality sustainable material
+                  </li>
+                  <li class="list-group-item">Extremely strong</li>
+                  <li class="list-group-item">Easy clean</li>
+                </ul>
+              </div>
+              <div class="card-footer">
+                <label for="collar-colour"></label>
+                <select
+                  class="select-list"
+                  name="colour"
+                  id="collar-colour"
+                  required
+                >
+                  <option value="" selected disabled hidden>Colour</option>
+                  <option value="red">Red</option>
+                  <option value="blue">Blue</option>
+                  <option value="black">Black</option>
+                  <option value="black">Brown - natural</option>
+                  <option value="black">Pink</option>
+                  <option value="black">Urban Paws Orange</option>
+                </select>
+                <label for="collar-size"></label>
+                <select
+                  class="select-list"
+                  name="size"
+                  id="collar-size"
+                  required
+                >
+                  <option value="" selected disabled hidden>Size</option>
+                  <option value="small">Small</option>
+                  <option value="medium">Medium</option>
+                  <option value="large">Large</option>
+                </select>
+                <button class="btn btn-primary basket-button">
+                  Add to Basket
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
-    </section>
-
+      </div>
+    </main>
 
     <footer>
+      <!-- Copyright -->
 
-        <!-- Copyright -->
+      <div class="copyright">
+        <span>Copyright <i class="fa fa-copyright"></i> Urban Paws 2020</span>
+      </div>
 
-        <div class="copyright">
-            <span>Copyright <i class="fa fa-copyright"></i> Urban
-                Paws 2020</span>
-        </div>
+      <!-- Social media -->
 
-        <!-- Social media -->
-
-        <div>
-            <ul class="social-media">
-                <li>
-                    <a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a>
-                </li>
-                <li>
-                    <a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter"></i></a>
-                </li>
-                <li>
-                    <a href="https://www.youtube.com" target="_blank"><i class="fa fa-youtube"></i></a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram"></i></a>
-                </li>
-                <li>
-                    <a href="https://www.pinterest.com" target="_blank"><i class="fa fa-pinterest"></i></a>
-                </li>
-            </ul>
-        </div>
+      <div>
+        <ul class="social-media">
+          <li>
+            <a href="https://www.facebook.com" target="_blank"
+              ><i class="fa fa-facebook"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com" target="_blank"
+              ><i class="fa fa-twitter"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com" target="_blank"
+              ><i class="fa fa-youtube"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com" target="_blank"
+              ><i class="fa fa-instagram"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.pinterest.com" target="_blank"
+              ><i class="fa fa-pinterest"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-    </script>
-</body>
-
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
