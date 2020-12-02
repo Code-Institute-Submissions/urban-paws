@@ -195,6 +195,17 @@ body {
   background-color: #ff5f1c;
 }
 
+/* need to find correct width */
+@media all and (max-width: 992px) {
+  .product-section {
+    text-align: center;
+  }
+
+  .product-section h1 {
+    padding-top: 40px;
+  }
+}
+
 /* --------------------------- Shop */
 .shop-title {
   margin-top: 96px;
@@ -445,7 +456,6 @@ footer {
 
 .team-section {
   width: 100vw;
-  height: 80vh;
   max-width: 1200px;
   text-align: center;
   color: #566465;
