@@ -83,7 +83,7 @@ body {
 
 /* --------------------------- Hero index - understand exactly how to position images prior to submission */
 .hero-section {
-  background: url("../images/dog-cat-two.png") no-repeat center fixed;
+  background: url("../images/dog-cat-two.png") no-repeat center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -408,7 +408,7 @@ footer {
 
 /* --------------------------- The team about */
 .team-image-section {
-  background: url("../images/team.jpg") no-repeat center fixed;
+  background: url("../images/team.jpg") no-repeat center;
   /* https://unsplash.com/@anoirchafik?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText */
   -webkit-background-size: cover;
   -moz-background-size: cover;
