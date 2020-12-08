@@ -1,614 +1,604 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato&family=Oswald&family=Raleway&family=Roboto&family=Open+Sans&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-/* --------------------------- General - consider what can be applied generally or what should be specific. Also consider id vs classes*/
+/* --------------------------- General */
 i {
-  color: #6e7f80;
+    color: #F6F7F7;
 }
 
 body {
-  font-family: "Raleway", sans-serif;
+    font-family: "Raleway", sans-serif;
+    color: #4B5657;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", sans-serif;
+}
+
+.btn--brand-color {
+    text-align: center;
+    border-radius: 5px;
+}
+
+.btn--brand-color {
+    color: #FFFFFF;
+    background-color: #FF5F1C;
+    border-color: #FF5F1C;
+}
+
+.btn--brand-color:hover {
+    color: #FFFFFF;
+    background-color: #FF4D02;
+    border-color: #FF4D02;
+}
+
+.btn--brand-color:active,
+.btn--brand-color:focus,
+.btn--brand-color:active:focus {
+    color: #FFFFFF;
+    background-color: #FF4D02;
+    border-color: #FF4D02;
+    box-shadow: 0 0 0 0.2rem rgba(110, 127, 128, .50)
 }
 
 .fa:hover {
-  transition: 0.5s;
-  color: #ff834f;
-}
-
-.radio-label {
-  padding-left: 10px;
-  padding-right: 10px;
+    transition: 0.25s;
+    color: #FF834F;
 }
 
 /* --------------------------- Navigation */
 #logo {
-  height: 50px;
-  width: 228.95px;
+    height: 50px;
+    width: 228.95px;
 }
 
 .navbar-brand {
-  padding: 10px 0 20px 0;
+    padding: 10px 0 20px 0;
 }
 
 .navbar-nav {
-  float: left;
-  text-align: left;
-  padding-top: 20px;
-  padding-bottom: 20px;
+    float: left;
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .navbar li {
-  font-family: "Montserrat", sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  color: #6e7f80;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #6E7F80;
 }
 
 .navbar-fixed {
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 1030;
-  background-color: #f6f7f7;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    background-color: #F6F7F7;
 }
 
-/* To remove blue border in Chrome when hamburger menu selected */
-.navbar-toggler:focus {
-  outline: none !important;
-  box-shadow: 1px 1px 1px 1px rgba(255, 131, 79, 0.5) !important;
+.navbar-toggler {
+    border: 0;
 }
 
-/* --------------------------- Navigation - shop dropdown */
+.navbar-toggler:hover,
+.navbar-toggler:active,
+.navbar-toggler:focus,
+.navbar-toggler:active:focus {
+    outline: none;
+}
+
 .dropdown-menu {
-  background-color: #ffffff;
-  text-align: center;
-  max-width: 10rem;
+    background-color: #FFFFFF;
+    text-align: center;
+    max-width: 10rem;
 }
 
 .dropdown-item {
-  padding-top: 20px;
-  border-color: #6e7f80;
-  color: #6e7f80;
+    padding-top: 20px;
+    border-color: #6E7F80;
+    color: #6E7F80;
 }
 
 .dropdown-item:hover {
-  color: #ff834f;
+    color: #4B5657;
 }
 
 .dropdown-item:active {
-  border-color: #6e7f80;
-  background-color: #f6f7f7;
-  color: #ff834f;
+    border-color: #6E7F80;
+    background-color: #F6F7F7;
+    color: #4B5657;
 }
 
-/* --------------------------- Hero index - understand exactly how to position images prior to submission */
+/* --------------------------- Hero image Home page - understand exactly how to position images prior to submission */
 .hero-section {
-  background: url("../images/dog-cat-two.png") no-repeat center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-position: 50% 50%;
-  height: 100vh;
-  display: flex;
-  width: 100vw;
-  justify-content: center;
-  align-items: center;
-  margin-top: 96px;
-  padding: 0;
-  position: relative;
+    background: url("../images/dogs-blue-cat.jpeg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    margin-top: 96px;
+    padding: 0;
+    position: relative;
 }
 
+/* --- opaque overlay --- */
 .hero-section div {
-  background-color: rgba(0, 0, 0, 0.25);
-  border-color: rgba(0, 0, 0, 0.25);
-  height: inherit;
-  width: inherit;
-  position: relative;
+    background-color: rgba(0, 0, 0, 0.25);
+    border-color: rgba(0, 0, 0, 0.25);
+    height: inherit;
+    width: inherit;
+    position: relative;
 }
 
 .hero-section h1 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 48px;
-  color: #f6f7f7;
-  margin: 0;
-  position: relative;
-  width: inherit;
-  text-align: center;
-  /* from reading w3 schools - CSS layout - Horizontal and vertical align */
-  top: 45%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+    font-family: "Montserrat", sans-serif;
+    font-size: 48px;
+    color: #F6F7F7;
+    margin: 0;
+    position: relative;
+    width: inherit;
+    text-align: center;
+    /* from reading w3 schools - CSS layout - Horizontal and vertical align - need URL */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-/* --------------------------- What we do index */
+/* --------------------------- What we do Home page*/
 .what-we-do-section {
-  width: 100vw;
-  text-align: left;
-  margin: auto;
-  max-width: 1200px;
-  color: #566465;
-  background-color: white;
-  padding-top: 40px;
-  padding-bottom: 40px;
+    width: 100vw;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    color: #566465;
+    background-color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .what-we-do-section-image {
-  height: 300px;
-  width: 450px;
+    /*height: 300px;
+    width: 400px;*/
+    border-radius: 10px;
 }
 
 /* need to find correct width */
 @media all and (max-width: 992px) {
-  .what-we-do-section {
-    text-align: center;
-  }
+    .what-we-do-section {
+        text-align: center;
+    }
 
-  .what-we-do-section h1 {
-    padding-top: 40px;
-  }
+    .what-we-do-section h1 {
+        padding-top: 40px;
+    }
 }
 
-.hero-button {
-  color: #ffffff;
-  background-color: #ff834f;
-  width: 180px;
-  text-align: center;
-  position: relative;
-  margin: 20px 0 20px 0;
-}
-
-.hero-button:hover {
-  color: #ffffff;
-  background-color: #ff5f1c;
-}
-
-/* --------------------------- Product index */
-/* check correct max width */
+/* --------------------------- Product section Home page */
 .product-section {
-  width: 100vw;
-  text-align: left;
-  margin: auto;
-  max-width: 1200px;
-  color: #566465;
-  background-color: #ffffff;
-  padding-top: 40px;
-  padding-bottom: 40px;
+    width: 100vw;
+    background-color: #4B5657;
+    text-align: left;
+    margin: auto;
+    color: #566465;
+    background-color: #FFFFFF;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .product-section-image {
-  height: 300px;
-  width: 450px;
+    /*height: 300px;
+    width: 400px;*/
+    border-radius: 10px;
 }
 
-.shop-button {
-  color: #ffffff;
-  background-color: #ff834f;
-  width: 130px;
-  text-align: center;
-  position: relative;
-  margin: 20px 0 20px 0;
+#shop-dog-button {
+    display: block;
+    float: left;
+    margin-bottom: 20px;
 }
 
-.shop-button:hover {
-  color: #ffffff;
-  background-color: #ff5f1c;
+#shop-cat-button {
+    display: block;
+    float: left;
+    margin-left: 40px;
+}
+
+.btn--shop-width {
+    min-width: 130px;
 }
 
 /* need to find correct width */
 @media all and (max-width: 992px) {
-  .product-section {
-    text-align: center;
-  }
+    .product-section {
+        text-align: center;
+    }
 
-  .product-section h1 {
-    padding-top: 40px;
-  }
+    .product-section h1 {
+        padding-top: 40px;
+    }
+
+    #shop-cat-button {
+        float: right;
+        margin-left: 0;
+    }
 }
 
 /* --------------------------- Shop */
 .shop-title {
-  margin-top: 96px;
-  padding-top: 50px;
-  padding-bottom: 30px;
-  width: 100vw;
-  color: #6e7f80;
-  text-align: center;
-  background-color: #ffffff;
+    margin-top: 106px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    max-width: 1200px;
+    background-color: #FFFFFF;
+    text-align: center;
+    justify-content: center;
+}
+
+.shop-title h1 {
+    color: #6E7F80;
+    background-color: #FFFFFF;
+    max-width: 320px;
+    min-height: 60px;
+    line-height: 60px;
+    margin: auto;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+.shop-title h1 span {
+    color: #FF834F;
+    font-weight: bold;
 }
 
 .card {
-  height: 100%;
-  max-width: 320px;
+    height: 100%;
+    color: #4B5657;
+    max-width: 320px;
+    border-radius: 5px;
+}
+
+.card-footer--background {
+    background-color: #FFFFFF;
 }
 
 .products {
-  color: #6e7f80;
-  width: 100vw;
-  background-color: #ffffff;
+    width: 100vw;
+    background-color: #F6F7F7;
+    padding-top: 40px;
+    max-width: 1200px;
+    margin-bottom: 40px;
 }
 
 .product-image {
-  max-width: 100%;
-  max-height: 275px;
-  padding-bottom: 20px;
+    max-width: 100%;
+    max-height: 220px;
+    padding-bottom: 20px;
 }
 
-.price {
-  font-size: 24px;
+.colors-heading {
+    margin-top: 20px;
 }
 
-/*  Colour swatches for products page */
-
-/* from https://bootsnipp.com/snippets/56bAW */
-.color {
-  display: inline-block;
-  vertical-align: middle;
-  margin-right: 5px;
-  height: 1.5em;
-  width: 1.5em;
-  border-radius: 5px;
+/* Product colours - adapted from https://codepen.io/virgilpana/pen/RNYQwB/ */
+.colors div {
+    margin-top: 3px;
+    width: 24px;
+    height: 24px;
+    margin-right: 15px;
+    float: left;
 }
 
-.color:first-of-type {
-  margin-left: 5px;
+.colors div span {
+    width: 24px;
+    height: 24px;
+    display: block;
+    border-radius: 50%;
 }
 
-.colors {
-  -webkit-box-flex: 1;
-  -webkit-flex-grow: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-  margin-bottom: 0;
+.colors div span:hover {
+    width: 32px;
+    height: 32px;
+    margin: -1px 0 0 -1px;
 }
 
-/* Suit colours */
-
-.red {
-  background: #ff0000;
+.navy span {
+    background: #000080;
 }
 
-.navy {
-  background: #000080;
+.red span {
+    background: #FF0000;
 }
 
-.black {
-  background: #000000;
+.black span {
+    background: #000000;
 }
 
-/* Bowl colours */
-
-.orange {
-  background: #ff834f;
+.white span {
+    background: #FFFFFF;
+    width: 24px;
+    height: 24px;
+    border: 1px solid #e8e9eb;
 }
 
-.grey {
-  background: #6e7f80;
+.orange span {
+    background: #FF834F;
 }
 
-.white {
-  background: #ffffff;
+.grey span {
+    background: #6E7F80;
 }
 
-/* Collar colours - suit colours plus bowl orange plus below */
-
-.brown {
-  background: #624a2e;
+.lime span {
+    background: #B1EB34;
 }
 
-.pink {
-  background: #de3163;
+.brown span {
+    background: #624a2e;
 }
 
-.select-list {
-  margin: 0;
-  color: #6e7f80;
-  border-color: rgba(110, 127, 128, 0.5);
-  border-radius: 5px;
-  width: 100%;
-  min-height: 30px;
+.pink span {
+    background: #de3163;
 }
 
-/* To remove blue border in Chrome when options selected*/
-select:focus {
-  outline: none !important;
+#card-amazon-button {
+    width: 100%;
+    padding-top: 20px;
 }
 
-.product-colour {
-  margin: 10px 0 10px 0;
+.card-footer div i {
+    color: #FFFFFF;
 }
 
-.basket-button {
-  border: #ff834f;
-  border-radius: 5px;
-  padding: 15px;
-  margin-top: 20px;
-  color: #ffffff;
-  background-color: #ff834f;
-  text-align: center;
-  cursor: pointer;
-  width: 50%;
-  font-size: 16px;
+.card-footer div a {
+    font-size: 12px;
 }
 
-.basket-button:hover {
-  border: #ff5f1c;
-  background-color: #ff5f1c;
+.card-footer div button {
+    font-size: 12px;
 }
 
-.basket-button:focus {
-  border: green;
-  background-color: green;
-  box-shadow: none;
+.amazon-button {
+    margin-top: 10px;
 }
 
-.basket-button:active:focus {
-  border: #ff5f1c;
-  background-color: #ff5f1c !important;
-  box-shadow: none !important;
+.btn--grey {
+    background-color: #4B5657;
+    border-color: #4B5657;
+    color: #FFFFFF;
+}
+
+.btn--grey:hover {
+    color: #FFFFFF;
+    background-color: #4B5657;
+    border-color: #4B5657;
+}
+
+.btn--grey:active,
+.btn--grey:focus,
+.btn--grey:active:focus {
+    color: #FFFFFF;
+    background-color: #4B5657;
+    border-color: #4B5657;
+    box-shadow: 0 0 0 0.2rem rgba(110, 127, 128, .50)
+}
+
+.size-guide-table {
+    font-size: 14px;
+    width: 100%;
+}
+
+.size-guide-table table, th, td {
+    border: 1px solid #4B5657;
+    text-align: center;
+}
+
+.size-guide-heading {
+    margin-top: 8px;
 }
 
 /* --------------------------- Footer */
 footer {
-  display: flex;
-  font-family: "Montserrat", sans-serif;
-  color: #6e7f80;
-  background-color: #f6f7f7;
-  width: 100%;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap-reverse;
+    display: flex;
+    font-family: "Montserrat", sans-serif;
+    color: #F6F7F7;
+    background-color: #4B5657;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
 }
 
 .copyright {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  font-size: 12px;
-  text-align: center;
-  padding: 40px 0 40px 20px;
-  margin: 0;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    padding: 40px 0 40px 20px;
+    margin: 0;
+}
+
+.copyright i {
+    color: #F6F7F7;
 }
 
 .fa-copyright {
-  pointer-events: none;
+    pointer-events: none;
 }
 
-/* Review all padding below as looks like can achieve what is needed with less adjustments */
 .social-media {
-  text-align: center;
-  padding: 20px 0px 20px 0px;
-  margin: 0;
-}
-
-.social-media ul {
-  margin: 0;
-  padding: 40px 20px 40px 20px;
+    text-align: center;
+    padding: 30px 0 30px 0;
+    margin: 0;
 }
 
 .social-media li {
-  display: inline;
-  padding: 0 20px 0 20px;
+    display: inline;
+    padding: 0 20px 0 20px;
 }
 
 .social-media i {
-  padding-bottom: 10px;
-  padding-top: 10px;
-  font-size: 28px;
+    font-size: 28px;
+    color: #F6F7F7;
 }
 
 @media all and (max-width: 768px) {
-  footer {
-    justify-content: space-around;
-  }
+    footer {
+        justify-content: space-around;
+    }
 
-  .copyright {
-    padding-left: 0;
-  }
+    .copyright {
+        padding-left: 0;
+    }
 }
 
-/* --------------------------- The team about */
+/* --------------------------- The About Us page*/
 .team-image-section {
-  background: url("../images/team.jpg") no-repeat center;
-  /* https://unsplash.com/@anoirchafik?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText */
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-position: 50% 50%;
-  height: 100vh;
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 96px;
-  padding: 0;
-  position: relative;
+    background: url("../images/team-beagle.jpeg") no-repeat top center;
+    /* https://unsplash.com/@anoirchafik?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 96px;
+    padding: 0;
+    position: relative;
 }
 
 .team-image-section div {
-  background-color: rgba(0, 0, 0, 0.25);
-  border-color: rgba(0, 0, 0, 0.25);
-  height: inherit;
-  width: inherit;
-  position: relative;
+    background-color: rgba(0, 0, 0, 0.25);
+    border-color: rgba(0, 0, 0, 0.25);
+    height: inherit;
+    width: inherit;
+    position: relative;
 }
 
 .team-image-section div h1 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 48px;
-  color: #f6f7f7;
-  margin: 0;
-  position: absolute;
-  width: inherit;
-  text-align: center;
-  /* from reading w3 schools - CSS layout - Horizontal and vertical align */
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+    font-family: "Montserrat", sans-serif;
+    font-size: 48px;
+    color: #F6F7F7;
+    margin: 0;
+    position: absolute;
+    width: inherit;
+    text-align: center;
+    /* from reading w3 schools - CSS layout - Horizontal and vertical align - need URL*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .team-image {
-  height: 200px;
-  width: 200px;
-  border-radius: 50%;
-  padding: 20px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    padding: 20px;
 }
 
 .team-section {
-  width: 100vw;
-  max-width: 1200px;
-  text-align: center;
-  color: #566465;
-  background-color: #ffffff;
-  padding-top: 20px;
-  padding-bottom: 20px;
+    width: 100vw;
+    max-width: 1200px;
+    text-align: center;
+    color: #566465;
+    background-color: #FFFFFF;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .team-section p {
-  padding-left: 40px;
-  padding-right: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .team-member {
-  padding: 20px;
+    padding: 20px;
 }
 
-/* --------------------------- Contact */
-.form-section {
-  background: url("../images/contact-dog.png") no-repeat center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-position: 25% 50%;
-  display: flex;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  margin-top: 96px;
-  position: relative;
-  width: 100vw;
-}
-
-.contact-form-container {
-  margin: 0;
-}
-
+/* --------------------------- Contact Us Modal */
 .contact-form {
-  margin: 0 30px 0 30px;
-  color: #f6f7f7;
-  background-color: rgba(110, 127, 128, 0.8);
-  border-radius: 5px;
-  max-width: 450px;
-  position: relative;
-  padding: 30px 30px 30px 30px;
+    margin-right: auto;
+    margin-left: auto;
+    color: #4B5657;
+    background-color: rgba(150, 164, 165, 0.5);
+    border-radius: 5px;
+    padding: 30px 30px 30px 30px;
 }
 
 .fa-envelope {
-  pointer-events: none;
-}
-
-.contact-form i {
-  color: #f6f7f7;
-}
-
-.contact-form h2 {
-  color: #f6f7f7;
-  margin-bottom: 20px;
+    color: #4B5657;
+    pointer-events: none;
 }
 
 .text-input {
-  background-color: #f6f7f7;
-  color: #6e7f80;
-  width: 100%;
-  height: 25px;
-  margin: 5px 0px 20px 0px;
-  border: 1px solid rgba(110, 127, 128, 0.8);
-  border-radius: 5px;
+    background-color: #F6F7F7;
+    color: #6E7F80;
+    width: 100%;
+    border: 2px solid rgba(150, 164, 165, 0.5);
+    border-radius: 5px;
 }
 
 .text-input:hover {
-  border-color: #ff834f;
+    border-color: #FF834F;
+}
 }
 
 .text-input:focus {
-  outline: #ff834f;
+    outline: #FF834F;
 }
 
 .text-area {
-  height: 75px;
-  width: 100%;
-  border: 1px solid rgba(110, 127, 128, 0.8);
-  border-radius: 5px;
-  background-color: #f6f7f7;
-  color: #6e7f80;
+    height: 150px;
+    width: 100%;
+    border: 2px solid rgba(150, 164, 165, 0.5);
+    border-radius: 5px;
+    background-color: #F6F7F7;
+    color: #6E7F80;
 }
 
 .text-area:hover {
-  border-color: #ff834f;
+    border-color: #FF834F;
 }
 
 .text-area:focus {
-  outline-color: #ff834f;
-  background-color: #f6f7f7;
+    outline-color: #FF834F;
+    background-color: #F6F7F7;
 }
 
-.contact-button {
-  display: inline;
-  line-height: 0px;
-  border-radius: 5px;
-  border-color: #ff834f;
-  padding: 20px;
-  text-align: center;
-  background-color: #ff834f;
-  color: #ffffff;
-}
-
-.contact-button:hover {
-  border: #ff5f1c;
-  background-color: #ff5f1c;
-}
-
-.contact-button:focus {
-  outline: green;
-  border: green;
-  background-color: green;
-  box-shadow: none;
-}
-
-.contact-fieldset {
-  padding-top: 20px;
+.radio-label {
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 #radio-label-dog {
-  padding-left: 0;
-  padding-right: 10px;
+    padding-left: 0;
+    padding-right: 10px;
 }
 
-/* https://stackoverflow.com/questions/4253920/how-do-i-change-the-color-of-radio-buttons/4253939#comment72798876_4253939 */
-.contact-fieldset input[type="radio"]:after {
-  width: 15px;
-  height: 15px;
-  border-radius: 15px;
-  top: -2px;
-  left: -1px;
-  position: relative;
-  background-color: #ffffff;
-  content: "";
-  display: inline-block;
-  visibility: visible;
-  border: 2px solid #ffffff;
+/* W3 schools for alignment of checkbox and label - need URL*/
+.checkbox label {
+    display: block;
+    padding-left: 15px;
+    text-indent: -15px;
+    padding-bottom: 20px;
 }
 
-.contact-fieldset input[type="radio"]:checked:after {
-  width: 15px;
-  height: 15px;
-  border-radius: 15px;
-  top: -2px;
-  left: -1px;
-  position: relative;
-  background-color: #ff834f;
-  content: "";
-  display: inline-block;
-  visibility: visible;
-  border: 2px solid #ffffff;
+.checkbox input {
+    width: 15px;
+    height: 15px;
+    padding: 0;
+    margin-right: 10px;
+    vertical-align: middle;
+    position: relative;
+    top: -1px;
 }
