@@ -1,242 +1,183 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
-      crossorigin="anonymous"
-    />
-    <!-- for dropdown menu on shop page to link to products <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
-		integrity="sha512-csw0Ma4oXCAgd/d4nTcpoEoz4nYvvnk21a8VA2h2dzhPAvjbUIK6V3si7/g/HehwdunqqW18RwCJKpD7rL67Xg=="
-		crossorigin="anonymous" /> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-    <title>Urban Paws</title>
-  </head>
+    <title>The Team | Urban Paws</title>
+</head>
 
-  <body>
+<body>
     <header id="header">
-      <!-- Navigation -->
 
-      <nav class="navbar navbar-light navbar-expand-md navbar-fixed">
-        <a href="index.html" class="navbar-brand mr-auto"
-          ><img
-            id="logo"
-            src="assets/images/urban-paws-transparent.png"
-            alt="Urban Paws logo"
-        /></a>
-        <!-- from bootstrap website reference in README -->
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <!-- from bootstrap website end-->
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html"
-                >Home<span class="sr-only">(current)</span></a
-              >
-            </li>
+        <!-- Navigation -->
 
-            <!-- From Bootstrap website reference in README -->
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="shop.html"
-                id="navbarDropdown"
-                role="button"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                Shop
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="shop-dog.html"
-                  ><img
-                    src="assets/images/daisy-team.png"
-                    class="rounded-circle"
-                    height="75"
-                    width="75"
-                    alt="shop dog"
-                  /><br />Shop Dog</a
-                >
-                <a class="dropdown-item" href="shop-cat.html"
-                  ><img
-                    src="assets/images/percy-team.png"
-                    class="rounded-circle"
-                    height="75"
-                    width="75"
-                    alt="shop cat"
-                  /><br />Shop Cat</a
-                >
-              </div>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="about.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"
-                ><i class="fa fa-shopping-basket" id="shopping-basket"></i
-              ></a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-
-      <!-- Navigation end -->
+        <nav class="navbar navbar-light navbar-expand-md navbar-fixed">
+            <a href="index.html" class="navbar-brand mr-auto"><img id="logo" src="assets/images/urban-paws-transparent.png" alt="Urban Paws logo" /></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="shop.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Shop
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="shop-dog.html"><img src="assets/images/neon-dog.jpeg" height="67" width="100" alt="Shop dog" /><br>Shop Dog</a>
+                            <a class="dropdown-item" href="shop-cat.html"><img src="assets/images/neon-cat.jpeg" height="67" width="100" alt="Shop cat" /><br>Shop Cat</a>
+                        </div>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="modal" data-target="#findOutMoreModal">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </header>
 
-    <main role="main">
-      <!-- Main team image and title -->
+    <main>
 
-      <section>
+        <!-- Main team image and title -->
+
         <div class="container-fluid team-image-section">
-          <div class="row">
-            <div class="col">
-              <h1>Our Team</h1>
+            <div class="row">
+                <div class="col">
+                    <h1>Our Team</h1>
+                </div>
             </div>
-          </div>
         </div>
-      </section>
 
-      <!-- Team photos and profiles -->
+        <!-- Team photos and profiles -->
 
-      <section>
-        <div class="container team-section">
-          <div class="row">
-            <div class="col team-member">
-              <h3>Jane</h3>
-              <img
-                src="assets/images/jane-team.png"
-                class="team-image"
-                alt="Jane"
-              />
-              <h5>The Boss</h5>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Ultrices sagittis orci a scelerisque.
-              </p>
+        <div class="container-fluid team-section">
+            <div class="row">
+                <div class="col team-member">
+                    <h3>Jane</h3>
+                    <img src="assets/images/jane-team.png" class="team-image" alt="Jane" />
+                    <h5>The Boss</h5>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices sagittis orci a scelerisque.
+                    </p>
+                </div>
+                <div class="col team-member">
+                    <h3>Percy</h3>
+                    <img src="assets/images/percy-team.png" class="team-image" alt="Percy" />
+                    <h5>Far too relaxed</h5>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices sagittis orci a scelerisque.
+                    </p>
+                </div>
+                <div class="col team-member">
+                    <h3>Aggie</h3>
+                    <img src="assets/images/aggie-team.png" class="team-image" alt="Aggie" />
+                    <h5>The brains</h5>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices sagittis orci a scelerisque.
+                    </p>
+                </div>
+                <div class="col team-member">
+                    <h3>Daisy</h3>
+                    <img src="assets/images/daisy-team.png" class="team-image" alt="Daisy" />
+                    <h5>Where's my bone</h5>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices sagittis orci a scelerisque.
+                    </p>
+                </div>
             </div>
-            <div class="col team-member">
-              <h3>Percy</h3>
-              <img
-                src="assets/images/percy-team.png"
-                class="team-image"
-                alt="Percy"
-              />
-              <h5>Far too relaxed</h5>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Ultrices sagittis orci a scelerisque.
-              </p>
-            </div>
-            <div class="col team-member">
-              <h3>Aggie</h3>
-              <img
-                src="assets/images/aggie-team.png"
-                class="team-image"
-                alt="Aggie"
-              />
-              <h5>The brains</h5>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Ultrices sagittis orci a scelerisque.
-              </p>
-            </div>
-            <div class="col team-member">
-              <h3>Daisy</h3>
-              <img
-                src="assets/images/daisy-team.png"
-                class="team-image"
-                alt="Daisy"
-              />
-              <h5>Where's my bone</h5>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Ultrices sagittis orci a scelerisque.
-              </p>
-            </div>
-          </div>
         </div>
-      </section>
     </main>
 
     <footer>
-      <div class="copyright">
-        <span>Copyright <i class="fa fa-copyright"></i> Urban Paws 2020</span>
-      </div>
+        <div class="copyright">
+            <span>Copyright <i class="fa fa-copyright"></i> Urban
+                Paws 2020. All rights reserved.</span>
+        </div>
 
-      <!-- Social media -->
+        <!-- Social media -->
 
-      <div>
-        <ul class="social-media">
-          <li>
-            <a href="https://www.facebook.com" target="_blank"
-              ><i class="fa fa-facebook"></i
-            ></a>
-          </li>
-          <li>
-            <a href="https://www.twitter.com" target="_blank"
-              ><i class="fa fa-twitter"></i
-            ></a>
-          </li>
-          <li>
-            <a href="https://www.youtube.com" target="_blank"
-              ><i class="fa fa-youtube"></i
-            ></a>
-          </li>
-          <li>
-            <a href="https://www.instagram.com" target="_blank"
-              ><i class="fa fa-instagram"></i
-            ></a>
-          </li>
-          <li>
-            <a href="https://www.pinterest.com" target="_blank"
-              ><i class="fa fa-pinterest"></i
-            ></a>
-          </li>
-        </ul>
-      </div>
+        <div>
+            <ul class="social-media">
+                <li>
+                    <a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com" target="_blank"><i class="fa fa-youtube"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.pinterest.com" target="_blank"><i class="fa fa-pinterest"></i></a>
+                </li>
+            </ul>
+        </div>
     </footer>
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+
+    <!-- Modal -->
+    <div class="modal fade" id="findOutMoreModal" tabindex="-1" role="dialog" aria-labelledby="findOutMoreModalTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="findOutMoreModalTitle">Contact Us</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="fname">First Name</label>
+                            <input class="text-input" id="fname" type="text" name="first_name" placeholder="Enter your first name..." required>
+                        </div>
+                        <div class="form-group">
+                            <label for="lname">Last Name</label>
+                            <input class="text-input" id="lname" type="text" name="last_name" placeholder="Enter your last name..." required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input class="text-input" id="email" type="email" name="email_address" placeholder="Enter your email address..." required>
+                        </div>
+                        <div class="form-group">
+                            <label for="comments">Comments or enquiry</label>
+                            <textarea class="text-area" id="comments" type="text" name="comments" wrap="hard" placeholder="Please type your comment or enquiry here..." rows="10"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <fieldset class="contact-fieldset">
+                                <label for="dog" id="radio-label-dog">Dog</label>
+                                <input type="radio" value="dog" id="dog" name="pet_type" required>
+                                <label for="cat" class="radio-label">Cat</label>
+                                <input type="radio" value="cat" id="cat" name="pet_type" required>
+                                <label for="both" class="radio-label">Both</label>
+                                <input type="radio" value="both" id="both" name="pet_type" required>
+                            </fieldset>
+                        </div>
+                        <div class="form-group checkbox">
+                            <label><input type="checkbox" value="newsletter">Sign up to our newsletter</label>
+                        </div>
+                        <p><button type="submit" class="btn btn-lg btn--brand-color" value="Contact Us">Submit</button></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+
 </html>
