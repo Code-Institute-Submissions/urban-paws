@@ -17,9 +17,8 @@ h1, h2, h3, h4, h5, h6 {
 .btn--brand-color {
     text-align: center;
     border-radius: 5px;
-}
-
-.btn--brand-color {
+    font-size: 20px;
+    font-weight: bold;
     color: #FFFFFF;
     background-color: #FF5F1C;
     border-color: #FF5F1C;
@@ -57,7 +56,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar-nav {
     float: left;
-    text-align: left;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -66,7 +64,6 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Montserrat", sans-serif;
     font-size: 20px;
     font-weight: 400;
-    color: #6E7F80;
 }
 
 .navbar-fixed {
@@ -96,24 +93,34 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .dropdown-item {
-    padding-top: 20px;
+    padding: 10px 0 10px 0;
+    width: 140px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
     border-color: #6E7F80;
-    color: #6E7F80;
+    color: #4B5657;
+    font-size: 18px;
 }
 
 .dropdown-item:hover {
-    color: #4B5657;
+    color: #FF5F1C;
+    font-weight: bold;
+    background-color: #FFFFFF;
 }
 
 .dropdown-item:active {
     border-color: #6E7F80;
-    background-color: #F6F7F7;
     color: #4B5657;
+}
+
+nav {
+    cursor: pointer;
 }
 
 /* --------------------------- Hero image Home page - understand exactly how to position images prior to submission */
 .hero-section {
-    background: url("../images/dogs-blue-cat.jpeg") no-repeat center center;
+    background: url("../images/two-dachshunds-with-blue-cat-tiny.jpeg") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -233,9 +240,9 @@ h1, h2, h3, h4, h5, h6 {
 
 /* --------------------------- Shop */
 .shop-title {
-    margin-top: 106px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    margin-top: 110px;
+    padding-top: 0;
+    padding-bottom: 10px;
     max-width: 1200px;
     background-color: #FFFFFF;
     text-align: center;
@@ -254,15 +261,28 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .shop-title h1 span {
-    color: #FF834F;
+    color: #FF5F1C;
     font-weight: bold;
 }
 
 .card {
     height: 100%;
     color: #4B5657;
+    padding-top: 20px;
     max-width: 320px;
     border-radius: 5px;
+}
+
+.card h2{
+    font-size: 28px;
+}
+
+.card h3{
+    font-size: 24px;
+}
+
+.card h4{
+    font-size: 18px;
 }
 
 .card-footer--background {
@@ -273,8 +293,8 @@ h1, h2, h3, h4, h5, h6 {
     width: 100vw;
     background-color: #F6F7F7;
     padding-top: 40px;
+    margin-bottom: 0;
     max-width: 1200px;
-    margin-bottom: 40px;
 }
 
 .product-image {
@@ -348,17 +368,12 @@ h1, h2, h3, h4, h5, h6 {
     background: #de3163;
 }
 
-#card-amazon-button {
-    width: 100%;
-    padding-top: 20px;
-}
-
 .card-footer div i {
     color: #FFFFFF;
 }
 
 .card-footer div a {
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .card-footer div button {
@@ -421,7 +436,7 @@ footer {
     font-weight: 400;
     font-size: 12px;
     text-align: center;
-    padding: 40px 0 40px 20px;
+    padding: 60px 20px 40px 20px;
     margin: 0;
 }
 
@@ -447,21 +462,18 @@ footer {
 .social-media i {
     font-size: 28px;
     color: #F6F7F7;
+    padding-top: 20px
 }
 
 @media all and (max-width: 768px) {
     footer {
         justify-content: space-around;
     }
-
-    .copyright {
-        padding-left: 0;
-    }
 }
 
 /* --------------------------- The About Us page*/
 .team-image-section {
-    background: url("../images/team-beagle.jpeg") no-repeat top center;
+    background: url("../images/team-hero-small-tiny.jpeg") no-repeat top center;
     /* https://unsplash.com/@anoirchafik?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText */
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -555,6 +567,7 @@ footer {
 
 .text-input:focus {
     outline: #FF834F;
+    background-color: #F6F7F7;
 }
 
 .text-area {
