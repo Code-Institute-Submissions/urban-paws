@@ -4,9 +4,11 @@
 
 # Urban Paws Website
 
-Working with the company director, this website has been developed as the first iteration for a new start-up company Urban Paws. The website provides potential customers with an overview of the company and information in relation to products that are currently being developed and that will be available for sale in the near future. The site was developed using knowledge gained from the Code Institute HTML, CSS and User Centric Frontend Development modules.
+Working with the company director, this website has been developed as the first iteration for a new startup company Urban Paws. The website provides potential customers with an overview of the company and information in relation to products that are being developed and products that are for sale via links to listings on Aamzon.co.uk.
 
 The client requested a simple, attractive and modern website that is responsive and easy to navigate and that allows potential customers to sign up for email updates on company news.
+
+The site was developed using knowledge gained from the Code Institute HTML, CSS and User Centric Frontend Development modules.
 
 View the live website [here.](https://matty-el.github.io/urban-paws/)
 
@@ -16,7 +18,7 @@ View the live website [here.](https://matty-el.github.io/urban-paws/)
 
 1.  [User Experience Design](#user-experience-design)
 2.  [Features](#features)
-3.  [Planning and Collaboration](#planning-and-collaboration)
+3.  [Planning, Tracking and Collaboration](#planning-tracking-collaboration)
 4.  [Technologies Used](#technologies-used)
 5.  [Testing](#testing)
 6.  [Deployment](#deployment)
@@ -51,7 +53,7 @@ The business goals for developing the website are:
 #### Returning visitors
 
 -   As a returning visitor, I want to be able to contact the company so that I can ask questions or receive announcements and updates about the company.
--   As a returning visitor, I want to see new products that have been added so that I can decide on whether I want to purchase them.
+
     <!-- Maybe add some customer reviews -->
 
 ### Structure
@@ -68,6 +70,8 @@ The business goals for developing the website are:
 
 ### Surface
 
+<!-- Ensure update branding template to latest version on Frontify -->
+
 Working with the client an [Urban Paws Branding Template](assets/design/Urban_Paws_Branding_Template.pdf) has been developed to ensure a strong and consistent brand image has been applied to the Urban Paws website.
 
 #### Branding
@@ -75,22 +79,6 @@ Working with the client an [Urban Paws Branding Template](assets/design/Urban_Pa
 #### Colours
 
 #### Typography
-
-## Planning and Collaboration
-
-This project was delivered to meet a client specification for a new website and to align to the planned dates for submission of Milestone Project 1. Tools to facilitate planning, task assignment, tracking and collaboration were essential to ensure that the project was finished on schedule and to specification.
-
-### Trello
-
-Trello was used for task assignment, collaboration and tracking to ensure that all client and developer tasks were completed on time and to plan.
-
-### JIRA
-
-JIRA was utilised to capture user stories, tasks and bugs to be selected for development and to track development, testing and deployment activities to ensure the project was completed aligned to the product Roadmap.
-
-### Frontify
-
-Frontify was used to develop the Urban Paws branding template and enabled easy collaboration between the client and developer.
 
 ## Features
 
@@ -116,7 +104,7 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+The following technologies have been used to complete the UX design, capture user stories and defects and assign for development and to develop the Urban Paws website.
 
 ### Languages
 
@@ -134,90 +122,41 @@ In this section, you should mention all of the languages, frameworks, libraries,
 -   Font Awesome
 -   Balsamiq
 -   Tiny PNG
--   Trello
 -   JIRA
 -   Frontify
 
 ## Testing
 
-### HTML and CSS Validation
+The website functionality was captured in the form of user stories and acceptance criteria were defined for each user story. The acceptance criteria formed the basis for the completed tests to ensure that the functionality was delivered aligned to the client's requirements.
 
-### Lighthouse
-
-To test quality and performance for desktop and mobile the Google Chrome dev tool Lighthouse was used. Reports were run and issues identified and fixed.
-
-#### Initial Tests - following MS1 mid-point review and updates with advice from mentor - results and resolution
-
--   Desktop
-
-    -   Home page - link to tests
-    -   Shop Dog page - link to tests
-    -   Shop Cat page - link to tests
-    -   Contact Us page - link to tests
-
--   Mobile
-
-    -   Home page - link to tests
-    -   Shop Dog page - link to tests
-    -   Shop Cat page - link to tests
-    -   Contact Us page - link to tests
-
-The results of these tests were analysed and the following changes were made to improve quality and performance
-
--   One
--   Two
-
-#### Final Tests
-
-The results of the final Lighthouse tests are detailed in the reports listed below.
-
-### User Stories and Acceptance Criteria
-
-<!-- Focus testing on meeting the defined acceptance criteria documented alongside user stories -->
-
-Acceptance criteria were written for each user story. The acceptance criteria were tested by the developer for each user story and User Acceptance Testing completed by the client. The results are listed below along with the issues raised which were logged in JIRA, resolved and retested.
-
-####
-
-Focus testing on meeting the defined acceptance criteria documented alongside user stories.
-
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-1.  Contact form:
-    1.  Go to the "Contact Us" page
-    2.  Try to submit the empty form and verify that an error message about the required fields appears
-    3.  Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4.  Try to submit the form with all inputs valid and verify that a success message appears.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+The testing strategy, plan and results are documented in a separate [testing document](TESTING.md).
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+**To deploy the project on GitHub**
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
+The Urban Paws project is hosted in GitHub Pages.
 
--   Different values for environment variables (Heroku Config Vars)?
--   Different configuration files?
--   Separate git branch?
+1. Navigate to the menu at the top of the project repository on GitHub and select **Settings**.
+2. Scroll down to the GitHub **Pages** section.
+3. Click on the dropdown menu under **Source** and select **Master Branch**.
+4. The page will refresh automatically and the website is now deployed - a green tick will be visible against a green background with the site URL. It may take a few minutes for the site to be published.
 
-In addition, if it is not obvious, you should also describe how to run your code locally.
+A single master branch has been used for this project.
+
+**To run the project locally**
+
+To clone this project from GitHub.
+
+1. Open the project repository on GitHub and click the Code dropdown button.
+2. Select **HTTPS** and copy the URL.
+3. In your IDE of choice, open **Git Bash**.
+4. Change the current working directory to the location where you want the cloned directory to be created.
+5. Type **git clone**, and then paste the URL copied from GitHub.
+6. Press **Enter** and the local clone will be created.
 
 ## Credits
 
-Mentor
-
-Jane Davenport for giving me the opportunity to develop a website for her new business
-
-* * *
 
 ### Content
 
@@ -228,3 +167,10 @@ Jane Davenport for giving me the opportunity to develop a website for her new bu
 -   The photos used in this site were obtained from ...
 
 ### Acknowledgements
+
+Mentor
+
+Jane Davenport for giving me the opportunity to develop a website for her new business
+
+[Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/?originalSubdomain=ng) for mentor guidance and support.
+Ï
