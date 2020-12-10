@@ -168,13 +168,11 @@ nav {
     color: #566465;
     background-color: white;
     padding-top: 40px;
-    padding-bottom: 40px;
 }
 
 .what-we-do-section-image {
-    /*height: 300px;
-    width: 400px;*/
-    border-radius: 10px;
+    border-radius: 5px;
+    margin-bottom: 40px;
 }
 
 /* need to find correct width */
@@ -200,10 +198,18 @@ nav {
     padding-bottom: 40px;
 }
 
+.product-section a {
+    color: #4B5657;
+}
+
+.product-section a:hover {
+    text-decoration: none;
+    font-weight: bold;
+}
+
 .product-section-image {
-    /*height: 300px;
-    width: 400px;*/
-    border-radius: 10px;
+    border-radius: 5px;
+    margin-bottom: 40px;
 }
 
 #shop-dog-button {
@@ -273,15 +279,15 @@ nav {
     border-radius: 5px;
 }
 
-.card h2{
+.card h2 {
     font-size: 28px;
 }
 
-.card h3{
+.card h3 {
     font-size: 24px;
 }
 
-.card h4{
+.card h4 {
     font-size: 18px;
 }
 
@@ -408,6 +414,7 @@ nav {
 .size-guide-table {
     font-size: 14px;
     width: 100%;
+    margin-bottom: 10px;
 }
 
 .size-guide-table table, th, td {
@@ -416,7 +423,7 @@ nav {
 }
 
 .size-guide-heading {
-    margin-top: 8px;
+    font-weight: bold;
 }
 
 /* --------------------------- Footer */
