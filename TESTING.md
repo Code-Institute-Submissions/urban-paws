@@ -21,13 +21,13 @@ The website has been developed using HTML5 and CSS3 and utilises the Bootstrap4 
 
 This document has been prepared to outline the testing strategy and will be approved by the owner of the Urban Paws business and website.
 
-The testing is to be completed in two phases with the developer completing the first phase of testing prior to the business owner complete their own testing.
+The testing is to be completed in two cycles, each with two phases. Within each test cycle the developer will complete the first phase of testing prior to the business owner conducting their own testing.
 
 ### Test Approach
 
 The user requirements have been captured in the form of user stories and acceptance criteria have been defined against which to test the website functionality.
 
-Defects identified during the testing process are captured in JIRA, fixed and then released to be re-tested.
+Defects identified during test cycle 1 of the testing process are captured in JIRA, fixed and then released to be re-tested in test cycle 2.
 
 The testing to be conducted along with the roles completing the testing are outlined below:
 
@@ -41,10 +41,10 @@ The testing to be conducted along with the roles completing the testing are outl
 
 ### Test Tools
 
-- Code validation: [W3.org markup validation service](https://validator.w3.org/), [W3.org CSS validation service](https://validator.w3.org/)
+- Code validation: [W3.org markup validation service](https://validator.w3.org/), [W3.org CSS validation service](https://jigsaw.w3.org/css-validator/)
 - Defect capture and tracking: [JIRA](https:)
 - Compatibility testing (browser compatibility and mobile compatibility) - [Chrome Dev Tools](https:), [Lighthouse](https:), [Responsiveness Checker](https:)
-- Performance testing: [TO ADD](https:)
+- Performance testing: [Chrome Dev Tools](https:), [Lighthouse](https:)
 
 ### Review and Approvals
 
@@ -54,13 +54,38 @@ All testing that has been completed will be approved by the Urban Paws business 
 
 #### Code validation
 
+**HTML**
+
+[W3.org markup validation service](https://validator.w3.org/)
+
 ##### Home page
+
+![Home page HTML Validator](readme-files/HTML_Validation_Home_Test_Cycle_1_1.png)
+
+![Home page HTML Validator](readme-files/HTML_Validation_Home_Test_Cycle_1_2.png)
 
 ##### Shop Dog page
 
+![Shop Dog page HTML Validator](readme-files/HTML_Validation_Shop_Dog_Test_Cycle_1_1.png)
+
+![Shop Dog page HTML Validator](readme-files/HTML_Validation_Shop_Dog_Test_Cycle_1_2.png)
+
+![Shop Dog page HTML Validator](readme-files/HTML_Validation_Shop_Dog_Test_Cycle_1_3.png)
+
 ##### Shop Cat page
 
+![Shop Cat page HTML Validator](readme-files/HTML_Validation_Shop_Cat_Test_Cycle_1_1.png)
+
+1[Shop Cat page HTML Validator](readme-files/HTML_Validation_Shop_Cat_Test_Cycle_1_2.png)
+
+![Shop Cat page HTML Validator](readme-files/HTML_Validation_Shop_Cat_Test_Cycle_1_3.png)
+
 ##### About Us page
+
+![About Us page HTML Validator](readme-files/HTML_Validation_About_Test_Cycle_1_1.png)
+
+![About Us page HTML Validator](readme-files/HTML_Validation_About_Test_Cycle_1_2.png)
+
 
 #### Functional Testing
 
@@ -69,5 +94,73 @@ All testing that has been completed will be approved by the Urban Paws business 
 #### Compatibility Testing
 
 #### Performance Testing
+
+##### Initial testing
+
+**Home Page**
+
+**Desktop**
+
+[Lighthouse report](https://matty-el.github.io/urban-paws/)
+
+Issues identified and resolution
+
+**Mobile**
+
+[Lighthouse report](https://matty-el.github.io/urban-paws/)
+
+Issues identified and resolution
+
+**Shop Dog Page**
+
+**Desktop**
+
+**Mobile**
+
+**Shop Cat Page**
+
+**Desktop**
+
+**Mobile**
+
+**About Page**
+
+**Desktop**
+
+**Mobile**
+
+##### Final testing
+
+**Home Page**
+
+**Desktop**
+
+[Lighthouse report](https://matty-el.github.io/urban-paws/)
+
+Issues identified and resolution
+
+**Mobile**
+
+[Lighthouse report](https://matty-el.github.io/urban-paws/)
+
+Issues identified and resolution
+
+**Shop Dog Page**
+
+**Desktop**
+
+**Mobile**
+
+**Shop Cat Page**
+
+**Desktop**
+
+**Mobile**
+
+**About Page**
+
+**Desktop**
+
+**Mobile**
 
 ### Approvals
