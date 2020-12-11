@@ -1,4 +1,4 @@
-[<img src="assets/images/urban-paws-transparent.png" width="230">](https://matty-el.github.io/urban-paws/)
+[<img src="assets/images/urban-paws-transparent-tiny.png" width="230">](https://matty-el.github.io/urban-paws/)
 
 # Test Strategy
 
@@ -69,6 +69,9 @@ All testing that has been completed will be approved by the Urban Paws business 
 
 ![Home page HTML Validator](readme-files/HTML_Validation_Home_Test_Cycle_1_2.png)
 
+Issues identified and resolution
+
+
 **Shop Dog page**
 
 ![Shop Dog page HTML Validator](readme-files/HTML_Validation_Shop_Dog_Test_Cycle_1_1.png)
@@ -76,6 +79,9 @@ All testing that has been completed will be approved by the Urban Paws business 
 ![Shop Dog page HTML Validator](readme-files/HTML_Validation_Shop_Dog_Test_Cycle_1_2.png)
 
 ![Shop Dog page HTML Validator](readme-files/HTML_Validation_Shop_Dog_Test_Cycle_1_3.png)
+
+Issues identified and resolution
+
 
 **Shop Cat page**
 
@@ -85,11 +91,17 @@ All testing that has been completed will be approved by the Urban Paws business 
 
 ![Shop Cat page HTML Validator](readme-files/HTML_Validation_Shop_Cat_Test_Cycle_1_3.png)
 
+Issues identified and resolution
+
+
 **About Us page**
 
 ![About Us page HTML Validator](readme-files/HTML_Validation_About_Test_Cycle_1_1.png)
 
 ![About Us page HTML Validator](readme-files/HTML_Validation_About_Test_Cycle_1_2.png)
+
+Issues identified and resolution
+
 
 ##### CSS
 
