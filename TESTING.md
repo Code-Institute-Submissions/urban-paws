@@ -38,6 +38,9 @@ The testing to be conducted along with the roles completing the testing are outl
 - Usability testing - Roles: developer and business owner
 - Compatibility testing (browser compatibility and mobile compatibility) - Roles: developer
 - Performance testing - Roles: developer
+- Accessibility testing - Roles: developer
+- Best Practices testing - Roles: developer
+- SEO testing - Roles: developer
 
 ### Test Tools
 
@@ -52,19 +55,21 @@ All testing that has been completed will be approved by the Urban Paws business 
 
 ### Test Results
 
+### Test Cycle 1
+
 #### Code validation
 
-**HTML**
+##### HTML
 
 [W3.org markup validation service](https://validator.w3.org/)
 
-##### Home page
+**Home page**
 
 ![Home page HTML Validator](readme-files/HTML_Validation_Home_Test_Cycle_1_1.png)
 
 ![Home page HTML Validator](readme-files/HTML_Validation_Home_Test_Cycle_1_2.png)
 
-##### Shop Dog page
+**Shop Dog page**
 
 ![Shop Dog page HTML Validator](readme-files/HTML_Validation_Shop_Dog_Test_Cycle_1_1.png)
 
@@ -72,95 +77,95 @@ All testing that has been completed will be approved by the Urban Paws business 
 
 ![Shop Dog page HTML Validator](readme-files/HTML_Validation_Shop_Dog_Test_Cycle_1_3.png)
 
-##### Shop Cat page
+**Shop Cat page**
 
 ![Shop Cat page HTML Validator](readme-files/HTML_Validation_Shop_Cat_Test_Cycle_1_1.png)
 
-1[Shop Cat page HTML Validator](readme-files/HTML_Validation_Shop_Cat_Test_Cycle_1_2.png)
+![Shop Cat page HTML Validator](readme-files/HTML_Validation_Shop_Cat_Test_Cycle_1_2.png)
 
 ![Shop Cat page HTML Validator](readme-files/HTML_Validation_Shop_Cat_Test_Cycle_1_3.png)
 
-##### About Us page
+**About Us page**
 
 ![About Us page HTML Validator](readme-files/HTML_Validation_About_Test_Cycle_1_1.png)
 
 ![About Us page HTML Validator](readme-files/HTML_Validation_About_Test_Cycle_1_2.png)
 
+##### CSS
 
-#### Functional Testing
+[W3.org CSS validation service](https://jigsaw.w3.org/css-validator/)
 
-#### Usability Testing
+![About Us page HTML Validator](readme-files/CSS-Validation_Test_Cycle_1.png)
 
-#### Compatibility Testing
+#### Functional, Usability and Compatibility Testing
 
-#### Performance Testing
+To add details from Excel tracking table
 
-##### Initial testing
-
-**Home Page**
+#### Performance, Accessibility, Best Practices and SEO Testing
 
 **Desktop**
 
-[Lighthouse report](https://matty-el.github.io/urban-paws/)
+
+- [Home page](readme-files/desktop-index.html)
+- [Shop Dog page](readme-files/desktop-shop-dog.html)
+- [Shop Cat page](readme-files/desktop-shop-cat.html)
+- [About Us page](readme-files/desktop-about.html)
 
 Issues identified and resolution
 
 **Mobile**
 
-[Lighthouse report](https://matty-el.github.io/urban-paws/)
+- [Home page](readme-files/mobile-index.html)
+- [Shop Dog page](readme-files/mobile-shop-dog.html)
+- [Shop Cat page](readme-files/mobile-shop-cat.html)
+- [About Us page](readme-files/mobile-about.html)
 
 Issues identified and resolution
 
-**Shop Dog Page**
+### Test Cycle 2
+
+#### Code validation
+
+##### HTML
+
+[W3.org markup validation service](https://validator.w3.org/)
+
+**Home page**
+
+
+
+**Shop Dog page**
+
+
+
+**Shop Cat page**
+
+
+
+**About Us page**
+
+
+##### CSS
+
+[W3.org CSS validation service](https://jigsaw.w3.org/css-validator/)
+
+
+
+#### Functional, Usability and Compatibility Testing
+
+#### Performance, Accessibility, Best Practices and SEO Testing
 
 **Desktop**
 
-**Mobile**
-
-**Shop Cat Page**
-
-**Desktop**
-
-**Mobile**
-
-**About Page**
-
-**Desktop**
-
-**Mobile**
-
-##### Final testing
-
-**Home Page**
-
-**Desktop**
-
-[Lighthouse report](https://matty-el.github.io/urban-paws/)
 
 Issues identified and resolution
 
 **Mobile**
 
-[Lighthouse report](https://matty-el.github.io/urban-paws/)
 
 Issues identified and resolution
-
-**Shop Dog Page**
-
-**Desktop**
-
-**Mobile**
-
-**Shop Cat Page**
-
-**Desktop**
-
-**Mobile**
-
-**About Page**
-
-**Desktop**
-
-**Mobile**
 
 ### Approvals
+
+
+[Go back to README.md file](README.md).
