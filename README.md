@@ -35,7 +35,6 @@ The business goals for developing the website are:
 -   To enable users to link through to Amazon listings so that they can purchase products.
 -   To provide a simple, attractive, modern and responsive website.
 -   To present a consistent brand image to users.
-<br>
 
 ### Scope
 
@@ -60,7 +59,6 @@ The business goals for developing the website are:
 
 -   As a returning visitor, I want to be able to contact the company so that I can ask questions or receive announcements and updates about the company.
 -   As a returning visitor, I want to be able see products for purchase so that i can buy items i need.
-<br>
 
 ### Structure
 
@@ -73,7 +71,6 @@ The website has the following key elements:
 -   Call to action buttons are present on the Home page to encourage the users to click through to the contact form and shop pages.
 -   The shop pages contain the product listings along with size-guides and a link to enable the customers to purchase the   products via Amazon.co.uk
 -   The contact menu item provides a form which the users can populate to provide comments, make enquiries and / or sign up to the Urban Paws newsletter.
-<br>
 
 ### Skeleton
 
@@ -89,7 +86,6 @@ Following the initial design the following changes were made:
 -   The main Shop page was removed to simplify he website design and layout.
 -   An About Us page was added to include the team member profiles.
 -   As shopping basket functionality has not been developed a decision was made to simplify the product card layout and provide a link to Amazon.co.uk.
-<br>
 
 ### Surface
 
@@ -116,7 +112,7 @@ The Montserrat font has been utilised for all menu and heading text across the w
 
 #### All pages
 
-**Header**
+Header:
 
 -   The brand logo linking to the Home page is displayed on the top left of each page.
 -   A navigation menu on the right of the header that allows the user to navigate the website by clicking the links or open a contact form by selecting the Contact menu item. There is a dropdown menu for the individual Shop Dog and Shop Cat pages.The menu links change colour when hovered over and are highlighted in a different colour when the user is currently on that page.
@@ -124,20 +120,20 @@ The Montserrat font has been utilised for all menu and heading text across the w
 
 *Note: The contact form does not currently submit any data. The final version of the form will submit data to a back-end database and will present a message to the user upon submitting the form.*
 
-**Footer**
+Footer:
 
 -   A footer section displaying copyright wording and links to Facebook, Twitter, YouTube, Instagram and Pinterest social media sites.
 <br>
 
 #### Home page
 
-**What we do section**
+What we do section:
 
 -   This section of the Home page outlines what the company does and provides a call to action 'Find Out More' button to open the contact form. The contact form can be populated with mandatory first name, last name, email address and animal preference along with the options to add a comment or enquiry and to sign up to the company newsletter.
 
 *Note: The contact form does not currently submit any data. The final version of the form will submit data to a back-end database and will present a message to the user upon submitting the form.*
 
-**PADD Suit section**
+PADD Suit section:
 
 -   This section of the Home page outlines a product the company has developed - the PADD Suit. There are two buttons included in this section to link through to the Shop Dog and Shop Cat pages.
 <br>
@@ -168,32 +164,26 @@ The Montserrat font has been utilised for all menu and heading text across the w
 
 ## Technologies Used
 
-TO BE COMPLETED
-
 The following technologies have been used to complete the UX design, capture user stories and defects and assign for development and to develop the Urban Paws website.
 
 ### Languages
 
--   HTML5
--   CSS3
-<br>
+-   [HTML5](https://en.wikipedia.org/wiki/HTML5)
+-   [CSS3](https://en.wikipedia.org/wiki/CSS)
 
 ### Frameworks - Tools - Libraries
 
--   Bootstrap 4.5.2
--   jQuery
--   Git
--   GitHub
--   GitPod
--   Google Fonts
--   Font Awesome
--   Balsamiq
--   Tiny PNG
--   JIRA
--   Frontify
--   HTML Validator
--   CSS validator
-<br>
+-   [Bootstrap library](https://getbootstrap.com/)
+-   [GitHub](https://github.com/)
+-   [GitPod](https://gitpod.io/)
+-   [Google Fonts](https://fonts.google.com/)
+-   [Font Awesome](https://fontawesome.com/)
+-   [Balsamiq](https://balsamiq.com/)
+-   [Tiny PNG](https://tinypng.com/)
+-   [JIRA](https://www.atlassian.com/software/jira)
+-   [Frontify](https://www.frontify.com)
+-   [Markup validation service](https://validator.w3.org/)
+-   [CSS validation service](https://jigsaw.w3.org/css-validator/)
 
 ## Testing
 
@@ -225,29 +215,23 @@ To clone this project from GitHub.
 4. Change the current working directory to the location where you want the cloned directory to be created.
 5. Type **git clone**, and then paste the URL copied from GitHub.
 6. Press **Enter** and the local clone will be created.
-<br>
 
 ## Credits
 
 ### Content
 
-All content included in the Urban Paws website is my own.
-<br>
+All text content included in the Urban Paws website is my own.
 
 ### Media
 
 The following images were licensed for use from [Adobe Stock](https://stock.adobe.com/)
 
--   Image 1
--   Image 2
-
-The image for the 'What we do' section was sourced from [Adobe Stock](https://unsplash.com/) and
-
-The images for use on the About Us page are my own images.
-<br>
+-   All images with the exception of those detailed below were licensed from [Adobe Stock](https://stock.adobe.com/)
+-   The image for the 'What we do' section on the Home page - [photo by Kelly Sikkema on Unplash](https://unsplash.com/@kellysikkema?utm_source=medium&utm_medium=referral)
+-   The images for use on the About Us page profiles are my own images.
 
 ### Acknowledgements
 
-Jane Davenport for giving me the opportunity to develop a website for her new business
-
-[Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/?originalSubdomain=ng) for mentor guidance and support.
+-
+- Jane Davenport for giving me the opportunity to develop a website for her new business.
+- [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/?originalSubdomain=ng) for mentor guidance and support.
