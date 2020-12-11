@@ -13,15 +13,15 @@
 
 ### Scope and Overview
 
-The Urban Paws website is a basic static website that has been developed for a startup company. The website will enable users to find out more about the company, view products for sale and link to the Amazon for purchase of the products, link to the company social media accounts and contact the company via a contact form. The website is comprised of four pages - Home, Shop-Dog, Shop-Cat and About Us, with Modals incorporated for a contact form and product size guides.
-
-View the live website [here.](https://matty-el.github.io/urban-paws/)
+The Urban Paws website is a basic static website that has been developed for a startup company. The website will enable users to find out more about the company, view products for sale and link to the Amazon listing for purchase of the products, link to the company social media accounts and contact the company via a contact form. The website is comprised of four pages - Home, Shop-Dog, Shop-Cat and About Us, with modals incorporated for the contact form and product size guides.
 
 The website has been developed using HTML5 and CSS3 and utilises the Bootstrap4 toolkit.
 
 This document has been prepared to outline the testing strategy and will be approved by the owner of the Urban Paws business and website.
 
-The testing is to be completed in two cycles, each with two phases. Within each test cycle the developer will complete the first phase of testing prior to the business owner conducting their own testing.
+The testing consists of two cycles, each with two phases. Within each test cycle the developer completes the first phase of testing prior to the business owner conducting their own testing.
+
+View the live website [here.](https://matty-el.github.io/urban-paws/)
 
 ### Test Approach
 
@@ -29,9 +29,7 @@ The user requirements have been captured in the form of user stories and accepta
 
 Defects identified during test cycle 1 of the testing process are captured in JIRA, fixed and then released to be re-tested in test cycle 2.
 
-The testing to be conducted along with the roles completing the testing are outlined below:
-
-<!-- maybe include why each testing category has been included -->
+The testing to be completed along with the roles completing the testing are outlined below:
 
 - Code validation - Roles: developer
 - Functional testing - Roles: developer and business owner
@@ -45,13 +43,14 @@ The testing to be conducted along with the roles completing the testing are outl
 ### Test Tools
 
 - Code validation: [W3.org markup validation service](https://validator.w3.org/), [W3.org CSS validation service](https://jigsaw.w3.org/css-validator/)
-- Defect capture and tracking: [JIRA](https:)
 - Compatibility testing (browser compatibility and mobile compatibility) - [Chrome Dev Tools](https:), [Lighthouse](https:), [Responsiveness Checker](https:)
 - Performance testing: [Chrome Dev Tools](https:), [Lighthouse](https:)
+- SEO testing: [Chrome Dev Tools](https:), [Lighthouse](https:)
+- Defect capture and tracking: [JIRA](https://www.atlassian.com/software/jira)
 
 ### Review and Approvals
 
-All testing that has been completed will be approved by the Urban Paws business owner.
+Following the final cycle of testing the website will be approved for release by the Urban Paws business owner.
 
 ### Test Results
 
@@ -59,11 +58,11 @@ All testing that has been completed will be approved by the Urban Paws business 
 
 #### Code validation
 
-##### HTML
+**HTML**
 
 [W3.org markup validation service](https://validator.w3.org/)
 
-**Home page**
+Home page:
 
 ![Home page HTML Validator](readme-files/HTML_Validation_Home_Test_Cycle_1_1.png)
 
@@ -72,7 +71,7 @@ All testing that has been completed will be approved by the Urban Paws business 
 Issues identified and resolution
 
 
-**Shop Dog page**
+Shop Dog page:
 
 ![Shop Dog page HTML Validator](readme-files/HTML_Validation_Shop_Dog_Test_Cycle_1_1.png)
 
@@ -83,7 +82,7 @@ Issues identified and resolution
 Issues identified and resolution
 
 
-**Shop Cat page**
+Shop Cat page:
 
 ![Shop Cat page HTML Validator](readme-files/HTML_Validation_Shop_Cat_Test_Cycle_1_1.png)
 
@@ -94,7 +93,7 @@ Issues identified and resolution
 Issues identified and resolution
 
 
-**About Us page**
+About Us page:
 
 ![About Us page HTML Validator](readme-files/HTML_Validation_About_Test_Cycle_1_1.png)
 
@@ -103,7 +102,7 @@ Issues identified and resolution
 Issues identified and resolution
 
 
-##### CSS
+**CSS**
 
 [W3.org CSS validation service](https://jigsaw.w3.org/css-validator/)
 
@@ -111,26 +110,25 @@ Issues identified and resolution
 
 #### Functional, Usability and Compatibility Testing
 
-To add details from Excel tracking table
+The functional, usability and compatibility test results and defect references are detailed in the [test tracker](readme-files/Urban_Paws_Website_Test_Tracker_Cycle_1.pdf).
 
 #### Performance, Accessibility, Best Practices and SEO Testing
 
-**Desktop**
+Desktop:
 
-
-- [Home page](readme-files/desktop-index.html)
-- [Shop Dog page](readme-files/desktop-shop-dog.html)
-- [Shop Cat page](readme-files/desktop-shop-cat.html)
-- [About Us page](readme-files/desktop-about.html)
+- [Home page](https://matty-el.github.io/urban-paws/readme-files/desktop-index.html)
+- [Shop Dog page](https://matty-el.github.io/urban-paws/readme-files/desktop-shop-dog.html)
+- [Shop Cat page](https://matty-el.github.io/urban-paws/readme-files/desktop-shop-cat.html)
+- [About Us page](https://matty-el.github.io/urban-paws/readme-files/desktop-about.html)
 
 Issues identified and resolution
 
-**Mobile**
+Mobile:
 
-- [Home page](readme-files/mobile-index.html)
-- [Shop Dog page](readme-files/mobile-shop-dog.html)
-- [Shop Cat page](readme-files/mobile-shop-cat.html)
-- [About Us page](readme-files/mobile-about.html)
+- [Home page](https://matty-el.github.io/urban-paws/readme-files/mobile-index.html)
+- [Shop Dog page](https://matty-el.github.io/urban-paws/readme-files/mobile-shop-dog.html)
+- [Shop Cat page](https://matty-el.github.io/urban-paws/readme-files/mobile-shop-cat.html)
+- [About Us page](https://matty-el.github.io/urban-paws/readme-files/mobile-about.html)
 
 Issues identified and resolution
 
@@ -138,42 +136,77 @@ Issues identified and resolution
 
 #### Code validation
 
-##### HTML
+**HTML**
 
 [W3.org markup validation service](https://validator.w3.org/)
 
-**Home page**
+Home page:
 
+![Home page HTML Validator](readme-files/)
 
-
-**Shop Dog page**
-
-
-
-**Shop Cat page**
-
-
-
-**About Us page**
-
-
-##### CSS
-
-[W3.org CSS validation service](https://jigsaw.w3.org/css-validator/)
-
-
-
-#### Functional, Usability and Compatibility Testing
-
-#### Performance, Accessibility, Best Practices and SEO Testing
-
-**Desktop**
-
+![Home page HTML Validator](readme-files/)
 
 Issues identified and resolution
 
-**Mobile**
 
+Shop Dog page:
+
+![Shop Dog page HTML Validator](readme-files/)
+
+![Shop Dog page HTML Validator](readme-files/)
+
+![Shop Dog page HTML Validator](readme-files/)
+
+Issues identified and resolution
+
+
+Shop Cat page:
+
+![Shop Cat page HTML Validator](readme-files/)
+
+![Shop Cat page HTML Validator](readme-files/)
+
+![Shop Cat page HTML Validator](readme-files/)
+
+Issues identified and resolution
+
+
+About Us page:
+
+![About Us page HTML Validator](readme-files/)
+
+![About Us page HTML Validator](readme-files/)
+
+Issues identified and resolution
+
+
+**CSS**
+
+[W3.org CSS validation service](https://jigsaw.w3.org/css-validator/)
+
+![About Us page HTML Validator](readme-files/)
+
+#### Functional, Usability and Compatibility Testing
+
+To add details from Excel tracking table
+
+#### Performance, Accessibility, Best Practices and SEO Testing
+
+Desktop:
+
+- [Home page](readme-files/)
+- [Shop Dog page](readme-files/)
+- [Shop Cat page](readme-files/)
+- [About Us page](readme-files/)
+
+Issues identified and resolution
+
+Mobile:
+
+- [Home page](readme-files/)
+- [Shop Dog page](readme-files/)
+- [Shop Cat page](readme-files/)
+- [About Us page](readme-files/)
 
 Issues identified and resolution
 
