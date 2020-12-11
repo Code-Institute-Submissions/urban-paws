@@ -1,12 +1,12 @@
-[<img src="assets/images/urban-paws-transparent.png" width="230">](https://matty-el.github.io/urban-paws/)
+[<img src="assets/images/urban-paws-transparent-tiny.png" width="230">](https://matty-el.github.io/urban-paws/)
 
 <!-- Remember to add link to website from logo -->
 
 # Urban Paws Website
 
-Working with the company director, this website has been developed as the first iteration for a new startup company Urban Paws. The website provides potential customers with an overview of the company and information in relation to products that are being developed and products that are for sale via links to listings on Aamzon.co.uk.
+Working with the company director, this website has been developed as the first iteration for a new startup company Urban Paws. The website provides potential customers with an overview of the company and information in relation to products that are have been developed and products that are for sale via links to listings on Amazon.co.uk.
 
-The client requested a simple, attractive and modern website that is responsive and easy to navigate and that allows potential customers to sign up for email updates on company news.
+The client requested a simple, attractive and modern website that is responsive and easy to navigate, that allows potential customers to sign up for email updates on company news, that provides links to the company social media accounts and links to enable the customer to purchase products.
 
 The site was developed using knowledge gained from the Code Institute HTML, CSS and User Centric Frontend Development modules.
 
@@ -31,6 +31,7 @@ View the live website [here.](https://matty-el.github.io/urban-paws/)
 The business goals for developing the website are:
 
 -   To attract users to the company website to promote the company and brand awareness and to drive online enquiries.
+-   To enable users to link through to Amazon listings so that they can purchase products.
 -   To provide a simple, attractive, modern and responsive website.
 -   To present a consistent brand image to users.
 
@@ -42,7 +43,10 @@ The business goals for developing the website are:
 
 -   As the branding director, I want the company branding template to be applied to the website so that the company presents a consistent brand image.
 -   As the business owner, I want the company website latency to be optimised so that users are less likely to abandon our website whilst using it.
--   As the business owner, I want the company website to be search engine optimised, so that users can easily find our website.
+-   As the business owner, I want the company website to be search engine optimised so that users can easily find our website.
+-   As the business owner, I want the company website to be accessible to all users so that all users can use our website.
+-   As the business owner, I want the company website to be conformant to web development best practices so that I know the development quality meets required standards.
+-   As the business owner, I want the company website to be compatible with different browsers so that users have a consistent experience no matter which browser they use.
 
 #### First time visitors
 
@@ -53,12 +57,19 @@ The business goals for developing the website are:
 #### Returning visitors
 
 -   As a returning visitor, I want to be able to contact the company so that I can ask questions or receive announcements and updates about the company.
-
-    <!-- Maybe add some customer reviews -->
+-   As a returning visitor, I want to be able see products for purchase so that i can buy items i need.
 
 ### Structure
 
-<!-- Talk about consistency across the pages in the website - common logo, menu etc. -->
+The Urban Paws website has been structured to provide a simple and easy to navigate website. There are four pages - Home, Shop Dog, Shop Cat and About Us and a Contact form so that users can contact the company to provide comments, make enquiries and / or sign up to the Urban Paws newsletter.
+
+The website has the following key elements:
+
+-   A simple navigation menu which enables the users to easily navigate between the website pages.
+-   Links to social media sites so that users can follow the company on social media.
+-   Call to action buttons are present on the Home page to encourage the users to click through to the contact form and shop pages.
+-   The shop pages contain the product listings along with size-guides and a link to enable the customers to purchase the   products via Amazon.co.uk
+-   The contact menu item provides a form which the users can populate to provide comments, make enquiries and / or sign up to the Urban Paws newsletter.
 
 ### Skeleton
 
@@ -70,23 +81,27 @@ The business goals for developing the website are:
 
 ### Surface
 
-<!-- Ensure update branding template to latest version on Frontify -->
-
 Working with the client an [Urban Paws Branding Template](assets/design/Urban_Paws_Branding_Template.pdf) has been developed to ensure a strong and consistent brand image has been applied to the Urban Paws website.
 
 #### Branding
 
+An Urban Paws logo has been developed and is displayed prominantly on the website pages.
+
+[<img src="assets/images/urban-paws-transparent-tiny.png" width="230">](https://matty-el.github.io/urban-paws/)
+
 #### Colours
+
+A simple colour palette has been developed based on the three core Urban Paws colours. Full details of the colour scheme is contained in the [Urban Paws Branding Template](assets/design/Urban_Paws_Branding_Template.pdf).
 
 #### Typography
 
+The Montserrat font has been utilised for all menu and heading text across the website. Raleway font has been used for the main text sections. Full details of the typography used is contained in the [Urban Paws Branding Template](assets/design/Urban_Paws_Branding_Template.pdf).
+
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
-
-<!-- Consider Call to Action (CTA) - users encouraged to sign up for news - how best to present this? -->
-
 ### Existing Features
+
+TO BE COMPLETED
 
 -   Feature 1 - allows users X to achieve Y, by having them fill out Z
 -   ...
@@ -103,6 +118,8 @@ In addition, you may also use this section to discuss plans for additional featu
 -   eCommerce capabilities
 
 ## Technologies Used
+
+TO BE COMPLETED
 
 The following technologies have been used to complete the UX design, capture user stories and defects and assign for development and to develop the Urban Paws website.
 
@@ -124,6 +141,8 @@ The following technologies have been used to complete the UX design, capture use
 -   Tiny PNG
 -   JIRA
 -   Frontify
+-   HTML Validator
+-   CSS validator
 
 ## Testing
 
@@ -135,7 +154,7 @@ The testing strategy, plan and results are documented in a separate [testing doc
 
 **To deploy the project on GitHub**
 
-The Urban Paws project is hosted in GitHub Pages.
+The Urban Paws project is hosted on GitHub Pages.
 
 1. Navigate to the menu at the top of the project repository on GitHub and select **Settings**.
 2. Scroll down to the GitHub **Pages** section.
@@ -150,13 +169,12 @@ To clone this project from GitHub.
 
 1. Open the project repository on GitHub and click the Code dropdown button.
 2. Select **HTTPS** and copy the URL.
-3. In your IDE of choice, open **Git Bash**.
+3. In your preferred IDE, open **Git Bash**.
 4. Change the current working directory to the location where you want the cloned directory to be created.
 5. Type **git clone**, and then paste the URL copied from GitHub.
 6. Press **Enter** and the local clone will be created.
 
 ## Credits
-
 
 ### Content
 
@@ -168,9 +186,6 @@ To clone this project from GitHub.
 
 ### Acknowledgements
 
-Mentor
-
 Jane Davenport for giving me the opportunity to develop a website for her new business
 
 [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/?originalSubdomain=ng) for mentor guidance and support.
-Ï
