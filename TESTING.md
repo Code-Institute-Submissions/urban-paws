@@ -110,7 +110,7 @@ Issues identified and resolution
 
 #### Functional, Usability and Compatibility Testing
 
-The functional, usability and compatibility test results and defect references are detailed in the ![test tracker](readme-files/Urban_Paws_Website_Test_Tracker_Cycle_1.pdf).
+The functional, usability and compatibility test results and defect references are detailed in the [test tracker](readme-files/Urban_Paws_Website_Test_Tracker_Cycle_1.pdf).
 
 #### Performance, Accessibility, Best Practices and SEO Testing
 
