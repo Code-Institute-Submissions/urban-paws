@@ -23,7 +23,6 @@ View the live website [here.](https://matty-el.github.io/urban-paws/)
 5.  [Testing](#testing)
 6.  [Deployment](#deployment)
 7.  [Credits](#credits)
-<br>
 
 ## User Experience Design
 
@@ -104,7 +103,6 @@ A simple colour palette has been developed based on the three core Urban Paws co
 #### Typography
 
 The Montserrat font has been utilised for all menu and heading text across the website. Raleway font has been used for the main text sections. Full details of the typography used is contained in the [Urban Paws Branding Template](design/Urban_Paws_Branding_Template.pdf).
-<br>
 
 ## Features
 
@@ -123,7 +121,6 @@ Header:
 Footer:
 
 -   A footer section displaying copyright wording and links to Facebook, Twitter, YouTube, Instagram and Pinterest social media sites.
-<br>
 
 #### Home page
 
@@ -136,7 +133,6 @@ What we do section:
 PADD Suit section:
 
 -   This section of the Home page outlines a product the company has developed - the PADD Suit. There are two buttons included in this section to link through to the Shop Dog and Shop Cat pages.
-<br>
 
 #### Shop Cat and Shop Dog pages
 
@@ -145,12 +141,10 @@ PADD Suit section:
 - The footer section of the product cards have a size guide button which when clicked opens a size guide for the products. There is a 'Buy on Amazon' button that links to the Amazon.co.uk website when clicked.
 
 *Note: The buttons to link to the Amazon.co.uk website will be pre-populated with the listing search details once the listings are on Amazon.*
-<br>
 
 #### About us page
 
 - This page contains a simple profile for each of the members of the Urban Paws team.
-<br>
 
 ### Features Left to Implement
 
@@ -160,7 +154,6 @@ PADD Suit section:
 -   Featured products
 -   Shopping cart
 -   eCommerce capabilities
-<br>
 
 ## Technologies Used
 
@@ -190,7 +183,6 @@ The following technologies have been used to complete the UX design, capture use
 The website functionality was captured in the form of user stories and acceptance criteria were defined for each user story. The acceptance criteria formed the basis for the completed tests to ensure that the functionality was delivered aligned to the client's requirements.
 
 The testing strategy, plan and results are documented in a separate [testing document](TESTING.md).
-<br>
 
 ## Deployment
 
