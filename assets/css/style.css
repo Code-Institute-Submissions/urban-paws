@@ -60,10 +60,17 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom: 20px;
 }
 
+.navbar-light .navbar-nav .nav-link {
+    color: #4B5657;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #FF5F1C;
+}
+
 .navbar li {
     font-family: "Montserrat", sans-serif;
     font-size: 20px;
-    font-weight: 400;
 }
 
 .navbar-fixed {
@@ -89,12 +96,12 @@ h1, h2, h3, h4, h5, h6 {
 .dropdown-menu {
     background-color: #FFFFFF;
     text-align: center;
-    max-width: 10rem;
+    max-width: 220px;
 }
 
 .dropdown-item {
-    padding: 10px 0 10px 0;
-    width: 140px;
+    padding: 10px 10px 10px 0;
+    width: 220px;
     height: 100px;
     margin-left: auto;
     margin-right: auto;
@@ -472,6 +479,12 @@ footer {
     padding-top: 20px
 }
 
+#flag {
+    width: 50px;
+    padding-top: 20px;
+    border-radius: 5px;
+}
+
 @media all and (max-width: 768px) {
     footer {
         justify-content: space-around;
@@ -542,6 +555,14 @@ footer {
 
 .team-member {
     padding: 20px;
+}
+
+.team-member h2 {
+    font-size: 24px;
+}
+
+.team-member h3 {
+    font-size: 18px;
 }
 
 /* --------------------------- Contact Us Modal */
