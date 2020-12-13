@@ -31,22 +31,22 @@ Defects identified during test cycle 1 of the testing process are captured in JI
 
 The testing to be completed along with the roles completing the testing are outlined below:
 
-- Code validation - Roles: developer
-- Functional testing - Roles: developer and business owner
-- Usability testing - Roles: developer and business owner
-- Compatibility testing (browser compatibility and mobile compatibility) - Roles: developer
-- Performance testing - Roles: developer
-- Accessibility testing - Roles: developer
-- Best Practices testing - Roles: developer
-- SEO testing - Roles: developer
+-   Code validation - Roles: developer
+-   Functional testing - Roles: developer and business owner
+-   Usability testing - Roles: developer and business owner
+-   Compatibility testing (browser compatibility and mobile compatibility) - Roles: developer
+-   Performance testing - Roles: developer
+-   Accessibility testing - Roles: developer
+-   Best Practices testing - Roles: developer
+-   SEO testing - Roles: developer
 
 ### Test Tools
 
-- Code validation: [W3.org markup validation service](https://validator.w3.org/), [W3.org CSS validation service](https://jigsaw.w3.org/css-validator/)
-- Compatibility testing (browser compatibility and mobile compatibility) - [Chrome Dev Tools](https:), [Lighthouse](https:), [Responsiveness Checker](https:)
-- Performance testing: [Chrome Dev Tools](https:), [Lighthouse](https:)
-- SEO testing: [Chrome Dev Tools](https:), [Lighthouse](https:)
-- Defect capture and tracking: [JIRA](https://www.atlassian.com/software/jira)
+-   Code validation: [W3.org markup validation service](https://validator.w3.org/), [W3.org CSS validation service](https://jigsaw.w3.org/css-validator/)
+-   Compatibility testing (browser compatibility and mobile compatibility) - [Chrome Dev Tools](https:), [Lighthouse](https:), [Responsiveness Checker](https:)
+-   Performance testing: [Chrome Dev Tools](https:), [Lighthouse](https:)
+-   SEO testing: [Chrome Dev Tools](https:), [Lighthouse](https:)
+-   Defect capture and tracking: [JIRA](https://www.atlassian.com/software/jira)
 
 ### Review and Approvals
 
@@ -68,8 +68,13 @@ Home page:
 
 ![Home page HTML Validator](readme-files/HTML_Validation_Home_Test_Cycle_1_2.png)
 
-Issues identified and resolution
+Issues identified and resolution:
 
+-   Error Attribute alt not allowed on element a at this point - removed alt attributes from anchor elements.
+-   Error no p element in scope but a p end tag seen - removed erroneous paragraph closing tag.
+-   Warning Possible misuse of aria-label - removed aria labels from social media list and replaced with sr-only text.
+-   Error Attribute type not allowed on element textarea at this point - removed type attribute from textarea element.
+-   Error Element textarea is missing required attribute - added missing cols attribute to textarea element.
 
 Shop Dog page:
 
@@ -79,8 +84,12 @@ Shop Dog page:
 
 ![Shop Dog page HTML Validator](readme-files/HTML_Validation_Shop_Dog_Test_Cycle_1_3.png)
 
-Issues identified and resolution
+Issues identified and resolution:
 
+-   Warning Possible misuse of aria-label - removed aria labels from colour swatches and replaced with sr-only text.
+-   Warning Possible misuse of aria-label - removed aria labels from social media list and replaced with sr-only text.
+-   Error Attribute type not allowed on element textarea at this point - removed type attribute from textarea element.
+-   Error Element textarea is missing required attribute - added missing cols attribute to textarea element.
 
 Shop Cat page:
 
@@ -90,8 +99,12 @@ Shop Cat page:
 
 ![Shop Cat page HTML Validator](readme-files/HTML_Validation_Shop_Cat_Test_Cycle_1_3.png)
 
-Issues identified and resolution
+Issues identified and resolution:
 
+-   Warning Possible misuse of aria-label - removed aria labels from colour swatches and replaced with sr-only text.
+-   Warning Possible misuse of aria-label - removed aria labels from social media list and replaced with sr-only text.
+-   Error Attribute type not allowed on element textarea at this point - removed type attribute from textarea element.
+-   Error Element textarea is missing required attribute - added missing cols attribute to textarea element.
 
 About Us page:
 
@@ -99,14 +112,17 @@ About Us page:
 
 ![About Us page HTML Validator](readme-files/HTML_Validation_About_Test_Cycle_1_2.png)
 
-Issues identified and resolution
+Issues identified and resolution:
 
+-   Warning Possible misuse of aria-label - removed aria labels from social media list and replaced with sr-only text.
+-   Error Attribute type not allowed on element textarea at this point - removed type attribute from textarea element.
+-   Error Element textarea is missing required attribute - added missing cols attribute to textarea element.
 
 **CSS**
 
 [W3.org CSS validation service](https://jigsaw.w3.org/css-validator/)
 
-![About Us page HTML Validator](readme-files/CSS-Validation_Test_Cycle_1.png)
+![CSS Validator](readme-files/CSS-Validation_Test_Cycle_1.png)
 
 #### Functional, Usability and Compatibility Testing
 
@@ -116,21 +132,274 @@ The functional, usability and compatibility test results and defect references a
 
 Desktop:
 
-- [Home page](https://matty-el.github.io/urban-paws/readme-files/desktop-index.html)
-- [Shop Dog page](https://matty-el.github.io/urban-paws/readme-files/desktop-shop-dog.html)
-- [Shop Cat page](https://matty-el.github.io/urban-paws/readme-files/desktop-shop-cat.html)
-- [About Us page](https://matty-el.github.io/urban-paws/readme-files/desktop-about.html)
+-   [Home page](https://matty-el.github.io/urban-paws/readme-files/desktop-index.html)
 
-Issues identified and resolution
+Issues identified and resolution:
+
+Performance (98)
+
+-   Eliminate render-blocking resources -
+-   Properly size images -
+-   Serve images in next-gen formats - Images left as JPEG or PNG files as not considered to detrimental to performance
+-   Ensure text remains visible during webfont load - Google recommends 'Add the &display=swap parameter to the end of your Google Fonts URL:' this parameter is already included in code.
+-   Image elements do not have explicit width and height - TBC
+-   Serve static elements with an efficient cache policy - TBC
+-   Avoid chaining critical requests - TBC
+-   Keep request counts low and transfer sizes small - TBC
+-   Avoid large layout shifts - TBC
+
+Accessibility (98)
+
+-   Background and foreground colours do not have sufficient contrast ratio: Shop, About Us and Contact menu items - changed text colour to Urban Paws #4B5657 to achieve greater contrast.
+
+Best Practices (78)
+
+-   Links to cross-origin destinations are unsafe - added rel="noopener and norefferer" tags to Links.
+-   Includes front-end JavaScript libraries with known security vulnerabilities - updated to libraries with no vulnerabilities.
+-   Displays images with incorrect aspect ratio (Shop Cat image) - changed aspect ratio.
+
+SEO (90)
+
+-   Document does not have a meta-description - a meta-description is included so need to check why this issue is occurring.
+
+-   [Shop Dog page](https://matty-el.github.io/urban-paws/readme-files/desktop-shop-dog.html)
+
+Issues identified and resolution:
+
+Performance (98)
+
+-   Eliminate render-blocking resources -
+-   Properly size images -
+-   Serve images in next-gen formats - Images left as JPEG or PNG files as not considered to detrimental to performance
+-   Ensure text remains visible during webfont load - Google recommends 'Add the &display=swap parameter to the end of your Google Fonts URL:' this parameter is already included in code.
+-   Image elements do not have explicit width and height - TBC
+-   Serve static elements with an efficient cache policy - TBC
+-   Avoid chaining critical requests - TBC
+-   Keep request counts low and transfer sizes small - TBC
+-   Avoid large layout shifts - TBC
+
+Accessibility (98)
+
+-   Background and foreground colours do not have sufficient contrast ratio: Shop, About Us and Contact menu items - changed text colour to Urban Paws #4B5657 to achieve greater contrast.
+
+Best Practices (78)
+
+-   Links to cross-origin destinations are unsafe - added rel="noopener and norefferer" tags to Links.
+-   Includes front-end JavaScript libraries with known security vulnerabilities - updated to libraries with no vulnerabilities.
+-   Displays images with incorrect aspect ratio (Shop Cat image) - changed aspect ratio.
+
+SEO (90)
+
+-   Document does not have a meta-description - a meta-description is included so need to check why this issue is occurring.
+-   Links are not crawlable - link for modal so not relevant
+
+
+-   [Shop Cat page](https://matty-el.github.io/urban-paws/readme-files/desktop-shop-cat.html)
+
+Issues identified and resolution:
+
+Performance (98)
+
+-   Eliminate render-blocking resources -
+-   Properly size images -
+-   Serve images in next-gen formats - Images left as JPEG or PNG files as not considered to detrimental to performance
+-   Ensure text remains visible during webfont load - Google recommends 'Add the &display=swap parameter to the end of your Google Fonts URL:' this parameter is already included in code.
+-   Image elements do not have explicit width and height - TBC
+-   Serve static elements with an efficient cache policy - TBC
+-   Avoid chaining critical requests - TBC
+-   Keep request counts low and transfer sizes small - TBC
+-   Avoid large layout shifts - TBC
+
+Accessibility (98)
+
+-   Background and foreground colours do not have sufficient contrast ratio: Shop, About Us and Contact menu items - changed text colour to Urban Paws #4B5657 to achieve greater contrast.
+
+Best Practices (78)
+
+-   Links to cross-origin destinations are unsafe - added rel="noopener and norefferer" tags to Links.
+-   Includes front-end JavaScript libraries with known security vulnerabilities - updated to libraries with no vulnerabilities.
+-   Displays images with incorrect aspect ratio (Shop Cat image) - changed aspect ratio.
+
+SEO (90)
+
+-   Document does not have a meta-description - a meta-description is included so need to check why this issue is occurring.
+-   Links are not crawlable - link for modal so not relevant
+
+-   [About Us page](https://matty-el.github.io/urban-paws/readme-files/desktop-about.html)
+
+Issues identified and resolution:
+
+Performance (98)
+
+-   Eliminate render-blocking resources -
+-   Properly size images -
+-   Serve images in next-gen formats - Images left as JPEG or PNG files as not considered to detrimental to performance
+-   Avoid enormous network payloads -
+-   Ensure text remains visible during webfont load - Google recommends 'Add the &display=swap parameter to the end of your Google Fonts URL:' this parameter is already included in code.
+-   Image elements do not have explicit width and height - TBC
+-   Serve static elements with an efficient cache policy - TBC
+-   Avoid chaining critical requests - TBC
+-   Keep request counts low and transfer sizes small - TBC
+-   Avoid large layout shifts - TBC
+
+Accessibility (97)
+
+-   Background and foreground colours do not have sufficient contrast ratio: Shop, About Us and Contact menu items - changed text colour to Urban Paws #4B5657 to achieve greater contrast.
+-   Heading elements are not in sequentially-descending order - changed sequential order
+
+Best Practices (78)
+
+-   Links to cross-origin destinations are unsafe - added rel="noopener and norefferer" tags to Links.
+-   Includes front-end JavaScript libraries with known security vulnerabilities - updated to libraries with no vulnerabilities.
+-   Displays images with incorrect aspect ratio (Shop Cat image) - changed aspect ratio.
+
+SEO (80)
+
+-   Document does not have a meta-description - a meta-description is included so need to check why this issue is occurring.
+-   Links are not crawlable - link for modal so not relevant.
 
 Mobile:
 
-- [Home page](https://matty-el.github.io/urban-paws/readme-files/mobile-index.html)
-- [Shop Dog page](https://matty-el.github.io/urban-paws/readme-files/mobile-shop-dog.html)
-- [Shop Cat page](https://matty-el.github.io/urban-paws/readme-files/mobile-shop-cat.html)
-- [About Us page](https://matty-el.github.io/urban-paws/readme-files/mobile-about.html)
+-   [Home page](https://matty-el.github.io/urban-paws/readme-files/mobile-index.html)
 
-Issues identified and resolution
+Issues identified and resolution:
+
+Performance (70)
+
+-   Eliminate render-blocking resources -
+-   Remove unused CSS -
+-   Properly size images -
+-   Serve images in next-gen formats - Images left as JPEG or PNG files as not considered to detrimental to performance
+-   Ensure text remains visible during webfont load - Google recommends 'Add the &display=swap parameter to the end of your Google Fonts URL:' this parameter is already included in code.
+-   Image elements do not have explicit width and height - TBC
+-   Serve static elements with an efficient cache policy - TBC
+-   Minimize main-thread work - TBC
+-   Avoid chaining critical requests - TBC
+-   Keep request counts low and transfer sizes small - TBC
+-   Avoid large layout shifts - TBC
+
+Accessibility (100)
+
+-   No issues identified
+
+Best Practices (71)
+
+-   Links to cross-origin destinations are unsafe - added rel="noopener and norefferer" tags to Links.
+-   Includes front-end JavaScript libraries with known security vulnerabilities - updated to libraries with no vulnerabilities.
+-   Displays images with incorrect aspect ratio (Shop Cat image) - changed aspect ratio.
+-   Browser errors were logged to the console (font-awesome files not found) - TBC
+
+SEO (100)
+
+-   No issues identified.
+
+
+-   [Shop Dog page](https://matty-el.github.io/urban-paws/readme-files/mobile-shop-dog.html)
+
+Issues identified and resolution:
+
+Performance (79)
+
+-   Eliminate render-blocking resources -
+-   Properly size images -
+-   Remove unused CSS - TBC
+-   Remove unused JavaScript - TBC
+-   Remove duplicated modules in JavaScript bundles - TBC
+-   Avoid serving legacy JavaScipt to modern browsers - TBC
+-   Ensure text remains visible during webfont load - Google recommends 'Add the &display=swap parameter to the end of your Google Fonts URL:' this parameter is already included in code.
+-   Image elements do not have explicit width and height - TBC
+-   Serve static elements with an efficient cache policy - TBC
+-   Minimise main-thread work - TBC
+-   Avoid chaining critical requests - TBC
+-   Keep request counts low and transfer sizes small - TBC
+-   Avoid large layout shifts - TBC
+
+Accessibility (97)
+
+-   Background and foreground colours do not have sufficient contrast ratio: Shop, About Us and Contact menu items - changed text colour to Urban Paws #4B5657 to achieve greater contrast.
+
+Best Practices (71)
+
+-   Links to cross-origin destinations are unsafe - added rel="noopener and norefferer" tags to Links.
+-   Includes front-end JavaScript libraries with known security vulnerabilities - updated to libraries with no vulnerabilities.
+-   Displays images with incorrect aspect ratio (Shop Cat image) - changed aspect ratio.
+-   Browser errors were logged to the console (font-awesome files not found) - TBC
+
+SEO (92)
+
+-   Document does not have a meta-description - a meta-description is included so need to check why this issue is occurring.
+-   Links are not crawlable - link for modal so not relevant
+
+
+-   [Shop Cat page](https://matty-el.github.io/urban-paws/readme-files/mobile-shop-cat.html)
+
+Issues identified and resolution:
+
+Performance (79)
+
+-   Eliminate render-blocking resources -
+-   Properly size images -
+-   Remove unused CSS - TBC
+-   Remove unused JavaScript - TBC
+-   Remove duplicated modules in JavaScript bundles - TBC
+-   Avoid serving legacy JavaScipt to modern browsers - TBC
+-   Ensure text remains visible during webfont load - Google recommends 'Add the &display=swap parameter to the end of your Google Fonts URL:' this parameter is already included in code.
+-   Image elements do not have explicit width and height - TBC
+-   Serve static elements with an efficient cache policy - TBC
+-   Minimise main-thread work - TBC
+-   Avoid chaining critical requests - TBC
+-   Keep request counts low and transfer sizes small - TBC
+-   Avoid large layout shifts - TBC
+
+Accessibility (97)
+
+-   Background and foreground colours do not have sufficient contrast ratio: Shop, About Us and Contact menu items - changed text colour to Urban Paws #4B5657 to achieve greater contrast.
+
+Best Practices (71)
+
+-   Links to cross-origin destinations are unsafe - added rel="noopener and norefferer" tags to Links.
+-   Includes front-end JavaScript libraries with known security vulnerabilities - updated to libraries with no vulnerabilities.
+-   Displays images with incorrect aspect ratio (Shop Cat image) - changed aspect ratio.
+-   Browser errors were logged to the console (font-awesome files not found) - TBC
+
+SEO (92)
+
+-   Document does not have a meta-description - a meta-description is included so need to check why this issue is occurring.
+-   Links are not crawlable - link for modal so not relevant
+
+-   [About Us page](https://matty-el.github.io/urban-paws/readme-files/mobile-about.html)
+
+Issues identified and resolution:
+
+Performance (70)
+
+-   Eliminate render-blocking resources -
+-   Properly size images -
+-   Remove unused CSS - TBC
+-   Remove unused JavaScript - TBC
+-   Remove duplicated modules in JavaScript bundles - TBC
+-   Avoid serving legacy JavaScipt to modern browsers - TBC
+-   Ensure text remains visible during webfont load - Google recommends 'Add the &display=swap parameter to the end of your Google Fonts URL:' this parameter is already included in code.
+-   Image elements do not have explicit width and height - TBC
+-   Serve static elements with an efficient cache policy - TBC
+-   Minimise main-thread work - TBC
+-   Avoid chaining critical requests - TBC
+-   Keep request counts low and transfer sizes small - TBC
+-   Avoid large layout shifts - TBC
+
+Accessibility (98)
+
+-   Heading elements are not in sequentially-descending order - changed sequential order.
+
+Best Practices (71)
+
+-   Links to cross-origin destinations are unsafe - added rel="noopener and norefferer" tags to Links.
+-   Includes front-end JavaScript libraries with known security vulnerabilities - updated to libraries with no vulnerabilities.
+-   Displays images with incorrect aspect ratio (Shop Cat image) - changed aspect ratio.
+
+SEO (92)
+
+-   Links are not crawlable - link for modal so not relevant
 
 ### Test Cycle 2
 
@@ -148,7 +417,6 @@ Home page:
 
 Issues identified and resolution
 
-
 Shop Dog page:
 
 ![Shop Dog page HTML Validator](readme-files/)
@@ -158,7 +426,6 @@ Shop Dog page:
 ![Shop Dog page HTML Validator](readme-files/)
 
 Issues identified and resolution
-
 
 Shop Cat page:
 
@@ -170,7 +437,6 @@ Shop Cat page:
 
 Issues identified and resolution
 
-
 About Us page:
 
 ![About Us page HTML Validator](readme-files/)
@@ -178,7 +444,6 @@ About Us page:
 ![About Us page HTML Validator](readme-files/)
 
 Issues identified and resolution
-
 
 **CSS**
 
@@ -194,23 +459,22 @@ To add details from Excel tracking table
 
 Desktop:
 
-- [Home page](readme-files/)
-- [Shop Dog page](readme-files/)
-- [Shop Cat page](readme-files/)
-- [About Us page](readme-files/)
+-   [Home page](readme-files/)
+-   [Shop Dog page](readme-files/)
+-   [Shop Cat page](readme-files/)
+-   [About Us page](readme-files/)
 
 Issues identified and resolution
 
 Mobile:
 
-- [Home page](readme-files/)
-- [Shop Dog page](readme-files/)
-- [Shop Cat page](readme-files/)
-- [About Us page](readme-files/)
+-   [Home page](readme-files/)
+-   [Shop Dog page](readme-files/)
+-   [Shop Cat page](readme-files/)
+-   [About Us page](readme-files/)
 
 Issues identified and resolution
 
 ### Approvals
-
 
 [Go back to README.md file](README.md).
