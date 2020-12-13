@@ -47,7 +47,7 @@ h1, h2, h3, h4, h5, h6 {
 /* --------------------------- Navigation */
 #logo {
     height: 50px;
-    width: 228.95px;
+    width: 229px;
 }
 
 .navbar-brand {
@@ -124,7 +124,7 @@ nav {
     cursor: pointer;
 }
 
-/* --------------------------- Hero image Home page - understand exactly how to position images prior to submission */
+/* --------------------------- Hero image Home page */
 .hero-section {
     background: url("../images/two-dachshunds-with-blue-cat-tiny.jpeg") no-repeat center center;
     -webkit-background-size: cover;
@@ -181,7 +181,6 @@ nav {
     margin-bottom: 40px;
 }
 
-/* need to find correct width */
 @media all and (max-width: 992px) {
     .what-we-do-section {
         text-align: center;
@@ -234,7 +233,6 @@ nav {
     min-width: 130px;
 }
 
-/* need to find correct width */
 @media all and (max-width: 992px) {
     .product-section {
         text-align: center;
@@ -310,8 +308,8 @@ nav {
 }
 
 .product-image {
-    max-width: 100%;
-    max-height: 220px;
+    max-width: 300px;
+    max-height: 200px;
     padding-bottom: 20px;
 }
 
@@ -432,65 +430,7 @@ nav {
     font-weight: bold;
 }
 
-/* --------------------------- Footer */
-footer {
-    display: flex;
-    font-family: "Montserrat", sans-serif;
-    color: #F6F7F7;
-    background-color: #4B5657;
-    width: 100%;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap-reverse;
-}
-
-.copyright {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 400;
-    font-size: 12px;
-    text-align: center;
-    padding: 50px 20px 40px 20px;
-    margin: 0;
-}
-
-.copyright i {
-    color: #F6F7F7;
-}
-
-.fa-copyright {
-    pointer-events: none;
-}
-
-.social-media {
-    text-align: center;
-    padding: 20px 0 30px 0;
-    margin: 0;
-}
-
-.social-media li {
-    display: inline;
-    padding: 0 20px 0 20px;
-}
-
-.social-media i {
-    font-size: 28px;
-    color: #F6F7F7;
-    padding-top: 20px
-}
-
-#flag {
-    width: 50px;
-    padding-top: 10px;
-    border-radius: 5px;
-}
-
-@media all and (max-width: 768px) {
-    footer {
-        justify-content: space-around;
-    }
-}
-
-/* --------------------------- The About Us page*/
+/* --------------------------- About Us page*/
 .team-image-section {
     background: url("../images/team-hero-small-tiny.jpeg") no-repeat top center;
     /* https://unsplash.com/@anoirchafik?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText */
@@ -564,7 +504,63 @@ footer {
     font-size: 18px;
 }
 
-/* --------------------------- Contact Us Modal */
+/* --------------------------- Footer */
+footer {
+    display: flex;
+    font-family: "Montserrat", sans-serif;
+    color: #F6F7F7;
+    background-color: #4B5657;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+}
+
+.copyright {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    padding: 50px 20px 40px 20px;
+    margin: 0;
+}
+
+.copyright i {
+    color: #F6F7F7;
+}
+
+.fa-copyright {
+    pointer-events: none;
+}
+
+.social-media {
+    text-align: center;
+    padding: 20px 0 30px 0;
+    margin: 0;
+}
+
+.social-media li {
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+.social-media i {
+    font-size: 28px;
+    color: #F6F7F7;
+    padding-top: 20px
+}
+
+#flag {
+    padding-top: 10px;
+}
+
+@media all and (max-width: 768px) {
+    footer {
+        justify-content: space-around;
+    }
+}
+
+/* --------------------------- Contact Us modal */
 .contact-form {
     margin-right: auto;
     margin-left: auto;
@@ -572,11 +568,6 @@ footer {
     background-color: rgba(150, 164, 165, 0.5);
     border-radius: 5px;
     padding: 30px 30px 30px 30px;
-}
-
-.fa-envelope {
-    color: #4B5657;
-    pointer-events: none;
 }
 
 .text-input {
