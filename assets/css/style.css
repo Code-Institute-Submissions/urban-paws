@@ -165,11 +165,6 @@ nav {
     transform: translate(-50%, -50%);
 }
 
-/*320px — 480px: Mobile devices.
-481px — 768px: iPads, Tablets.
-769px — 1024px: Small screens, laptops.
-1025px — 1200px: Desktops, large screens.
-1201px and more — Extra large screens*/
 /* --------------------------- What we do Home page*/
 .what-we-do-section {
     width: 100vw;
@@ -204,20 +199,9 @@ nav {
     }
 }
 
-/*@media (min-width: 481px) and (max-width: 768px) {
-    .hero-section {
-        background: url("../images/two-dachshunds-with-blue-cat-tablet-tiny.jpeg") no-repeat center center;
-        height: 100vh;
-    }
-
-    .hero-section h1 {
-        font-size: 36px;
-    }
-}*/
-
 @media (min-width: 481px) {
     .hero-section {
-        background: url("../images/two-dachshunds-with-blue-cat-laptop-up-tiny.jpeg") no-repeat center center;
+        background: url("../images/two-dachshunds-with-blue-cat-mobile-up-tiny.jpeg") no-repeat center center;
     }
 
     /*.what-we-do-section {
@@ -594,6 +578,8 @@ footer {
 
 #flag {
     padding-top: 10px;
+    width: 50px;
+    height: 25px;
 }
 
 @media all and (max-width: 768px) {
