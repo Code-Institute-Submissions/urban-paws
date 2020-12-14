@@ -24,6 +24,7 @@ View the live website [here.](https://matty-el.github.io/urban-paws/)
 6.  [Deployment](#deployment)
 7.  [Credits](#credits)
 
+
 ## User Experience Design
 
 ### Strategy
@@ -68,7 +69,7 @@ The website has the following key elements:
 -   A simple navigation menu which enables the users to easily navigate between the website pages.
 -   Links to social media sites so that users can follow the company on social media.
 -   Call to action buttons are present on the Home page to encourage the users to click through to the contact form and shop pages.
--   The shop pages contain the product listings along with size-guides and a link to enable the customers to purchase the   products via Amazon.co.uk
+-   The shop pages contain the product listings along with size-guides and a link to enable the customers to purchase the   products via Amazon.co.uk.
 -   The contact menu item provides a form which the users can populate to provide comments, make enquiries and / or sign up to the Urban Paws newsletter.
 
 ### Skeleton
@@ -79,7 +80,7 @@ The website has the following key elements:
 -   Medium device [wireframes](design/Urban_Paws_Wireframes_Medium_v1.0.pdf)
 -   Large device [wireframes](design/Urban_Paws_Wireframes_Large_v1.0.pdf)
 
-Following the initial design the following changes were made:
+After the initial design was agreed the following changes were made:
 
 -   The Contact Us page was replaced with a contact form modal.
 -   The main Shop page was removed to simplify he website design and layout.
@@ -122,6 +123,7 @@ Footer:
 
 -   A footer section displaying copyright wording and links to Facebook, Twitter, YouTube, Instagram and Pinterest social media sites.
 
+
 #### Home page
 
 What we do section:
@@ -134,6 +136,7 @@ PADD Suit section:
 
 -   This section of the Home page outlines a product the company has developed - the PADD Suit. There are two buttons included in this section to link through to the Shop Dog and Shop Cat pages.
 
+
 #### Shop Cat and Shop Dog pages
 
 - These pages contain the product listings with a product card for each individual product.
@@ -142,9 +145,11 @@ PADD Suit section:
 
 *Note: The buttons to link to the Amazon.co.uk website will be pre-populated with the listing search details once the listings are on Amazon.*
 
+
 #### About us page
 
 - This page contains a simple profile for each of the members of the Urban Paws team.
+
 
 ### Features Left to Implement
 
@@ -154,6 +159,7 @@ PADD Suit section:
 -   Featured products
 -   Shopping cart
 -   eCommerce capabilities
+
 
 ## Technologies Used
 
@@ -183,6 +189,7 @@ The following technologies have been used to complete the UX design, capture use
 The website functionality was captured in the form of user stories and acceptance criteria were defined for each user story. The acceptance criteria formed the basis for the completed tests to ensure that the functionality was delivered aligned to the client's requirements.
 
 The testing strategy, plan and results are documented in a separate [testing document](TESTING.md).
+
 
 ## Deployment
 
@@ -216,14 +223,11 @@ All text content included in the Urban Paws website is my own.
 
 ### Media
 
-The following images were licensed for use from [Adobe Stock](https://stock.adobe.com/)
-
--   All images with the exception of those detailed below were licensed from [Adobe Stock](https://stock.adobe.com/)
+-   All images with the exception of those detailed below were licensed for use from [Adobe Stock](https://stock.adobe.com/)
 -   The image for the 'What we do' section on the Home page - [photo by Kelly Sikkema on Unplash](https://unsplash.com/@kellysikkema?utm_source=medium&utm_medium=referral)
 -   The images for use on the About Us page profiles are my own images.
 
 ### Acknowledgements
 
--
 - Jane Davenport for giving me the opportunity to develop a website for her new business.
 - [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/?originalSubdomain=ng) for mentor guidance and support.

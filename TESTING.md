@@ -1,233 +1,498 @@
 [<img src="assets/images/urban-paws-transparent-tiny.png" width="230">](https://matty-el.github.io/urban-paws/)
 
-<!-- Remember to add link to website from logo -->
-
-# Urban Paws Website
-
-Working with the company director, this website has been developed as the first iteration for a new startup company Urban Paws. The website provides potential customers with an overview of the company and information in relation to products that are have been developed and products that are for sale via links to listings on Amazon.co.uk.
-
-The client requested a simple, attractive and modern website that is responsive and easy to navigate, allows potential customers to sign up for email updates on company news, provides links to the company social media accounts and links to enable the customer to purchase products.
-
-The site was developed using knowledge gained from the Code Institute HTML, CSS and User Centric Frontend Development modules.
-
-View the live website [here.](https://matty-el.github.io/urban-paws/)
-
-<!-- Include well presented mock-up images of website on different devices -->
+# Test Strategy
 
 ## Contents
 
-1.  [User Experience Design](#user-experience-design)
-2.  [Features](#features)
-3.  [Planning, Tracking and Collaboration](#planning-tracking-collaboration)
-4.  [Technologies Used](#technologies-used)
-5.  [Testing](#testing)
-6.  [Deployment](#deployment)
-7.  [Credits](#credits)
+1.  [Scope and Overview](#scope-and-overview)
+2.  [Test Approach](#test-approach)
+3.  [Test Tools](#test-tools)
+4.  [Review and Approvals](#review-and-approvals)
+5.  [Test Results](#test-results)
+6.  [Approvals](#approvals)
 
+### Scope and Overview
 
-## User Experience Design
+The Urban Paws website is a basic static website that has been developed for a startup company. The website enables users to find out more about the company, view products for sale and link to the Amazon listing for purchase of the products, link to the company social media accounts and contact the company via a contact form. The website is comprised of four pages - Home, Shop-Dog, Shop-Cat and About Us, with modals incorporated for the contact form and product size guides.
 
-### Strategy
+The website has been developed using HTML5 and CSS3 and utilises the Bootstrap4 toolkit.
 
-The business goals for developing the website are:
+This document has been prepared to outline the testing strategy and will be approved by the owner of the Urban Paws business and website.
 
--   To attract users to the company website to promote the company and brand awareness and to drive online enquiries.
--   To enable users to link through to Amazon listings so that they can purchase products.
--   To provide a simple, attractive, modern and responsive website.
--   To present a consistent brand image to users.
+The testing consists of two cycles, each with two phases. Within each test cycle the developer completes the first phase of testing prior to the business owner conducting their own testing.
 
-### Scope
+View the live website [here.](https://matty-el.github.io/urban-paws/)
 
-#### User Stories
+### Test Approach
 
-#### Business
+The user requirements have been captured in the form of user stories and acceptance criteria have been defined against which to test the website functionality.
 
--   As the branding director, I want the company branding template to be applied to the website so that the company presents a consistent brand image.
--   As the business owner, I want the company website latency to be optimised so that users are less likely to abandon our website whilst using it.
--   As the business owner, I want the company website to be search engine optimised so that users can easily find our website.
--   As the business owner, I want the company website to be accessible to all users so that all users can use our website.
--   As the business owner, I want the company website to be conformant to web development best practices so that I know the development quality meets required standards.
--   As the business owner, I want the company website to be compatible with different browsers so that users have a consistent experience no matter which browser they use.
+Defects identified during test cycle 1 of the testing process are captured in JIRA, fixed and then released to be re-tested in test cycle 2.
 
-#### First time visitors
+The testing to be completed along with the roles completing the testing are outlined below:
 
--   As a first-time visitor to the website, I want to be able to access the website on different devices so that i can use the device that is most convenient to me at the time.
--   As a first-time visitor, I want to be able to easily navigate the website so that I can find out more about the company and it's offerings.
--   As a first-time visitor, I want to be able to follow the company on social media platforms so that I can stay informed about the company.
+- Code validation - Roles: developer
+- Functional testing - Roles: developer and business owner
+- Usability testing - Roles: developer and business owner
+- Compatibility testing (browser compatibility and mobile compatibility) - Roles: developer
+- Performance testing - Roles: developer
+- Accessibility testing - Roles: developer
+- Best Practices testing - Roles: developer
+- SEO testing - Roles: developer
 
-#### Returning visitors
+### Test Tools
 
--   As a returning visitor, I want to be able to contact the company so that I can ask questions or receive announcements and updates about the company.
--   As a returning visitor, I want to be able see products for purchase so that i can buy items i need.
+- Code validation: [W3.org markup validation service](https://validator.w3.org/), [W3.org CSS validation service](https://jigsaw.w3.org/css-validator/)
+- Compatibility testing (browser compatibility and mobile compatibility) - [Chrome Dev Tools](https:), [Lighthouse](https:), [Responsiveness Checker](https:)
+- Performance testing: [Chrome Dev Tools](https:), [Lighthouse](https:)
+- SEO testing: [Chrome Dev Tools](https:), [Lighthouse](https:)
+- Defect capture and tracking: [JIRA](https://www.atlassian.com/software/jira)
 
-### Structure
+### Review and Approvals
 
-The Urban Paws website has been structured to provide a simple and easy to navigate website. There are four pages - Home, Shop Dog, Shop Cat and About Us and a Contact form so that users can contact the company to provide comments, make enquiries and / or sign up to the Urban Paws newsletter.
+Following the final cycle of testing the website will be approved for release by the Urban Paws business owner.
 
-The website has the following key elements:
+### Test Results
 
--   A simple navigation menu which enables the users to easily navigate between the website pages.
--   Links to social media sites so that users can follow the company on social media.
--   Call to action buttons are present on the Home page to encourage the users to click through to the contact form and shop pages.
--   The shop pages contain the product listings along with size-guides and a link to enable the customers to purchase the   products via Amazon.co.uk.
--   The contact menu item provides a form which the users can populate to provide comments, make enquiries and / or sign up to the Urban Paws newsletter.
+### Test Cycle 1
 
-### Skeleton
+#### Code validation
 
-#### Wireframes
+**HTML**
 
--   Small device [wireframes](design/Urban_Paws_Wireframes_Small_v1.0.pdf)
--   Medium device [wireframes](design/Urban_Paws_Wireframes_Medium_v1.0.pdf)
--   Large device [wireframes](design/Urban_Paws_Wireframes_Large_v1.0.pdf)
+[W3.org markup validation service](https://validator.w3.org/)
 
-After the initial design was agreed the following changes were made:
+Home page:
 
--   The Contact Us page was replaced with a contact form modal.
--   The main Shop page was removed to simplify he website design and layout.
--   An About Us page was added to include the team member profiles.
--   As shopping basket functionality has not been developed a decision was made to simplify the product card layout and provide a link to Amazon.co.uk.
+![Home page HTML Validator](readme-files/HTML_Validation_Home_Test_Cycle_1_1.png)
 
-### Surface
+![Home page HTML Validator](readme-files/HTML_Validation_Home_Test_Cycle_1_2.png)
 
-Working with the client an [Urban Paws Branding Template](design/Urban_Paws_Branding_Template.pdf) has been developed to ensure a strong and consistent brand image has been applied to the Urban Paws website.
+Issues identified and resolution:
 
-#### Branding
+-   Error Attribute alt not allowed on element a at this point - removed alt attributes from anchor elements.
+-   Error no p element in scope but a p end tag seen - removed erroneous paragraph closing tag.
+-   Warning Possible misuse of aria-label - removed aria labels from social media list and replaced with sr-only text.
+-   Error Attribute type not allowed on element textarea at this point - removed type attribute from textarea element.
+-   Error Element textarea is missing required attribute - added missing cols attribute to textarea element.
 
-An Urban Paws logo has been developed and is displayed prominently on the website pages.
+Shop Dog page:
 
-[<img src="assets/images/urban-paws-transparent-tiny.png" width="230">](https://matty-el.github.io/urban-paws/)
+![Shop Dog page HTML Validator](readme-files/HTML_Validation_Shop_Dog_Test_Cycle_1_1.png)
 
-#### Colours
+![Shop Dog page HTML Validator](readme-files/HTML_Validation_Shop_Dog_Test_Cycle_1_2.png)
 
-A simple colour palette has been developed based on the three core Urban Paws colours. Full details of the colour scheme is contained in the [Urban Paws Branding Template](design/Urban_Paws_Branding_Template.pdf).
+![Shop Dog page HTML Validator](readme-files/HTML_Validation_Shop_Dog_Test_Cycle_1_3.png)
 
-#### Typography
+Issues identified and resolution:
 
-The Montserrat font has been utilised for all menu and heading text across the website. Raleway font has been used for the main text sections. Full details of the typography used is contained in the [Urban Paws Branding Template](design/Urban_Paws_Branding_Template.pdf).
+-   Warning Possible misuse of aria-label - removed aria labels from colour swatches.
+-   Warning Possible misuse of aria-label - removed aria labels from social media list and replaced with sr-only text.
+-   Error Attribute type not allowed on element textarea at this point - removed type attribute from textarea element.
+-   Error Element textarea is missing required attribute - added missing cols attribute to textarea element.
 
-## Features
+Shop Cat page:
 
-### Existing Features
+![Shop Cat page HTML Validator](readme-files/HTML_Validation_Shop_Cat_Test_Cycle_1_1.png)
 
-#### All pages
+![Shop Cat page HTML Validator](readme-files/HTML_Validation_Shop_Cat_Test_Cycle_1_2.png)
 
-Header:
+![Shop Cat page HTML Validator](readme-files/HTML_Validation_Shop_Cat_Test_Cycle_1_3.png)
 
--   The brand logo linking to the Home page is displayed on the top left of each page.
--   A navigation menu on the right of the header that allows the user to navigate the website by clicking the links or open a contact form by selecting the Contact menu item. There is a dropdown menu for the individual Shop Dog and Shop Cat pages.The menu links change colour when hovered over and are highlighted in a different colour when the user is currently on that page.
-- The contact form can be populated with mandatory first name, last name, email address and animal preference along with the options to add a comment or enquiry and to sign up to the company newsletter.
+Issues identified and resolution:
 
-*Note: The contact form does not currently submit any data. The final version of the form will submit data to a back-end database and will present a message to the user upon submitting the form.*
+-   Warning Possible misuse of aria-label - removed aria labels from colour swatches.
+-   Warning Possible misuse of aria-label - removed aria labels from social media list and replaced with sr-only text.
+-   Error Attribute type not allowed on element textarea at this point - removed type attribute from textarea element.
+-   Error Element textarea is missing required attribute - added missing cols attribute to textarea element.
 
-Footer:
+About Us page:
 
--   A footer section displaying copyright wording and links to Facebook, Twitter, YouTube, Instagram and Pinterest social media sites.
+![About Us page HTML Validator](readme-files/HTML_Validation_About_Test_Cycle_1_1.png)
 
+![About Us page HTML Validator](readme-files/HTML_Validation_About_Test_Cycle_1_2.png)
 
-#### Home page
+Issues identified and resolution:
 
-What we do section:
+-   Warning Possible misuse of aria-label - removed aria labels from social media list and replaced with sr-only text.
+-   Error Attribute type not allowed on element textarea at this point - removed type attribute from textarea element.
+-   Error Element textarea is missing required attribute - added missing cols attribute to textarea element.
 
--   This section of the Home page outlines what the company does and provides a call to action 'Find Out More' button to open the contact form. The contact form can be populated with mandatory first name, last name, email address and animal preference along with the options to add a comment or enquiry and to sign up to the company newsletter.
+**CSS**
 
-*Note: The contact form does not currently submit any data. The final version of the form will submit data to a back-end database and will present a message to the user upon submitting the form.*
+[W3.org CSS validation service](https://jigsaw.w3.org/css-validator/)
 
-PADD Suit section:
+![CSS Validator](readme-files/CSS-Validation_Test_Cycle_1.png)
 
--   This section of the Home page outlines a product the company has developed - the PADD Suit. There are two buttons included in this section to link through to the Shop Dog and Shop Cat pages.
+#### Functional, Usability and Compatibility Testing
 
+The functional, usability and compatibility test results and defect references are detailed in the [test tracker](readme-files/Urban_Paws_Website_Test_Tracker_Cycle_1.pdf).
 
-#### Shop Cat and Shop Dog pages
+#### Performance, Accessibility, Best Practices and SEO Testing
 
-- These pages contain the product listings with a product card for each individual product.
-- The product cards include a picture of each product along with a product description, sizes and colour swatches that expand when hovered over.
-- The footer section of the product cards have a size guide button which when clicked opens a size guide for the products. There is a 'Buy on Amazon' button that links to the Amazon.co.uk website when clicked.
+**Desktop:**
 
-*Note: The buttons to link to the Amazon.co.uk website will be pre-populated with the listing search details once the listings are on Amazon.*
+[Home page](https://matty-el.github.io/urban-paws/readme-files/desktop-index.html)
 
+Issues identified and resolution:
 
-#### About us page
+Performance (98)
 
-- This page contains a simple profile for each of the members of the Urban Paws team.
+-   Opportunity: Eliminate render-blocking resources -
+-   Opportunity: Properly size images - images resized.
+-   Opportunity; Serve images in next-gen formats - Images left as JPEG or PNG files as not considered to detrimental to performance on desktop device.
+-   Diagnostics: Ensure text remains visible during webfont load - Google recommends 'Add the &display=swap parameter to the end of your Google Fonts URL:' this parameter is already included in code.
+-   Diagnostics: Image elements do not have explicit width and height - TBC
+-   Diagnostics: Serve static elements with an efficient cache policy - TBC
+-   Diagnostics: Avoid chaining critical requests - TBC
+-   Diagnostics: Keep request counts low and transfer sizes small - TBC
+-   Diagnostics: Avoid large layout shifts - TBC
+-   Diagnostics: Avoid long main-thread tasks - TBC
 
+Accessibility (98)
 
-### Features Left to Implement
+-   Contrast: Background and foreground colours do not have sufficient contrast ratio: Shop, About Us and Contact menu items - changed text colour to Urban Paws #4B5657 to achieve greater contrast.
 
--   Active product links to Amazon.co.uk
--   Contact form data submission and acknowledgement
--   Urban Paws Blog
--   Featured products
--   Shopping cart
--   eCommerce capabilities
+Best Practices (79)
 
+-   Trust and Safety: Links to cross-origin destinations are unsafe - added rel="noopener and norefferer" tags to Links.
+-   Trust and Safety: Includes front-end JavaScript libraries with known security vulnerabilities - updated to libraries with no vulnerabilities.
+-   User Experience: Displays images with incorrect aspect ratio (Shop Cat image) - changed aspect ratio.
 
-## Technologies Used
+SEO (90)
 
-The following technologies have been used to complete the UX design, capture user stories and defects and assign for development and to develop the Urban Paws website.
+-   Content Best Practices: Document does not have a meta-description - a meta-description is included and is now recognised.
+<br>
 
-### Languages
+[Shop Dog page](https://matty-el.github.io/urban-paws/readme-files/desktop-shop-dog.html)
 
--   [HTML5](https://en.wikipedia.org/wiki/HTML5)
--   [CSS3](https://en.wikipedia.org/wiki/CSS)
+Issues identified and resolution:
 
-### Frameworks - Tools - Libraries
+Performance (98)
 
--   [Bootstrap library](https://getbootstrap.com/)
--   [GitHub](https://github.com/)
--   [GitPod](https://gitpod.io/)
--   [Google Fonts](https://fonts.google.com/)
--   [Font Awesome](https://fontawesome.com/)
--   [Balsamiq](https://balsamiq.com/)
--   [Tiny PNG](https://tinypng.com/)
--   [JIRA](https://www.atlassian.com/software/jira)
--   [Frontify](https://www.frontify.com)
--   [Markup validation service](https://validator.w3.org/)
--   [CSS validation service](https://jigsaw.w3.org/css-validator/)
+-   Opportunity: Eliminate render-blocking resources - TBC
+-   Opportunity: Properly size images - images resized.
+-   Opportunity: Serve images in next-gen formats - Images left as JPEG or PNG files as not considered to detrimental to performance on desktop device.
+-   Diagnostics: Ensure text remains visible during webfont load - Google recommends 'Add the &display=swap parameter to the end of your Google Fonts URL:' this parameter is already included in code.
+-   Diagnostics: Image elements do not have explicit width and height - TBC
+-   Diagnostics: Serve static elements with an efficient cache policy - TBC
+-   Diagnostics: Avoid chaining critical requests - TBC
+-   Diagnostics: Keep request counts low and transfer sizes small - TBC
+-   Diagnostics: Largest Contentful Paint element - TBC
+-   Diagnostics: Avoid large layout shifts - TBC
 
-## Testing
+Accessibility (98)
 
-The website functionality was captured in the form of user stories and acceptance criteria were defined for each user story. The acceptance criteria formed the basis for the completed tests to ensure that the functionality was delivered aligned to the client's requirements.
+-   Contrast: Background and foreground colours do not have sufficient contrast ratio: Shop, About Us and Contact menu items - changed text colour to Urban Paws #4B5657 to achieve greater contrast.
 
-The testing strategy, plan and results are documented in a separate [testing document](TESTING.md).
+Best Practices (79)
 
+-   Trust and Safety: Links to cross-origin destinations are unsafe - added rel="noopener and norefferer" tags to Links.
+-   Trust and Safety: Includes front-end JavaScript libraries with known security vulnerabilities - updated to libraries with no vulnerabilities.
+-   User Experience: Displays images with incorrect aspect ratio (Shop Cat image) - changed aspect ratio.
 
-## Deployment
+SEO (80)
 
-**To deploy the project on GitHub**
+-   Content Best Practices: Document does not have a meta-description - a meta-description is included and now recognised.
+-   Crawling and Indexing: Links are not crawlable - link for modal so not relevant
+<br>
 
-The Urban Paws project is hosted on GitHub Pages.
+[Shop Cat page](https://matty-el.github.io/urban-paws/readme-files/desktop-shop-cat.html)
 
-1. Navigate to the menu at the top of the project repository on GitHub and select **Settings**.
-2. Scroll down to the GitHub **Pages** section.
-3. Click on the dropdown menu under **Source** and select **Master Branch**.
-4. The page will refresh automatically and the website is now deployed - a green tick will be visible against a green background with the site URL. It may take a few minutes for the site to be published.
+Issues identified and resolution:
 
-A single master branch has been used for this project.
+Performance (97)
 
-**To run the project locally**
+-   Opportunity: Eliminate render-blocking resources - TBC
+-   Opportunity: Properly size images - images resized.
+-   Opportunity: Remove unused JavaScript - TBC
+-   Opportunity: Remove duplicate modules in JavaScript bundles - TBC
+-   Opportunity: Serve images in next-gen formats - Images left as JPEG or PNG files as not considered to detrimental to performance
+-   Diagnostics: Ensure text remains visible during webfont load - Google recommends 'Add the &display=swap parameter to the end of your Google Fonts URL:' this parameter is already included in code.
+-   Diagnostics: Image elements do not have explicit width and height - TBC
+-   Diagnostics: Serve static elements with an efficient cache policy - TBC
+-   Diagnostics: Avoid chaining critical requests - TBC
+-   Diagnostics: Keep request counts low and transfer sizes small - TBC
+-   Diagnostics: Largest Contentful Paint element - TBC
+-   Diagnostics: Avoid large layout shifts - TBC
 
-To clone this project from GitHub.
+Accessibility (98)
 
-1. Open the project repository on GitHub and click the Code dropdown button.
-2. Select **HTTPS** and copy the URL.
-3. In your preferred IDE, open **Git Bash**.
-4. Change the current working directory to the location where you want the cloned directory to be created.
-5. Type **git clone**, and then paste the URL copied from GitHub.
-6. Press **Enter** and the local clone will be created.
+-   Contrast: Background and foreground colours do not have sufficient contrast ratio: Shop, About Us and Contact menu items - changed text colour to Urban Paws #4B5657 to achieve greater contrast.
 
-## Credits
+Best Practices (79)
 
-### Content
+-   Trust and Safety: Links to cross-origin destinations are unsafe - added rel="noopener and norefferer" tags to Links.
+-   Trust and Safety: Includes front-end JavaScript libraries with known security vulnerabilities - updated to libraries with no vulnerabilities.
+-   User Experience: Displays images with incorrect aspect ratio (Shop Cat image) - changed aspect ratio.
 
-All text content included in the Urban Paws website is my own.
+SEO (80)
 
-### Media
+-   Content Best Practices: Document does not have a meta-description - a meta-description is included and is recognised.
+-   Crawling and Indexing: Links are not crawlable - link for modal so not relevant
+<br>
 
--   All images with the exception of those detailed below were licensed for use from [Adobe Stock](https://stock.adobe.com/)
--   The image for the 'What we do' section on the Home page - [photo by Kelly Sikkema on Unplash](https://unsplash.com/@kellysikkema?utm_source=medium&utm_medium=referral)
--   The images for use on the About Us page profiles are my own images.
+[About Us page](https://matty-el.github.io/urban-paws/readme-files/desktop-about.html)
 
-### Acknowledgements
+Issues identified and resolution:
 
-- Jane Davenport for giving me the opportunity to develop a website for her new business.
-- [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/?originalSubdomain=ng) for mentor guidance and support.
+Performance (98)
+
+-   Opportunity: Eliminate render-blocking resources - TBC
+-   Opportunity: Properly size images - images resized.
+-   Opportunity: Serve images in next-gen formats - Images left as JPEG or PNG files as not considered to detrimental to performance
+-   Diagnostics: Avoid enormous network payloads - TBC
+-   Diagnostics: Serve static elements with an efficient cache policy - TBC
+-   Diagnostics: Ensure text remains visible during webfont load - Google recommends 'Add the &display=swap parameter to the end of your Google Fonts URL:' this parameter is already included in code.
+-   Diagnostics: Image elements do not have explicit width and height - TBC
+-   Diagnostics: Avoid chaining critical requests - TBC
+-   Diagnostics: Keep request counts low and transfer sizes small - TBC
+-   Diagnostics: Largest Contentful Paint element - TBC
+-   Diagnostics: Avoid large layout shifts - TBC
+
+Accessibility (97)
+
+-   Contrast: Background and foreground colours do not have sufficient contrast ratio: Shop, About Us and Contact menu items - changed text colour to Urban Paws #4B5657 to achieve greater contrast.
+-   Navigation: Heading elements are not in sequentially-descending order - changed sequential order
+
+Best Practices (79)
+
+-   Trust and Safety: Links to cross-origin destinations are unsafe - added rel="noopener and norefferer" tags to Links.
+-   Trust and Safety: Includes front-end JavaScript libraries with known security vulnerabilities - updated to libraries with no vulnerabilities.
+-   User Experience: Displays images with incorrect aspect ratio (Shop Cat image) - changed aspect ratio.
+
+SEO (80)
+
+-   Content Best Practices: Document does not have a meta-description - a meta-description is included so need to check why this issue is occurring.
+-   Crawling and Indexing: Links are not crawlable - link for modal so not relevant.
+
+
+**Mobile:**
+
+[Home page](https://matty-el.github.io/urban-paws/readme-files/mobile-index.html)
+
+Issues identified and resolution:
+
+Performance (70)
+
+-   Opportunity: Eliminate render-blocking resources - TBC
+-   Opportunity: Remove unused CSS - TBC
+-   Opportunity: Remove unused JavaScript - TBC
+-   Opportunity: Properly size images - TBC
+-   Diagnostics: Ensure text remains visible during webfont load - Google recommends 'Add the &display=swap parameter to the end of your Google Fonts URL:' this parameter is already included in code.
+-   Diagnostics: Image elements do not have explicit width and height - TBC
+-   Diagnostics: Serve static elements with an efficient cache policy - TBC
+-   Diagnostics: Minimize main-thread work - TBC
+-   Diagnostics: Avoid chaining critical requests - TBC
+-   Diagnostics: User Timing marks and measures - TBC
+-   Diagnostics: Keep request counts low and transfer sizes small - TBC
+-   Diagnostics: Largest Contentful Paint element - TBC
+-   Diagnostics: Avoid large layout shifts - TBC
+-   Diagnostics: Avoid long main-thread tasks - TBC
+
+Accessibility (100)
+
+-   No issues identified
+
+Best Practices (71)
+
+-   Trust and Safety: Links to cross-origin destinations are unsafe - added rel="noopener and norefferer" tags to Links.
+-   Trust and Safety: Includes front-end JavaScript libraries with known security vulnerabilities - updated to libraries with no vulnerabilities.
+-   User Experience: Displays images with incorrect aspect ratio (Shop Cat image) - changed aspect ratio.
+-   General: Browser errors were logged to the console (font-awesome files not found) - TBC
+
+SEO (100)
+
+-   No issues identified.
+<br>
+
+[Shop Dog page](https://matty-el.github.io/urban-paws/readme-files/mobile-shop-dog.html)
+
+Issues identified and resolution:
+
+Performance (79)
+
+-   Opportunity: Eliminate render-blocking resources - TBC
+-   Opportunity: Properly size images - TBC
+-   Opportunity: Remove unused CSS - TBC
+-   Opportunity: Remove unused JavaScript - TBC
+-   Opportunity: Remove duplicate modules in JavaScript bundles - TBC
+-   Opportunity: Avoid serving legacy JavaScipt to modern browsers - TBC
+-   Diagnostics: Ensure text remains visible during webfont load - Google recommends 'Add the &display=swap parameter to the end of your Google Fonts URL:' this parameter is already included in code.
+-   Diagnostics: Image elements do not have explicit width and height - TBC
+-   Diagnostics: Serve static elements with an efficient cache policy - TBC
+-   Diagnostics: Minimise main-thread work - TBC
+-   Diagnostics: Avoid chaining critical requests - TBC
+-   Diagnostics: User Timing marks and measures - TBC
+-   Diagnostics: Keep request counts low and transfer sizes small - TBC
+-   Diagnostics: Largest Contentful Paint element - TBC
+-   Diagnostics: Avoid large layout shifts - TBC
+-   Diagnostics: Avoid long main-thread tasks - TBC
+
+Accessibility (97)
+
+-   Contrast: Background and foreground colours do not have sufficient contrast ratio: Shop, About Us and Contact menu items - changed text colour to Urban Paws #4B5657 to achieve greater contrast.
+
+Best Practices (71)
+
+-   Trust and Safety: Links to cross-origin destinations are unsafe - added rel="noopener and norefferer" tags to Links.
+-   Trust and Safety: Includes front-end JavaScript libraries with known security vulnerabilities - updated to libraries with no vulnerabilities.
+-   User Experience: Displays images with incorrect aspect ratio - changed aspect ratio.
+-   General: Browser errors were logged to the console (font-awesome files not found) - TBC
+
+SEO (92)
+
+-   Crawling and Indexing: Links are not crawlable - link for modal so not relevant
+<br>
+
+- [Shop Cat page](https://matty-el.github.io/urban-paws/readme-files/mobile-shop-cat.html)
+
+Issues identified and resolution:
+
+Performance (77)
+
+-   Opportunity: Eliminate render-blocking resources - TBC
+-   Opportunity: Properly size images - TBC
+-   Opportunity: Remove unused CSS - TBC
+-   Opportunity: Remove unused JavaScript - TBC
+-   Opportunity: Remove duplicate modules in JavaScript bundles - TBC
+-   Opportunity: Avoid serving legacy JavaScipt to modern browsers - TBC
+-   Diagnostics: Ensure text remains visible during webfont load - Google recommends 'Add the &display=swap parameter to the end of your Google Fonts URL:' this parameter is already included in code.
+-   Diagnostics: Image elements do not have explicit width and height - TBC
+-   Diagnostics: Serve static elements with an efficient cache policy - TBC
+-   Diagnostics: Minimise main-thread work - TBC
+-   Diagnostics: Reduce JavaScript execution time - TBC
+-   Diagnostics: Avoid chaining critical requests - TBC
+-   Diagnostics: User Timing marks and measures - TBC
+-   Diagnostics: Keep request counts low and transfer sizes small - TBC
+-   Diagnostics: Largest Contentful Paint element - TBC
+-   Diagnostics: Avoid large layout shifts - TBC
+-   Diagnostics: Avoid long main-thread tasks - TBC
+
+Accessibility (97)
+
+-   Contrast: Background and foreground colours do not have sufficient contrast ratio: Shop, About Us and Contact menu items - changed text colour to Urban Paws #4B5657 to achieve greater contrast.
+
+Best Practices (71)
+
+-   Trust and Safety: Links to cross-origin destinations are unsafe - added rel="noopener and norefferer" tags to Links.
+-   Trust and Safety: Includes front-end JavaScript libraries with known security vulnerabilities - updated to libraries with no vulnerabilities.
+-   User Experience: Displays images with incorrect aspect ratio (Shop Cat image) - changed aspect ratio.
+-   General: Browser errors were logged to the console (font-awesome files not found) - TBC
+
+SEO (92)
+
+-   Crawling and Indexing: Links are not crawlable - link for modal so not relevant
+<br>
+
+[About Us page](https://matty-el.github.io/urban-paws/readme-files/mobile-about.html)
+
+Issues identified and resolution:
+
+Performance (70)
+
+-   Opportunity: Eliminate render-blocking resources - TBC
+-   Opportunity: Remove unused CSS - TBC
+-   Opportunity: Properly size images - TBC
+-   Opportunity: Remove unused JavaScript - TBC
+-   Opportunity: Remove duplicate modules in JavaScript bundles - TBC
+-   Opportunity: Avoid serving legacy JavaScipt to modern browsers - TBC
+-   Diagnostics: Ensure text remains visible during webfont load - Google recommends 'Add the &display=swap parameter to the end of your Google Fonts URL:' this parameter is already included in code.
+-   Diagnostics: Image elements do not have explicit width and height - TBC
+-   Diagnostics: Serve static elements with an efficient cache policy - TBC
+-   Diagnostics: Minimise main-thread work - TBC
+-   Diagnostics: Avoid chaining critical requests - TBC
+-   Diagnostics: User Timing marks and measures - TBC
+-   Diagnostics: Keep request counts low and transfer sizes small - TBC
+-   Diagnostics: Largest Contentful Paint element - TBC
+-   Diagnostics: Avoid large layout shifts - TBC
+-   Diagnostics: Avoid long main-thread tasks - TBC
+
+Accessibility (98)
+
+-    Navigation: Heading elements are not in sequentially-descending order - changed sequential order.
+
+Best Practices (71)
+
+-   Trust and Safety: Links to cross-origin destinations are unsafe - added rel="noopener and norefferer" tags to Links.
+-   Trust and Safety: Includes front-end JavaScript libraries with known security vulnerabilities - updated to libraries with no vulnerabilities.
+-   User Experience: Displays images with incorrect aspect ratio (Shop Cat image) - changed aspect ratio.
+-   General: Browser errors were logged to the console - TBC
+
+SEO (92)
+
+-   Crawling and Indexing: Links are not crawlable - link for modal so not relevant
+
+
+
+### Test Cycle 2
+
+#### Code validation
+
+**HTML**
+
+[W3.org markup validation service](https://validator.w3.org/)
+
+Home page:
+
+![Home page HTML Validator](readme-files/)
+
+Issues identified and resolution
+
+
+Shop Dog page:
+
+![Shop Dog page HTML Validator](readme-files/)
+
+Issues identified and resolution
+
+
+Shop Cat page:
+
+![Shop Cat page HTML Validator](readme-files/)
+
+Issues identified and resolution
+
+
+About Us page:
+
+![About Us page HTML Validator](readme-files/)
+
+
+Issues identified and resolution
+
+
+**CSS**
+
+[W3.org CSS validation service](https://jigsaw.w3.org/css-validator/)
+
+![About Us page HTML Validator](readme-files/)
+
+#### Functional, Usability and Compatibility Testing
+
+To add details from Excel tracking table
+
+#### Performance, Accessibility, Best Practices and SEO Testing
+
+Desktop:
+
+- [Home page](readme-files/)
+- [Shop Dog page](readme-files/)
+- [Shop Cat page](readme-files/)
+- [About Us page](readme-files/)
+
+Issues identified and resolution
+
+Mobile:
+
+- [Home page](readme-files/)
+- [Shop Dog page](readme-files/)
+- [Shop Cat page](readme-files/)
+- [About Us page](readme-files/)
+
+Issues identified and resolution
+
+### Approvals
+
+
+[Go back to README.md file](README.md).
