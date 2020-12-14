@@ -130,154 +130,165 @@ The functional, usability and compatibility test results and defect references a
 
 #### Performance, Accessibility, Best Practices and SEO Testing
 
-Desktop:
+**Desktop:**
 
-- [Home page](https://matty-el.github.io/urban-paws/readme-files/desktop-index.html)
+[Home page](https://matty-el.github.io/urban-paws/readme-files/desktop-index.html)
 
 Issues identified and resolution:
 
 Performance (98)
 
--   Eliminate render-blocking resources -
--   Properly size images -
--   Serve images in next-gen formats - Images left as JPEG or PNG files as not considered to detrimental to performance
--   Ensure text remains visible during webfont load - Google recommends 'Add the &display=swap parameter to the end of your Google Fonts URL:' this parameter is already included in code.
--   Image elements do not have explicit width and height - TBC
--   Serve static elements with an efficient cache policy - TBC
--   Avoid chaining critical requests - TBC
--   Keep request counts low and transfer sizes small - TBC
--   Avoid large layout shifts - TBC
+-   Opportunity: Eliminate render-blocking resources -
+-   Opportunity: Properly size images - images resized.
+-   Opportunity; Serve images in next-gen formats - Images left as JPEG or PNG files as not considered to detrimental to performance on desktop device.
+-   Diagnostics: Ensure text remains visible during webfont load - Google recommends 'Add the &display=swap parameter to the end of your Google Fonts URL:' this parameter is already included in code.
+-   Diagnostics: Image elements do not have explicit width and height - TBC
+-   Diagnostics: Serve static elements with an efficient cache policy - TBC
+-   Diagnostics: Avoid chaining critical requests - TBC
+-   Diagnostics: Keep request counts low and transfer sizes small - TBC
+-   Diagnostics: Avoid large layout shifts - TBC
+-   Diagnostics: Avoid long main-thread tasks - TBC
 
 Accessibility (98)
 
--   Background and foreground colours do not have sufficient contrast ratio: Shop, About Us and Contact menu items - changed text colour to Urban Paws #4B5657 to achieve greater contrast.
+-   Contrast: Background and foreground colours do not have sufficient contrast ratio: Shop, About Us and Contact menu items - changed text colour to Urban Paws #4B5657 to achieve greater contrast.
 
-Best Practices (78)
+Best Practices (79)
 
--   Links to cross-origin destinations are unsafe - added rel="noopener and norefferer" tags to Links.
--   Includes front-end JavaScript libraries with known security vulnerabilities - updated to libraries with no vulnerabilities.
--   Displays images with incorrect aspect ratio (Shop Cat image) - changed aspect ratio.
+-   Trust and Safety: Links to cross-origin destinations are unsafe - added rel="noopener and norefferer" tags to Links.
+-   Trust and Safety: Includes front-end JavaScript libraries with known security vulnerabilities - updated to libraries with no vulnerabilities.
+-   User Experience: Displays images with incorrect aspect ratio (Shop Cat image) - changed aspect ratio.
 
 SEO (90)
 
--   Document does not have a meta-description - a meta-description is included so need to check why this issue is occurring.
+-   Content Best Practices: Document does not have a meta-description - a meta-description is included and is now recognised.
+<br>
 
-- [Shop Dog page](https://matty-el.github.io/urban-paws/readme-files/desktop-shop-dog.html)
+[Shop Dog page](https://matty-el.github.io/urban-paws/readme-files/desktop-shop-dog.html)
 
 Issues identified and resolution:
 
 Performance (98)
 
--   Eliminate render-blocking resources -
--   Properly size images -
--   Serve images in next-gen formats - Images left as JPEG or PNG files as not considered to detrimental to performance
--   Ensure text remains visible during webfont load - Google recommends 'Add the &display=swap parameter to the end of your Google Fonts URL:' this parameter is already included in code.
--   Image elements do not have explicit width and height - TBC
--   Serve static elements with an efficient cache policy - TBC
--   Avoid chaining critical requests - TBC
--   Keep request counts low and transfer sizes small - TBC
--   Avoid large layout shifts - TBC
+-   Opportunity: Eliminate render-blocking resources - TBC
+-   Opportunity: Properly size images - images resized.
+-   Opportunity: Serve images in next-gen formats - Images left as JPEG or PNG files as not considered to detrimental to performance on desktop device.
+-   Diagnostics: Ensure text remains visible during webfont load - Google recommends 'Add the &display=swap parameter to the end of your Google Fonts URL:' this parameter is already included in code.
+-   Diagnostics: Image elements do not have explicit width and height - TBC
+-   Diagnostics: Serve static elements with an efficient cache policy - TBC
+-   Diagnostics: Avoid chaining critical requests - TBC
+-   Diagnostics: Keep request counts low and transfer sizes small - TBC
+-   Diagnostics: Largest Contentful Paint element - TBC
+-   Diagnostics: Avoid large layout shifts - TBC
 
 Accessibility (98)
 
--   Background and foreground colours do not have sufficient contrast ratio: Shop, About Us and Contact menu items - changed text colour to Urban Paws #4B5657 to achieve greater contrast.
+-   Contrast: Background and foreground colours do not have sufficient contrast ratio: Shop, About Us and Contact menu items - changed text colour to Urban Paws #4B5657 to achieve greater contrast.
 
-Best Practices (78)
+Best Practices (79)
 
--   Links to cross-origin destinations are unsafe - added rel="noopener and norefferer" tags to Links.
--   Includes front-end JavaScript libraries with known security vulnerabilities - updated to libraries with no vulnerabilities.
--   Displays images with incorrect aspect ratio (Shop Cat image) - changed aspect ratio.
-
-SEO (90)
-
--   Document does not have a meta-description - a meta-description is included so need to check why this issue is occurring.
--   Links are not crawlable - link for modal so not relevant
-
-
-- [Shop Cat page](https://matty-el.github.io/urban-paws/readme-files/desktop-shop-cat.html)
-
-Issues identified and resolution:
-
-Performance (98)
-
--   Eliminate render-blocking resources -
--   Properly size images -
--   Serve images in next-gen formats - Images left as JPEG or PNG files as not considered to detrimental to performance
--   Ensure text remains visible during webfont load - Google recommends 'Add the &display=swap parameter to the end of your Google Fonts URL:' this parameter is already included in code.
--   Image elements do not have explicit width and height - TBC
--   Serve static elements with an efficient cache policy - TBC
--   Avoid chaining critical requests - TBC
--   Keep request counts low and transfer sizes small - TBC
--   Avoid large layout shifts - TBC
-
-Accessibility (98)
-
--   Background and foreground colours do not have sufficient contrast ratio: Shop, About Us and Contact menu items - changed text colour to Urban Paws #4B5657 to achieve greater contrast.
-
-Best Practices (78)
-
--   Links to cross-origin destinations are unsafe - added rel="noopener and norefferer" tags to Links.
--   Includes front-end JavaScript libraries with known security vulnerabilities - updated to libraries with no vulnerabilities.
--   Displays images with incorrect aspect ratio (Shop Cat image) - changed aspect ratio.
-
-SEO (90)
-
--   Document does not have a meta-description - a meta-description is included so need to check why this issue is occurring.
--   Links are not crawlable - link for modal so not relevant
-
-- [About Us page](https://matty-el.github.io/urban-paws/readme-files/desktop-about.html)
-
-Issues identified and resolution:
-
-Performance (98)
-
--   Eliminate render-blocking resources -
--   Properly size images -
--   Serve images in next-gen formats - Images left as JPEG or PNG files as not considered to detrimental to performance
--   Avoid enormous network payloads -
--   Ensure text remains visible during webfont load - Google recommends 'Add the &display=swap parameter to the end of your Google Fonts URL:' this parameter is already included in code.
--   Image elements do not have explicit width and height - TBC
--   Serve static elements with an efficient cache policy - TBC
--   Avoid chaining critical requests - TBC
--   Keep request counts low and transfer sizes small - TBC
--   Avoid large layout shifts - TBC
-
-Accessibility (97)
-
--   Background and foreground colours do not have sufficient contrast ratio: Shop, About Us and Contact menu items - changed text colour to Urban Paws #4B5657 to achieve greater contrast.
--   Heading elements are not in sequentially-descending order - changed sequential order
-
-Best Practices (78)
-
--   Links to cross-origin destinations are unsafe - added rel="noopener and norefferer" tags to Links.
--   Includes front-end JavaScript libraries with known security vulnerabilities - updated to libraries with no vulnerabilities.
--   Displays images with incorrect aspect ratio (Shop Cat image) - changed aspect ratio.
+-   Trust and Safety: Links to cross-origin destinations are unsafe - added rel="noopener and norefferer" tags to Links.
+-   Trust and Safety: Includes front-end JavaScript libraries with known security vulnerabilities - updated to libraries with no vulnerabilities.
+-   User Experience: Displays images with incorrect aspect ratio (Shop Cat image) - changed aspect ratio.
 
 SEO (80)
 
--   Document does not have a meta-description - a meta-description is included so need to check why this issue is occurring.
--   Links are not crawlable - link for modal so not relevant.
+-   Content Best Practices: Document does not have a meta-description - a meta-description is included and now recognised.
+-   Crawling and Indexing: Links are not crawlable - link for modal so not relevant
+<br>
+
+[Shop Cat page](https://matty-el.github.io/urban-paws/readme-files/desktop-shop-cat.html)
+
+Issues identified and resolution:
+
+Performance (97)
+
+-   Opportunity: Eliminate render-blocking resources - TBC
+-   Opportunity: Properly size images - images resized.
+-   Opportunity: Remove unused JavaScript - TBC
+-   Opportunity: Remove duplicate modules in JavaScript bundles - TBC
+-   Opportunity: Serve images in next-gen formats - Images left as JPEG or PNG files as not considered to detrimental to performance
+-   Diagnostics: Ensure text remains visible during webfont load - Google recommends 'Add the &display=swap parameter to the end of your Google Fonts URL:' this parameter is already included in code.
+-   Diagnostics: Image elements do not have explicit width and height - TBC
+-   Diagnostics: Serve static elements with an efficient cache policy - TBC
+-   Diagnostics: Avoid chaining critical requests - TBC
+-   Diagnostics: Keep request counts low and transfer sizes small - TBC
+-   Diagnostics: Largest Contentful Paint element - TBC
+-   Diagnostics: Avoid large layout shifts - TBC
+
+Accessibility (98)
+
+-   Contrast: Background and foreground colours do not have sufficient contrast ratio: Shop, About Us and Contact menu items - changed text colour to Urban Paws #4B5657 to achieve greater contrast.
+
+Best Practices (79)
+
+-   Trust and Safety: Links to cross-origin destinations are unsafe - added rel="noopener and norefferer" tags to Links.
+-   Trust and Safety: Includes front-end JavaScript libraries with known security vulnerabilities - updated to libraries with no vulnerabilities.
+-   User Experience: Displays images with incorrect aspect ratio (Shop Cat image) - changed aspect ratio.
+
+SEO (80)
+
+-   Content Best Practices: Document does not have a meta-description - a meta-description is included and is recognised.
+-   Crawling and Indexing: Links are not crawlable - link for modal so not relevant
+<br>
+
+[About Us page](https://matty-el.github.io/urban-paws/readme-files/desktop-about.html)
+
+Issues identified and resolution:
+
+Performance (98)
+
+-   Opportunity: Eliminate render-blocking resources - TBC
+-   Opportunity: Properly size images - images resized.
+-   Opportunity: Serve images in next-gen formats - Images left as JPEG or PNG files as not considered to detrimental to performance
+-   Diagnostics: Avoid enormous network payloads - TBC
+-   Diagnostics: Serve static elements with an efficient cache policy - TBC
+-   Diagnostics: Ensure text remains visible during webfont load - Google recommends 'Add the &display=swap parameter to the end of your Google Fonts URL:' this parameter is already included in code.
+-   Diagnostics: Image elements do not have explicit width and height - TBC
+-   Diagnostics: Avoid chaining critical requests - TBC
+-   Diagnostics: Keep request counts low and transfer sizes small - TBC
+-   Diagnostics: Largest Contentful Paint element - TBC
+-   Diagnostics: Avoid large layout shifts - TBC
+
+Accessibility (97)
+
+-   Contrast: Background and foreground colours do not have sufficient contrast ratio: Shop, About Us and Contact menu items - changed text colour to Urban Paws #4B5657 to achieve greater contrast.
+-   Navigation: Heading elements are not in sequentially-descending order - changed sequential order
+
+Best Practices (79)
+
+-   Trust and Safety: Links to cross-origin destinations are unsafe - added rel="noopener and norefferer" tags to Links.
+-   Trust and Safety: Includes front-end JavaScript libraries with known security vulnerabilities - updated to libraries with no vulnerabilities.
+-   User Experience: Displays images with incorrect aspect ratio (Shop Cat image) - changed aspect ratio.
+
+SEO (80)
+
+-   Content Best Practices: Document does not have a meta-description - a meta-description is included so need to check why this issue is occurring.
+-   Crawling and Indexing: Links are not crawlable - link for modal so not relevant.
 
 
-Mobile:
+**Mobile:**
 
-- [Home page](https://matty-el.github.io/urban-paws/readme-files/mobile-index.html)
+[Home page](https://matty-el.github.io/urban-paws/readme-files/mobile-index.html)
 
 Issues identified and resolution:
 
 Performance (70)
 
--   Eliminate render-blocking resources -
--   Remove unused CSS -
--   Properly size images -
--   Serve images in next-gen formats - Images left as JPEG or PNG files as not considered to detrimental to performance
--   Ensure text remains visible during webfont load - Google recommends 'Add the &display=swap parameter to the end of your Google Fonts URL:' this parameter is already included in code.
--   Image elements do not have explicit width and height - TBC
--   Serve static elements with an efficient cache policy - TBC
--   Minimize main-thread work - TBC
--   Avoid chaining critical requests - TBC
--   Keep request counts low and transfer sizes small - TBC
--   Avoid large layout shifts - TBC
+-   Opportunity: Eliminate render-blocking resources - TBC
+-   Opportunity: Remove unused CSS - TBC
+-   Opportunity: Remove unused JavaScript - TBC
+-   Opportunity: Properly size images - TBC
+-   Diagnostics: Ensure text remains visible during webfont load - Google recommends 'Add the &display=swap parameter to the end of your Google Fonts URL:' this parameter is already included in code.
+-   Diagnostics: Image elements do not have explicit width and height - TBC
+-   Diagnostics: Serve static elements with an efficient cache policy - TBC
+-   Diagnostics: Minimize main-thread work - TBC
+-   Diagnostics: Avoid chaining critical requests - TBC
+-   Diagnostics: User Timing marks and measures - TBC
+-   Diagnostics: Keep request counts low and transfer sizes small - TBC
+-   Diagnostics: Largest Contentful Paint element - TBC
+-   Diagnostics: Avoid large layout shifts - TBC
+-   Diagnostics: Avoid long main-thread tasks - TBC
 
 Accessibility (100)
 
@@ -285,122 +296,132 @@ Accessibility (100)
 
 Best Practices (71)
 
--   Links to cross-origin destinations are unsafe - added rel="noopener and norefferer" tags to Links.
--   Includes front-end JavaScript libraries with known security vulnerabilities - updated to libraries with no vulnerabilities.
--   Displays images with incorrect aspect ratio (Shop Cat image) - changed aspect ratio.
--   Browser errors were logged to the console (font-awesome files not found) - TBC
+-   Trust and Safety: Links to cross-origin destinations are unsafe - added rel="noopener and norefferer" tags to Links.
+-   Trust and Safety: Includes front-end JavaScript libraries with known security vulnerabilities - updated to libraries with no vulnerabilities.
+-   User Experience: Displays images with incorrect aspect ratio (Shop Cat image) - changed aspect ratio.
+-   General: Browser errors were logged to the console (font-awesome files not found) - TBC
 
 SEO (100)
 
 -   No issues identified.
+<br>
 
-
-- [Shop Dog page](https://matty-el.github.io/urban-paws/readme-files/mobile-shop-dog.html)
+[Shop Dog page](https://matty-el.github.io/urban-paws/readme-files/mobile-shop-dog.html)
 
 Issues identified and resolution:
 
 Performance (79)
 
--   Eliminate render-blocking resources -
--   Properly size images -
--   Remove unused CSS - TBC
--   Remove unused JavaScript - TBC
--   Remove duplicated modules in JavaScript bundles - TBC
--   Avoid serving legacy JavaScipt to modern browsers - TBC
--   Ensure text remains visible during webfont load - Google recommends 'Add the &display=swap parameter to the end of your Google Fonts URL:' this parameter is already included in code.
--   Image elements do not have explicit width and height - TBC
--   Serve static elements with an efficient cache policy - TBC
--   Minimise main-thread work - TBC
--   Avoid chaining critical requests - TBC
--   Keep request counts low and transfer sizes small - TBC
--   Avoid large layout shifts - TBC
+-   Opportunity: Eliminate render-blocking resources - TBC
+-   Opportunity: Properly size images - TBC
+-   Opportunity: Remove unused CSS - TBC
+-   Opportunity: Remove unused JavaScript - TBC
+-   Opportunity: Remove duplicate modules in JavaScript bundles - TBC
+-   Opportunity: Avoid serving legacy JavaScipt to modern browsers - TBC
+-   Diagnostics: Ensure text remains visible during webfont load - Google recommends 'Add the &display=swap parameter to the end of your Google Fonts URL:' this parameter is already included in code.
+-   Diagnostics: Image elements do not have explicit width and height - TBC
+-   Diagnostics: Serve static elements with an efficient cache policy - TBC
+-   Diagnostics: Minimise main-thread work - TBC
+-   Diagnostics: Avoid chaining critical requests - TBC
+-   Diagnostics: User Timing marks and measures - TBC
+-   Diagnostics: Keep request counts low and transfer sizes small - TBC
+-   Diagnostics: Largest Contentful Paint element - TBC
+-   Diagnostics: Avoid large layout shifts - TBC
+-   Diagnostics: Avoid long main-thread tasks - TBC
 
 Accessibility (97)
 
--   Background and foreground colours do not have sufficient contrast ratio: Shop, About Us and Contact menu items - changed text colour to Urban Paws #4B5657 to achieve greater contrast.
+-   Contrast: Background and foreground colours do not have sufficient contrast ratio: Shop, About Us and Contact menu items - changed text colour to Urban Paws #4B5657 to achieve greater contrast.
 
 Best Practices (71)
 
--   Links to cross-origin destinations are unsafe - added rel="noopener and norefferer" tags to Links.
--   Includes front-end JavaScript libraries with known security vulnerabilities - updated to libraries with no vulnerabilities.
--   Displays images with incorrect aspect ratio (Shop Cat image) - changed aspect ratio.
--   Browser errors were logged to the console (font-awesome files not found) - TBC
+-   Trust and Safety: Links to cross-origin destinations are unsafe - added rel="noopener and norefferer" tags to Links.
+-   Trust and Safety: Includes front-end JavaScript libraries with known security vulnerabilities - updated to libraries with no vulnerabilities.
+-   User Experience: Displays images with incorrect aspect ratio - changed aspect ratio.
+-   General: Browser errors were logged to the console (font-awesome files not found) - TBC
 
 SEO (92)
 
--   Document does not have a meta-description - a meta-description is included so need to check why this issue is occurring.
--   Links are not crawlable - link for modal so not relevant
-
+-   Crawling and Indexing: Links are not crawlable - link for modal so not relevant
+<br>
 
 - [Shop Cat page](https://matty-el.github.io/urban-paws/readme-files/mobile-shop-cat.html)
 
 Issues identified and resolution:
 
-Performance (79)
+Performance (77)
 
--   Eliminate render-blocking resources -
--   Properly size images -
--   Remove unused CSS - TBC
--   Remove unused JavaScript - TBC
--   Remove duplicated modules in JavaScript bundles - TBC
--   Avoid serving legacy JavaScipt to modern browsers - TBC
--   Ensure text remains visible during webfont load - Google recommends 'Add the &display=swap parameter to the end of your Google Fonts URL:' this parameter is already included in code.
--   Image elements do not have explicit width and height - TBC
--   Serve static elements with an efficient cache policy - TBC
--   Minimise main-thread work - TBC
--   Avoid chaining critical requests - TBC
--   Keep request counts low and transfer sizes small - TBC
--   Avoid large layout shifts - TBC
+-   Opportunity: Eliminate render-blocking resources - TBC
+-   Opportunity: Properly size images - TBC
+-   Opportunity: Remove unused CSS - TBC
+-   Opportunity: Remove unused JavaScript - TBC
+-   Opportunity: Remove duplicate modules in JavaScript bundles - TBC
+-   Opportunity: Avoid serving legacy JavaScipt to modern browsers - TBC
+-   Diagnostics: Ensure text remains visible during webfont load - Google recommends 'Add the &display=swap parameter to the end of your Google Fonts URL:' this parameter is already included in code.
+-   Diagnostics: Image elements do not have explicit width and height - TBC
+-   Diagnostics: Serve static elements with an efficient cache policy - TBC
+-   Diagnostics: Minimise main-thread work - TBC
+-   Diagnostics: Reduce JavaScript execution time - TBC
+-   Diagnostics: Avoid chaining critical requests - TBC
+-   Diagnostics: User Timing marks and measures - TBC
+-   Diagnostics: Keep request counts low and transfer sizes small - TBC
+-   Diagnostics: Largest Contentful Paint element - TBC
+-   Diagnostics: Avoid large layout shifts - TBC
+-   Diagnostics: Avoid long main-thread tasks - TBC
 
 Accessibility (97)
 
--   Background and foreground colours do not have sufficient contrast ratio: Shop, About Us and Contact menu items - changed text colour to Urban Paws #4B5657 to achieve greater contrast.
+-   Contrast: Background and foreground colours do not have sufficient contrast ratio: Shop, About Us and Contact menu items - changed text colour to Urban Paws #4B5657 to achieve greater contrast.
 
 Best Practices (71)
 
--   Links to cross-origin destinations are unsafe - added rel="noopener and norefferer" tags to Links.
--   Includes front-end JavaScript libraries with known security vulnerabilities - updated to libraries with no vulnerabilities.
--   Displays images with incorrect aspect ratio (Shop Cat image) - changed aspect ratio.
--   Browser errors were logged to the console (font-awesome files not found) - TBC
+-   Trust and Safety: Links to cross-origin destinations are unsafe - added rel="noopener and norefferer" tags to Links.
+-   Trust and Safety: Includes front-end JavaScript libraries with known security vulnerabilities - updated to libraries with no vulnerabilities.
+-   User Experience: Displays images with incorrect aspect ratio (Shop Cat image) - changed aspect ratio.
+-   General: Browser errors were logged to the console (font-awesome files not found) - TBC
 
 SEO (92)
 
--   Document does not have a meta-description - a meta-description is included so need to check why this issue is occurring.
--   Links are not crawlable - link for modal so not relevant
+-   Crawling and Indexing: Links are not crawlable - link for modal so not relevant
+<br>
 
-- [About Us page](https://matty-el.github.io/urban-paws/readme-files/mobile-about.html)
+[About Us page](https://matty-el.github.io/urban-paws/readme-files/mobile-about.html)
 
 Issues identified and resolution:
 
 Performance (70)
 
--   Eliminate render-blocking resources -
--   Properly size images -
--   Remove unused CSS - TBC
--   Remove unused JavaScript - TBC
--   Remove duplicated modules in JavaScript bundles - TBC
--   Avoid serving legacy JavaScipt to modern browsers - TBC
--   Ensure text remains visible during webfont load - Google recommends 'Add the &display=swap parameter to the end of your Google Fonts URL:' this parameter is already included in code.
--   Image elements do not have explicit width and height - TBC
--   Serve static elements with an efficient cache policy - TBC
--   Minimise main-thread work - TBC
--   Avoid chaining critical requests - TBC
--   Keep request counts low and transfer sizes small - TBC
--   Avoid large layout shifts - TBC
+-   Opportunity: Eliminate render-blocking resources - TBC
+-   Opportunity: Remove unused CSS - TBC
+-   Opportunity: Properly size images - TBC
+-   Opportunity: Remove unused JavaScript - TBC
+-   Opportunity: Remove duplicate modules in JavaScript bundles - TBC
+-   Opportunity: Avoid serving legacy JavaScipt to modern browsers - TBC
+-   Diagnostics: Ensure text remains visible during webfont load - Google recommends 'Add the &display=swap parameter to the end of your Google Fonts URL:' this parameter is already included in code.
+-   Diagnostics: Image elements do not have explicit width and height - TBC
+-   Diagnostics: Serve static elements with an efficient cache policy - TBC
+-   Diagnostics: Minimise main-thread work - TBC
+-   Diagnostics: Avoid chaining critical requests - TBC
+-   Diagnostics: User Timing marks and measures - TBC
+-   Diagnostics: Keep request counts low and transfer sizes small - TBC
+-   Diagnostics: Largest Contentful Paint element - TBC
+-   Diagnostics: Avoid large layout shifts - TBC
+-   Diagnostics: Avoid long main-thread tasks - TBC
 
 Accessibility (98)
 
--    Heading elements are not in sequentially-descending order - changed sequential order.
+-    Navigation: Heading elements are not in sequentially-descending order - changed sequential order.
 
 Best Practices (71)
 
--   Links to cross-origin destinations are unsafe - added rel="noopener and norefferer" tags to Links.
--   Includes front-end JavaScript libraries with known security vulnerabilities - updated to libraries with no vulnerabilities.
--   Displays images with incorrect aspect ratio (Shop Cat image) - changed aspect ratio.
+-   Trust and Safety: Links to cross-origin destinations are unsafe - added rel="noopener and norefferer" tags to Links.
+-   Trust and Safety: Includes front-end JavaScript libraries with known security vulnerabilities - updated to libraries with no vulnerabilities.
+-   User Experience: Displays images with incorrect aspect ratio (Shop Cat image) - changed aspect ratio.
+-   General: Browser errors were logged to the console - TBC
 
 SEO (92)
 
--   Links are not crawlable - link for modal so not relevant
+-   Crawling and Indexing: Links are not crawlable - link for modal so not relevant
 
 
 
@@ -416,16 +437,10 @@ Home page:
 
 ![Home page HTML Validator](readme-files/)
 
-![Home page HTML Validator](readme-files/)
-
 Issues identified and resolution
 
 
 Shop Dog page:
-
-![Shop Dog page HTML Validator](readme-files/)
-
-![Shop Dog page HTML Validator](readme-files/)
 
 ![Shop Dog page HTML Validator](readme-files/)
 
@@ -436,10 +451,6 @@ Shop Cat page:
 
 ![Shop Cat page HTML Validator](readme-files/)
 
-![Shop Cat page HTML Validator](readme-files/)
-
-![Shop Cat page HTML Validator](readme-files/)
-
 Issues identified and resolution
 
 
@@ -447,7 +458,6 @@ About Us page:
 
 ![About Us page HTML Validator](readme-files/)
 
-![About Us page HTML Validator](readme-files/)
 
 Issues identified and resolution
 
