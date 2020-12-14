@@ -579,7 +579,7 @@ footer {
 #flag {
     padding-top: 10px;
     width: 50px;
-    height: 25px;
+    height: 35px;
 }
 
 @media all and (max-width: 768px) {
