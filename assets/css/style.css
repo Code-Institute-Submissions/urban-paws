@@ -132,7 +132,7 @@ nav {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 90vh;
+    height: 100vh;
     display: flex;
     width: 100vw;
     justify-content: center;
@@ -176,7 +176,7 @@ nav {
     text-align: left;
     margin-left: auto;
     margin-right: auto;
-    /*margin-top: 50px;*/
+    margin-top: 50px;
     color: #566465;
     background-color: white;
     padding-top: 40px;
@@ -200,33 +200,29 @@ nav {
 @media (max-width: 480px) {
     .hero-section {
         background: url("../images/two-dachshunds-with-blue-cat-mobile-tiny.jpeg") no-repeat center top;
-        height: 35vh;
-    }
-
-    .hero-section h1 {
-        font-size: 28px;
+        height: 100vh;
     }
 }
 
-@media (min-width: 481px) and (max-width: 768px) {
+/*@media (min-width: 481px) and (max-width: 768px) {
     .hero-section {
         background: url("../images/two-dachshunds-with-blue-cat-tablet-tiny.jpeg") no-repeat center center;
-        height: 50vh;
+        height: 100vh;
     }
 
     .hero-section h1 {
         font-size: 36px;
     }
-}
+}*/
 
-@media (min-width: 769px) {
+@media (min-width: 481px) {
     .hero-section {
         background: url("../images/two-dachshunds-with-blue-cat-laptop-up-tiny.jpeg") no-repeat center center;
     }
 
-    .what-we-do-section {
+    /*.what-we-do-section {
         margin-top: 50px;
-    }
+    }*/
 
 }
 
