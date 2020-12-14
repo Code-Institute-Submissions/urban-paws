@@ -65,7 +65,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
-    color: #FF5F1C;
+    color: #4B5657;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 .navbar li {
@@ -141,6 +143,42 @@ nav {
     position: relative;
 }
 
+@media screen and (max-width: 480px) {
+    .hero-section {
+        background: url("../images/two-dachshunds-with-blue-cat-mobile-tiny.jpeg") no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 100vh;
+        display: flex;
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+        margin-top: 96px;
+        padding: 0;
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hero-section {
+        background: url("../images/two-dachshunds-with-blue-cat-tablet-tiny.jpeg") no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 100vh;
+        display: flex;
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+        margin-top: 96px;
+        padding: 0;
+        position: relative;
+    }
+}
+
 /* --- opaque overlay --- */
 .hero-section div {
     background-color: rgba(0, 0, 0, 0.25);
@@ -163,6 +201,53 @@ nav {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+@media screen and (max-width: 480px) {
+    .hero-section {
+        background: url("../images/two-dachshunds-with-blue-cat-mobile.jpeg") no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 100vh;
+        display: flex;
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+        margin-top: 96px;
+        padding: 0;
+        position: relative;
+    }
+
+    /* --- opaque overlay --- */
+    .hero-section div {
+        background-color: rgba(0, 0, 0, 0.25);
+        border-color: rgba(0, 0, 0, 0.25);
+        height: inherit;
+        width: inherit;
+        position: relative;
+    }
+
+    .hero-section h1 {
+        font-family: "Montserrat", sans-serif;
+        font-size: 48px;
+        color: #F6F7F7;
+        margin: 0;
+        position: relative;
+        width: inherit;
+        text-align: center;
+        /* from reading w3 schools - CSS layout - Horizontal and vertical align - need URL */
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+/*320px — 480px: Mobile devices.
+481px — 768px: iPads, Tablets.
+769px — 1024px: Small screens, laptops.
+1025px — 1200px: Desktops, large screens.
+1201px and more — Extra large screens*/
 
 /* --------------------------- What we do Home page*/
 .what-we-do-section {
@@ -382,16 +467,13 @@ nav {
     color: #FFFFFF;
 }
 
-.card-footer div a {
-    font-size: 16px;
-}
-
 .card-footer div button {
     font-size: 12px;
 }
 
 .amazon-button {
     margin-top: 10px;
+    font-size: 20px;
 }
 
 .btn--grey {
@@ -592,6 +674,7 @@ footer {
     width: 100%;
     border: 2px solid rgba(150, 164, 165, 0.5);
     border-radius: 5px;
+    outline: #FF834F;
     background-color: #F6F7F7;
     color: #6E7F80;
 }
