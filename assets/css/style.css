@@ -128,12 +128,11 @@ nav {
 
 /* --------------------------- Hero image Home page */
 .hero-section {
-    background: url("../images/two-dachshunds-with-blue-cat-tiny.jpeg") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 100vh;
+    height: 90vh;
     display: flex;
     width: 100vw;
     justify-content: center;
@@ -141,42 +140,6 @@ nav {
     margin-top: 96px;
     padding: 0;
     position: relative;
-}
-
-@media screen and (max-width: 480px) {
-    .hero-section {
-        background: url("../images/two-dachshunds-with-blue-cat-mobile-tiny.jpeg") no-repeat center center;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        height: 100vh;
-        display: flex;
-        width: 100vw;
-        justify-content: center;
-        align-items: center;
-        margin-top: 96px;
-        padding: 0;
-        position: relative;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .hero-section {
-        background: url("../images/two-dachshunds-with-blue-cat-tablet-tiny.jpeg") no-repeat center center;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        height: 100vh;
-        display: flex;
-        width: 100vw;
-        justify-content: center;
-        align-items: center;
-        margin-top: 96px;
-        padding: 0;
-        position: relative;
-    }
 }
 
 /* --- opaque overlay --- */
@@ -202,60 +165,18 @@ nav {
     transform: translate(-50%, -50%);
 }
 
-@media screen and (max-width: 480px) {
-    .hero-section {
-        background: url("../images/two-dachshunds-with-blue-cat-mobile.jpeg") no-repeat center center;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        height: 100vh;
-        display: flex;
-        width: 100vw;
-        justify-content: center;
-        align-items: center;
-        margin-top: 96px;
-        padding: 0;
-        position: relative;
-    }
-
-    /* --- opaque overlay --- */
-    .hero-section div {
-        background-color: rgba(0, 0, 0, 0.25);
-        border-color: rgba(0, 0, 0, 0.25);
-        height: inherit;
-        width: inherit;
-        position: relative;
-    }
-
-    .hero-section h1 {
-        font-family: "Montserrat", sans-serif;
-        font-size: 48px;
-        color: #F6F7F7;
-        margin: 0;
-        position: relative;
-        width: inherit;
-        text-align: center;
-        /* from reading w3 schools - CSS layout - Horizontal and vertical align - need URL */
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-}
-
 /*320px — 480px: Mobile devices.
 481px — 768px: iPads, Tablets.
 769px — 1024px: Small screens, laptops.
 1025px — 1200px: Desktops, large screens.
 1201px and more — Extra large screens*/
-
 /* --------------------------- What we do Home page*/
 .what-we-do-section {
     width: 100vw;
     text-align: left;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50px;
+    /*margin-top: 50px;*/
     color: #566465;
     background-color: white;
     padding-top: 40px;
@@ -264,6 +185,49 @@ nav {
 .what-we-do-section-image {
     border-radius: 5px;
     margin-bottom: 40px;
+}
+
+@media all and (max-width: 992px) {
+    .what-we-do-section {
+        text-align: center;
+    }
+
+    .what-we-do-section h1 {
+        padding-top: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-section {
+        background: url("../images/two-dachshunds-with-blue-cat-mobile-tiny.jpeg") no-repeat center top;
+        height: 35vh;
+    }
+
+    .hero-section h1 {
+        font-size: 28px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .hero-section {
+        background: url("../images/two-dachshunds-with-blue-cat-tablet-tiny.jpeg") no-repeat center center;
+        height: 50vh;
+    }
+
+    .hero-section h1 {
+        font-size: 36px;
+    }
+}
+
+@media (min-width: 769px) {
+    .hero-section {
+        background: url("../images/two-dachshunds-with-blue-cat-laptop-up-tiny.jpeg") no-repeat center center;
+    }
+
+    .what-we-do-section {
+        margin-top: 50px;
+    }
+
 }
 
 @media all and (max-width: 992px) {
