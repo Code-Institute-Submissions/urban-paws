@@ -49,16 +49,13 @@ The business goals for developing the website are:
 -   As the business owner, I want the company website to be conformant to web development best practices so that I know the development quality meets required standards.
 -   As the business owner, I want the company website to be compatible with different browsers so that users have a consistent experience no matter which browser they use.
 
-#### First time visitors
+#### Website users
 
--   As a first-time visitor to the website, I want to be able to access the website on different devices so that i can use the device that is most convenient to me at the time.
--   As a first-time visitor, I want to be able to easily navigate the website so that I can find out more about the company and it's offerings.
--   As a first-time visitor, I want to be able to follow the company on social media platforms so that I can stay informed about the company.
-
-#### Returning visitors
-
--   As a returning visitor, I want to be able to contact the company so that I can ask questions or receive announcements and updates about the company.
--   As a returning visitor, I want to be able see products for purchase so that i can buy items i need.
+-   As a website user, I want to be able to access the website on different devices so that i can use the device that is most convenient to me at the time.
+-   As a website user, I want to be able to easily navigate the website so that I can find out more about the company and it's offerings.
+-   As a website user, I want to be able to follow the company on social media platforms so that I can stay informed about the company.
+-   As a website user, I want to be able to contact the company so that I can ask questions or receive announcements and updates about the company.
+-   As a website user, I want to be able see products for purchase and details of those products so that i can buy items i need.
 
 ### Structure
 
@@ -76,13 +73,16 @@ The website has the following key elements:
 
 #### Wireframes
 
+
+The wireframes were developed using [Balsamiq](https://balsamiq.com/).
+
 -   Small device [wireframes](design/Urban_Paws_Wireframes_Small_v1.0.pdf)
 -   Medium device [wireframes](design/Urban_Paws_Wireframes_Medium_v1.0.pdf)
 -   Large device [wireframes](design/Urban_Paws_Wireframes_Large_v1.0.pdf)
 
 After the initial design was agreed the following changes were made:
 
--   The Contact Us page was replaced with a contact form modal.
+-   The Contact Us page was replaced with a contact form modal as this was considered a cleaner implementation of the form.
 -   The main Shop page was removed to simplify he website design and layout.
 -   An About Us page was added to include the team member profiles.
 -   As shopping basket functionality has not been developed a decision was made to simplify the product card layout and provide a link to Amazon.co.uk.
@@ -167,22 +167,24 @@ The following technologies have been used to complete the UX design, capture use
 
 ### Languages
 
--   [HTML5](https://en.wikipedia.org/wiki/HTML5)
--   [CSS3](https://en.wikipedia.org/wiki/CSS)
+-   [HTML5](https://en.wikipedia.org/wiki/HTML5) - used for the structure and content of the Urban Paws website.
+-   [CSS3](https://en.wikipedia.org/wiki/CSS) - used to style the Urban Paws website.
 
 ### Frameworks - Tools - Libraries
 
--   [Bootstrap library](https://getbootstrap.com/)
--   [GitHub](https://github.com/)
--   [GitPod](https://gitpod.io/)
--   [Google Fonts](https://fonts.google.com/)
--   [Font Awesome](https://fontawesome.com/)
--   [Balsamiq](https://balsamiq.com/)
--   [Tiny PNG](https://tinypng.com/)
--   [JIRA](https://www.atlassian.com/software/jira)
--   [Frontify](https://www.frontify.com)
--   [Markup validation service](https://validator.w3.org/)
--   [CSS validation service](https://jigsaw.w3.org/css-validator/)
+-   [Bootstrap library](https://getbootstrap.com/) - utilised for the grid layout, buttons, navigation bar and modal elements of the website.
+-   [GitHub](https://github.com/) - for hosting the website repository.
+-   [GitPod](https://gitpod.io/) - used as the development environment for the website.
+-   [Google Fonts](https://fonts.google.com/) - used to source the Montserrat font for headings and Raleway font the main text content.
+-   [Font Awesome](https://fontawesome.com/) - used to source icons for the footer section of the website.
+-   [Balsamiq](https://balsamiq.com/) - utilised for the development of the website wireframes.
+-   [Tiny PNG](https://tinypng.com/) - for the compression of images for all pages of the website.
+-   [Canva](https://canva.com/) - used to remove the background of the images for the product cards.
+-   [JIRA](https://www.atlassian.com/software/jira) - for the tracking of development tasks (user stories and subtasks) and capturing and tracking defects.
+-   [Frontify](https://www.frontify.com) - used to develop the Urban Paws branding guidelines template.
+-   [Markup validation service](https://validator.w3.org/) - for the validation of HTML5 code.
+-   [CSS validation service](https://jigsaw.w3.org/css-validator/) - for the validation of the CSS3 code.
+-   [Google Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) - used to edit changes prior to implementing the code changes, to diagnose problems and for performance, accessibility, best practice and search engine optimisation testing.
 
 ## Testing
 
@@ -221,9 +223,11 @@ To clone this project from GitHub.
 
 All text content included in the Urban Paws website is my own.
 
+The code for the product card colour swatches has been adapted from [codepen.io product card example](https://codepen.io/virgilpana/pen/RNYQwB/).
+
 ### Media
 
--   All images with the exception of those detailed below were licensed for use from [Adobe Stock](https://stock.adobe.com/)
+-   All images, with the exception of those detailed below, were licensed for use from [Adobe Stock](https://stock.adobe.com/)
 -   The image for the 'What we do' section on the Home page - [photo by Kelly Sikkema on Unplash](https://unsplash.com/@kellysikkema?utm_source=medium&utm_medium=referral)
 -   The images for use on the About Us page profiles are my own images.
 
