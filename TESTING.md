@@ -1,6 +1,6 @@
 [<img src="assets/images/urban-paws-logo.png" width="230">](https://matty-el.github.io/urban-paws/)
 
-#  Test Strategy
+#  Test Strategy and Test Results
 
 ## Contents
 
@@ -43,9 +43,11 @@ The testing to be completed along with the roles completing the testing are outl
 ### Test Tools
 
 -   Code validation: [W3.org markup validation service](https://validator.w3.org/), [W3.org CSS validation service](https://jigsaw.w3.org/css-validator/).
--   Compatibility testing (browser compatibility and mobile compatibility) - [Google Chrome DevTools - Lighthouse](https://developers.google.com/web/tools/lighthouse), [Responsiveness Checker](https:).
+-   Compatibility testing (browser compatibility and mobile compatibility) - [Google Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools), [Responsiveness Checker](https://responsivedesignchecker.com/).
 -   Performance testing: [Google Chrome DevTools - Lighthouse](https://developers.google.com/web/tools/lighthouse).
+-   Accessibility testing: [Google Chrome DevTools - Lighthouse](https://developers.google.com/web/tools/lighthouse).
 -   SEO testing: [Google Chrome DevTools - Lighthouse](https://developers.google.com/web/tools/lighthouse)
+-   Best Practices testing: [Google Chrome DevTools - Lighthouse](https://developers.google.com/web/tools/lighthouse).
 -   Defect capture and tracking: [JIRA](https://www.atlassian.com/software/jira).
 
 ### Review and Approvals
@@ -138,10 +140,10 @@ The following defects were raised in JIRA:
 
 -   UP-43: Text colour on navigation menu does not comply with Urban Paws brand guidelines - *Fixed by changing font colour.*
 -   UP-44: The website takes more than 1 second to load on mobile devices - *Although attempts were made to improve the load time for mobile devices is was not possible to achieve a score of > 95 without further technical enhancements. The performance is considered acceptable by the Urban Paws business owner.*
--   UP-45: The Lighthouse SEO score is sub-optimal and less than 95 - *meta descriptions were added to all pages.*
--   UP-46: The Lighthouse Best Practices score is sub-optimal and less than 95 - *Added rel="noopener and norefferer" tags to links. Updated JavaScript libraries to libraries with no vulnerabilities. Updated images to include correct aspect ratios.*
+-   UP-45: The Lighthouse SEO score is sub-optimal, and less than 95 - *meta descriptions were added to all pages.*
+-   UP-46: The Lighthouse Best Practices score is sub-optimal, and less than 95 - *Added rel="noopener and norefferer" tags to links. Updated JavaScript libraries to libraries with no vulnerabilities. Updated images to include correct aspect ratios.*
 -   UP-47: The close button appears outside the Contact Us form modal - *Code updated to correctly position button.*
--   UP-48: The Lighthouse Accessibility score is sub-optimal and less than 95 - *Contrast ratios were improved by utilising different font and background colours for the affected areas of the website navigation and buttons.*
+-   UP-48: The Lighthouse Accessibility score is sub-optimal, and less than 95 - *Contrast ratios were improved by utilising different font and background colours for the affected areas of the website navigation and buttons.*
 -   UP-49: The HTML code is failing validation checks - *All issues addressed as per section with HTML code validation results.*
 
 **Responsiveness test results:**
@@ -152,7 +154,7 @@ The website was tested for responsiveness using [Google Chrome DevTools - Lighth
 
 #### Performance, Accessibility, Best Practices and SEO Testing
 
-Due to the technical nature of some opportunities identified in the Lighthouse reports being beyond the scope of this project only the listed below have been resolved.
+Due to the technical nature of some opportunities identified in the Lighthouse reports being beyond the scope of this project only those listed below have been resolved.
 
 **Desktop:**
 
@@ -240,7 +242,7 @@ Performance (98)
 Accessibility (97)
 
 -   Contrast: Background and foreground colours do not have sufficient contrast ratio - Shop, About Us and Contact menu items - changed text colour to #566465 to achieve greater contrast and the current page link changed to 500 weight font.
--   Navigation: Heading elements are not in sequentially-descending order - changed sequential order of headings.
+-   Navigation: Heading elements are not in sequentially descending order - changed sequential order of headings.
 
 Best Practices (79)
 
@@ -333,7 +335,7 @@ Performance (70)
 
 Accessibility (98)
 
--    Navigation: Heading elements are not in sequentially-descending order - changed sequential order of headings.
+-    Navigation: Heading elements are not in sequentially descending order - changed sequential order of headings.
 
 Best Practices (71)
 
@@ -355,7 +357,7 @@ The HTML code was validated using the [W3.org markup validation service](https:/
 
 All issues identified during the first test cycle were resolved.
 
-Home page:
+**Home page:**
 
 Home page HTML validator [results](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fmatty-el.github.io%2Furban-paws%2Findex.html)
 
@@ -363,7 +365,7 @@ Issues identified and resolution:
 
 -   No issues were identified.
 
-Shop Dog page:
+**Shop Dog page:**
 
 Shop Dog page HTML validator [results](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fmatty-el.github.io%2Furban-paws%2Fshop-dog.html)
 
@@ -371,7 +373,7 @@ Issues identified and resolution:
 
 -   No issues were identified.
 
-Shop Cat page:
+**Shop Cat page:**
 
 Shop Cat page HTML validator [results](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fmatty-el.github.io%2Furban-paws%2Fshop-cat.html)
 
@@ -379,7 +381,7 @@ Issues identified and resolution:
 
 -   No issues were identified.
 
-About Us page:
+**About Us page:**
 
 About Us page HTML validator [results](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fmatty-el.github.io%2Furban-paws%2Fabout.html)
 
@@ -403,13 +405,13 @@ The functional, usability and compatibility test results and defect references a
 
 **Responsiveness test results:**
 
-The website was tested for responsiveness using [Google Chrome DevTools - Lighthouse](https://developers.google.com/web/tools/chrome-devtools) and [Responsive Design Checker](https://www.responsivedesignchecker.com/)
+The website was tested for responsiveness using [Google Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) and [Responsive Design Checker](https://www.responsivedesignchecker.com/)
 
 ![Responsiveness](testing-files/responsiveness-test-cycle-2.png)
 
 #### Performance, Accessibility, Best Practices and SEO Testing
 
-Desktop:
+**Desktop:**
 
 All tests passed with only the performance tests for the Home page (score 99) and About Us page (score 99) not achieving the maximum score of 100.
 
@@ -422,7 +424,7 @@ Issues identified and resolution:
 
 -   No significant issues were identified.
 
-Mobile:
+**Mobile:**
 
 Although the performance scores could be improved by further technical enhancements no significant issues were identified.
 

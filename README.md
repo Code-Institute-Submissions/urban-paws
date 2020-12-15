@@ -1,6 +1,4 @@
-[<img src="assets/images/urban-paws-transparent-tiny.png" width="230">](https://matty-el.github.io/urban-paws/)
-
-<!-- Remember to add link to website from logo -->
+[<img src="assets/images/urban-paws-logo.png" width="230">](https://matty-el.github.io/urban-paws/)
 
 # Urban Paws Website
 
@@ -12,17 +10,16 @@ The site was developed using knowledge gained from the Code Institute HTML, CSS 
 
 View the live website [here.](https://matty-el.github.io/urban-paws/)
 
-<!-- Include well presented mock-up images of website on different devices -->
+![Urban Paws Website](readme-files/urban-paws-website-presented.png)
 
 ## Contents
 
 1.  [User Experience Design](#user-experience-design)
 2.  [Features](#features)
-3.  [Planning, Tracking and Collaboration](#planning-tracking-collaboration)
-4.  [Technologies Used](#technologies-used)
-5.  [Testing](#testing)
-6.  [Deployment](#deployment)
-7.  [Credits](#credits)
+3.  [Technologies Used](#technologies-used)
+4.  [Testing](#testing)
+5.  [Deployment](#deployment)
+6.  [Credits](#credits)
 
 
 ## User Experience Design
@@ -52,10 +49,10 @@ The business goals for developing the website are:
 #### Website users
 
 -   As a website user, I want to be able to access the website on different devices so that i can use the device that is most convenient to me at the time.
--   As a website user, I want to be able to easily navigate the website so that I can find out more about the company and it's offerings.
+-   As a website user, I want to be able to easily navigate the website so that I can find out more about the company and its offerings.
 -   As a website user, I want to be able to follow the company on social media platforms so that I can stay informed about the company.
 -   As a website user, I want to be able to contact the company so that I can ask questions or receive announcements and updates about the company.
--   As a website user, I want to be able see products for purchase and details of those products so that i can buy items i need.
+-   As a website user, I want to be able see products for purchase and details of those products so that I can buy items I need.
 
 ### Structure
 
@@ -73,7 +70,6 @@ The website has the following key elements:
 
 #### Wireframes
 
-
 The wireframes were developed using [Balsamiq](https://balsamiq.com/).
 
 -   Small device [wireframes](design/Urban_Paws_Wireframes_Small_v1.0.pdf)
@@ -89,21 +85,21 @@ After the initial design was agreed the following changes were made:
 
 ### Surface
 
-Working with the client an [Urban Paws Branding Template](design/Urban_Paws_Branding_Template.pdf) has been developed to ensure a strong and consistent brand image has been applied to the Urban Paws website.
+Working with the client an [Urban Paws Branding Template](design/urban-paws-branding-template.pdf) has been developed to ensure a strong and consistent brand image has been applied to the Urban Paws website.
 
 #### Branding
 
 An Urban Paws logo has been developed and is displayed prominently on the website pages.
 
-[<img src="assets/images/urban-paws-transparent-tiny.png" width="230">](https://matty-el.github.io/urban-paws/)
+[<img src="assets/images/urban-paws-logo.png" width="230">](https://matty-el.github.io/urban-paws/)
 
 #### Colours
 
-A simple colour palette has been developed based on the three core Urban Paws colours. Full details of the colour scheme is contained in the [Urban Paws Branding Template](design/Urban_Paws_Branding_Template.pdf).
+A simple colour palette has been developed based on the three core Urban Paws colours. Full details of the colour scheme are contained in the [Urban Paws Branding Template](design/urban-paws-branding-template.pdf).
 
 #### Typography
 
-The Montserrat font has been utilised for all menu and heading text across the website. Raleway font has been used for the main text sections. Full details of the typography used is contained in the [Urban Paws Branding Template](design/Urban_Paws_Branding_Template.pdf).
+The Montserrat font has been utilised for all menu and heading text across the website. Raleway font has been used for the main text sections. Full details of the typography used is contained in the [Urban Paws Branding Template](design/urban-paws-branding-template.pdf).
 
 ## Features
 
@@ -114,15 +110,14 @@ The Montserrat font has been utilised for all menu and heading text across the w
 Header:
 
 -   The brand logo linking to the Home page is displayed on the top left of each page.
--   A navigation menu on the right of the header that allows the user to navigate the website by clicking the links or open a contact form by selecting the Contact menu item. There is a dropdown menu for the individual Shop Dog and Shop Cat pages.The menu links change colour when hovered over and are highlighted in a different colour when the user is currently on that page.
-- The contact form can be populated with mandatory first name, last name, email address and animal preference along with the options to add a comment or enquiry and to sign up to the company newsletter.
+-   A navigation menu on the right of the header that allows the user to navigate the website by clicking the links or open a contact form by selecting the Contact menu item. There is a dropdown menu for the individual Shop Dog and Shop Cat pages. The menu links change colour when hovered over and are highlighted in a different colour when the user is currently on that page.
+-   The contact form can be populated with mandatory first name, last name, email address and animal preference along with the options to add a comment or enquiry and to sign up to the company newsletter.
 
 *Note: The contact form does not currently submit any data. The final version of the form will submit data to a back-end database and will present a message to the user upon submitting the form.*
 
 Footer:
 
 -   A footer section displaying copyright wording and links to Facebook, Twitter, YouTube, Instagram and Pinterest social media sites.
-
 
 #### Home page
 
@@ -136,20 +131,17 @@ PADD Suit section:
 
 -   This section of the Home page outlines a product the company has developed - the PADD Suit. There are two buttons included in this section to link through to the Shop Dog and Shop Cat pages.
 
-
 #### Shop Cat and Shop Dog pages
 
-- These pages contain the product listings with a product card for each individual product.
-- The product cards include a picture of each product along with a product description, sizes and colour swatches that expand when hovered over.
-- The footer section of the product cards have a size guide button which when clicked opens a size guide for the products. There is a 'Buy on Amazon' button that links to the Amazon.co.uk website when clicked.
+-   These pages contain the product listings with a product card for each individual product.
+-   The product cards include a picture of each product along with a product description, sizes and colour swatches that expand when hovered over.
+-   The footer section of the product cards has a size guide button which when clicked opens a size guide for the products. There is a 'Buy on Amazon' button that links to the Amazon.co.uk website when clicked.
 
 *Note: The buttons to link to the Amazon.co.uk website will be pre-populated with the listing search details once the listings are on Amazon.*
 
-
 #### About us page
 
-- This page contains a simple profile for each of the members of the Urban Paws team.
-
+-   This page contains a simple profile for each of the members of the Urban Paws team.
 
 ### Features Left to Implement
 
@@ -202,7 +194,7 @@ The Urban Paws project is hosted on GitHub Pages.
 1. Navigate to the menu at the top of the project repository on GitHub and select **Settings**.
 2. Scroll down to the GitHub **Pages** section.
 3. Click on the dropdown menu under **Source** and select **Master Branch**.
-4. The page will refresh automatically and the website is now deployed - a green tick will be visible against a green background with the site URL. It may take a few minutes for the site to be published.
+4. The page will refresh automatically, and the website is now deployed - a green tick will be visible against a green background with the site URL. It may take a few minutes for the site to be published.
 
 A single master branch has been used for this project.
 
