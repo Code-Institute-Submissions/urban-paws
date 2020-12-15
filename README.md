@@ -2,6 +2,8 @@
 
 # Urban Paws Website
 
+![Urban Paws Website](readme-files/urban-paws-website-presented.png)
+
 Working with the company director, this website has been developed as the first iteration for a new startup company Urban Paws. The website provides potential customers with an overview of the company and information in relation to products that have been developed and products that are for sale via links to listings on Amazon.co.uk.
 
 The client requested a simple, attractive and modern website that is responsive and easy to navigate, allows potential customers to sign up for email updates on company news, provides links to the company social media accounts and links to enable the customer to purchase products.
@@ -9,8 +11,6 @@ The client requested a simple, attractive and modern website that is responsive 
 The site was developed using knowledge gained from the Code Institute HTML, CSS and User Centric Frontend Development modules.
 
 View the live website [here.](https://matty-el.github.io/urban-paws/)
-
-![Urban Paws Website](readme-files/urban-paws-website-presented.png)
 
 ## Contents
 
