@@ -187,9 +187,9 @@ The testing strategy, plan and results are documented in a separate [testing doc
 
 ## Deployment
 
-**To deploy the project on GitHub**
-
 The Urban Paws project is hosted on GitHub Pages.
+
+**To deploy the project on GitHub**
 
 1. Navigate to the menu at the top of the project repository on GitHub and select **Settings**.
 2. Scroll down to the GitHub **Pages** section.
@@ -219,8 +219,8 @@ The code for the product card colour swatches has been adapted from [codepen.io 
 
 ### Media
 
--   All images, with the exception of those detailed below, were licensed for use from [Adobe Stock](https://stock.adobe.com/)
--   The image for the 'What we do' section on the Home page - [photo by Kelly Sikkema on Unplash](https://unsplash.com/@kellysikkema?utm_source=medium&utm_medium=referral)
+-   All images, with the exception of those detailed below, were licensed for use from [Adobe Stock](https://stock.adobe.com/).
+-   The image for the 'What we do' section on the Home page - [photo by Kelly Sikkema on Unplash](https://unsplash.com/@kellysikkema?utm_source=medium&utm_medium=referral).
 -   The images for use on the About Us page profiles are my own images.
 
 ### Acknowledgements

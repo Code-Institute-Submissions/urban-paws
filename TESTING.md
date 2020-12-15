@@ -43,7 +43,7 @@ The testing to be completed along with the roles completing the testing are outl
 ### Test Tools
 
 -   Code validation: [W3.org markup validation service](https://validator.w3.org/), [W3.org CSS validation service](https://jigsaw.w3.org/css-validator/).
--   Compatibility testing (browser compatibility and mobile compatibility) - [Google Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools), [Responsiveness Checker](https://responsivedesignchecker.com/).
+-   Responsiveness testing - [Google Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools), [Responsiveness Checker](https://responsivedesignchecker.com/).
 -   Performance testing: [Google Chrome DevTools - Lighthouse](https://developers.google.com/web/tools/lighthouse).
 -   Accessibility testing: [Google Chrome DevTools - Lighthouse](https://developers.google.com/web/tools/lighthouse).
 -   SEO testing: [Google Chrome DevTools - Lighthouse](https://developers.google.com/web/tools/lighthouse)
@@ -67,8 +67,6 @@ All defects identified during the first test cycle were fixed prior to the secon
 **HTML**
 
 The HTML code was validated using the [W3.org markup validation service](https://validator.w3.org/).
-
-[W3.org markup validation service](https://validator.w3.org/)
 
 **Home page:**
 
@@ -148,7 +146,7 @@ The following defects were raised in JIRA:
 
 **Responsiveness test results:**
 
-The website was tested for responsiveness using [Google Chrome DevTools - Lighthouse](https://developers.google.com/web/tools/chrome-devtools) and [Responsive Design Checker](https://www.responsivedesignchecker.com/)
+The website was tested for responsiveness using [Google Chrome DevTools - Lighthouse](https://developers.google.com/web/tools/chrome-devtools) and [Responsive Design Checker](https://www.responsivedesignchecker.com/).
 
 ![Responsiveness](testing-files/responsiveness-test-cycle-1.png)
 
@@ -186,7 +184,7 @@ Lighthouse report for the [Shop Dog page](https://matty-el.github.io/urban-paws/
 
 Issues identified for resolution:
 
-Performance (98)
+Performance (99)
 
 -   Opportunity: Properly size images - images resized.
 -   Opportunity: Eliminate render-blocking resources - deferred the loading of Bootstrap scripts.
@@ -252,7 +250,7 @@ Best Practices (79)
 
 SEO (80)
 
--   Content Best Practices: Document does not have a meta-description - a meta-description is included so need to check why this issue is occurring.
+-   Content Best Practices: Document does not have a meta-description - a meta-description is included and the issue is resolved.
 
 **Mobile:**
 
@@ -266,7 +264,7 @@ Performance (70)
 
 Accessibility (100)
 
--   No issues identified
+-   No issues identified.
 
 Best Practices (71)
 
@@ -299,7 +297,7 @@ Best Practices (71)
 
 SEO (92)
 
--   No significant issues
+-   No significant issues.
 <br>
 
 Lighthouse report for the [Shop Cat page](https://matty-el.github.io/urban-paws/testing-files/mobile-shop-cat-test-cycle-1.html)
@@ -393,7 +391,7 @@ Issues identified and resolution:
 
 The CSS code was validated using the [W3.org CSS validation service](https://jigsaw.w3.org/css-validator/).
 
-CSS validator [results](testing-files/css-validation-test-cycle-2)
+CSS validator [results](testing-files/css-validation-test-cycle-2.png)
 
 Issues identified and resolution:
 
@@ -401,7 +399,7 @@ Issues identified and resolution:
 
 #### Functional, Usability, Compatibility and Responsiveness Testing
 
-The functional, usability and compatibility test results and defect references are detailed in the [test tracker](testing-files/urban-paws-website-test-tracker-cycle-2.pdf).
+The functional, usability and compatibility test results and defect references are detailed in the [test tracker](testing-files/urban-paws-website-test-tracker-final.pdf).
 
 **Responsiveness test results:**
 
@@ -415,10 +413,10 @@ The website was tested for responsiveness using [Google Chrome DevTools](https:/
 
 All tests passed with only the performance tests for the Home page (score 99) and About Us page (score 99) not achieving the maximum score of 100.
 
--   Lighthouse report for the [Home page](testing-files/desktop-home-test-cycle-2.html)
--   Lighthouse report for the [Shop Dog page](testing-files/desktop-shop-dog-test-cycle-2.html)
--   Lighthouse report for the [Shop Cat page](testing-files/desktop-shop-cat-test-cycle-2.html)
--   Lighthouse report for the [About Us page](testing-files/desktop-about-test-cycle-2.html)
+-   Lighthouse report for the [Home page](https://matty-el.github.io/urban-paws/testing-files/desktop-index-test-cycle-2.html)
+-   Lighthouse report for the [Shop Dog page](https://matty-el.github.io/urban-paws/testing-files/desktop-shop-dog-test-cycle-2.html)
+-   Lighthouse report for the [Shop Cat page](https://matty-el.github.io/urban-paws/testing-files/desktop-shop-cat-test-cycle-2.html)
+-   Lighthouse report for the [About Us page](https://matty-el.github.io/urban-paws/testing-files/desktop-about-test-cycle-2.html)
 
 Issues identified and resolution:
 
@@ -428,10 +426,10 @@ Issues identified and resolution:
 
 Although the performance scores could be improved by further technical enhancements no significant issues were identified.
 
--   Lighthouse report for the [Home page](testing-files/mobile-home-test-cycle-2.html)
--   Lighthouse report for the [Shop Dog page](testing-files/mobile-shop-dog-test-cycle-2.html)
--   Lighthouse report for the [Shop Cat page](testing-files/mobile-shop-cat-test-cycle-2.html)
--   Lighthouse report for the [About Us page](testing-files/mobile-about-test-cycle-2.html)
+-   Lighthouse report for the [Home page](https://matty-el.github.io/urban-paws/testing-files/mobile-index-test-cycle-2.html)
+-   Lighthouse report for the [Shop Dog page](https://matty-el.github.io/urban-paws/testing-files/mobile-shop-dog-test-cycle-2.html)
+-   Lighthouse report for the [Shop Cat page](https://matty-el.github.io/urban-paws/testing-files/mobile-shop-cat-test-cycle-2.html)
+-   Lighthouse report for the [About Us page](https://matty-el.github.io/urban-paws/testing-files/mobile-about-test-cycle-2.html)
 
 Issues identified and resolution:
 
