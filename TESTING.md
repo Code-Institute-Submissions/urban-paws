@@ -42,11 +42,11 @@ The testing to be completed along with the roles completing the testing are outl
 
 ### Test Tools
 
-- Code validation: [W3.org markup validation service](https://validator.w3.org/), [W3.org CSS validation service](https://jigsaw.w3.org/css-validator/)
-- Compatibility testing (browser compatibility and mobile compatibility) - [Chrome Dev Tools](https:), [Lighthouse](https:), [Responsiveness Checker](https:)
-- Performance testing: [Chrome Dev Tools](https:), [Lighthouse](https:)
-- SEO testing: [Chrome Dev Tools](https:), [Lighthouse](https:)
-- Defect capture and tracking: [JIRA](https://www.atlassian.com/software/jira)
+- Code validation: [W3.org markup validation service](https://validator.w3.org/), [W3.org CSS validation service](https://jigsaw.w3.org/css-validator/).
+- Compatibility testing (browser compatibility and mobile compatibility) - [Google Chrome DevTools - Lighthouse](https://developers.google.com/web/tools/lighthouse), [Responsiveness Checker](https:).
+- Performance testing: [Google Chrome DevTools - Lighthouse](https://developers.google.com/web/tools/lighthouse).
+- SEO testing: [Google Chrome DevTools - Lighthouse](https://developers.google.com/web/tools/lighthouse)
+- Defect capture and tracking: [JIRA](https://www.atlassian.com/software/jira).
 
 ### Review and Approvals
 
@@ -64,9 +64,9 @@ Following the final cycle of testing the website will be approved for release by
 
 Home page:
 
-![Home page HTML Validator](readme-files/HTML_Validation_Home_Test_Cycle_1_1.png)
+![Home page HTML Validator](testing-files/HTML_Validation_Home_Test_Cycle_1_1.png)
 
-![Home page HTML Validator](readme-files/HTML_Validation_Home_Test_Cycle_1_2.png)
+![Home page HTML Validator](testing-files/HTML_Validation_Home_Test_Cycle_1_2.png)
 
 Issues identified and resolution:
 
@@ -78,11 +78,11 @@ Issues identified and resolution:
 
 Shop Dog page:
 
-![Shop Dog page HTML Validator](readme-files/HTML_Validation_Shop_Dog_Test_Cycle_1_1.png)
+![Shop Dog page HTML Validator](testing-files/HTML_Validation_Shop_Dog_Test_Cycle_1_1.png)
 
-![Shop Dog page HTML Validator](readme-files/HTML_Validation_Shop_Dog_Test_Cycle_1_2.png)
+![Shop Dog page HTML Validator](testing-files/HTML_Validation_Shop_Dog_Test_Cycle_1_2.png)
 
-![Shop Dog page HTML Validator](readme-files/HTML_Validation_Shop_Dog_Test_Cycle_1_3.png)
+![Shop Dog page HTML Validator](testing-files/HTML_Validation_Shop_Dog_Test_Cycle_1_3.png)
 
 Issues identified and resolution:
 
@@ -93,11 +93,11 @@ Issues identified and resolution:
 
 Shop Cat page:
 
-![Shop Cat page HTML Validator](readme-files/HTML_Validation_Shop_Cat_Test_Cycle_1_1.png)
+![Shop Cat page HTML Validator](testing-files/HTML_Validation_Shop_Cat_Test_Cycle_1_1.png)
 
-![Shop Cat page HTML Validator](readme-files/HTML_Validation_Shop_Cat_Test_Cycle_1_2.png)
+![Shop Cat page HTML Validator](testing-files/HTML_Validation_Shop_Cat_Test_Cycle_1_2.png)
 
-![Shop Cat page HTML Validator](readme-files/HTML_Validation_Shop_Cat_Test_Cycle_1_3.png)
+![Shop Cat page HTML Validator](testing-files/HTML_Validation_Shop_Cat_Test_Cycle_1_3.png)
 
 Issues identified and resolution:
 
@@ -108,9 +108,9 @@ Issues identified and resolution:
 
 About Us page:
 
-![About Us page HTML Validator](readme-files/HTML_Validation_About_Test_Cycle_1_1.png)
+![About Us page HTML Validator](testing-files/HTML_Validation_About_Test_Cycle_1_1.png)
 
-![About Us page HTML Validator](readme-files/HTML_Validation_About_Test_Cycle_1_2.png)
+![About Us page HTML Validator](testing-files/HTML_Validation_About_Test_Cycle_1_2.png)
 
 Issues identified and resolution:
 
@@ -122,17 +122,17 @@ Issues identified and resolution:
 
 [W3.org CSS validation service](https://jigsaw.w3.org/css-validator/)
 
-![CSS Validator](readme-files/CSS-Validation_Test_Cycle_1.png)
+![CSS Validator](testing-files/CSS-Validation_Test_Cycle_1.png)
 
 #### Functional, Usability and Compatibility Testing
 
-The functional, usability and compatibility test results and defect references are detailed in the [test tracker](readme-files/Urban_Paws_Website_Test_Tracker_Cycle_1.pdf).
+The functional, usability and compatibility test results and defect references are detailed in the [test tracker](testing-files/Urban_Paws_Website_Test_Tracker_Cycle_1.pdf).
 
 #### Performance, Accessibility, Best Practices and SEO Testing
 
 **Desktop:**
 
-[Home page](https://matty-el.github.io/urban-paws/readme-files/desktop-index.html)
+[Home page](https://matty-el.github.io/urban-paws/testing-files/desktop-index.html)
 
 Issues identified and resolution:
 
@@ -164,7 +164,7 @@ SEO (90)
 -   Content Best Practices: Document does not have a meta-description - a meta-description is included and is now recognised.
 <br>
 
-[Shop Dog page](https://matty-el.github.io/urban-paws/readme-files/desktop-shop-dog.html)
+[Shop Dog page](https://matty-el.github.io/urban-paws/testing-files/desktop-shop-dog.html)
 
 Issues identified and resolution:
 
@@ -197,7 +197,7 @@ SEO (80)
 -   Crawling and Indexing: Links are not crawlable - link for modal so not relevant
 <br>
 
-[Shop Cat page](https://matty-el.github.io/urban-paws/readme-files/desktop-shop-cat.html)
+[Shop Cat page](https://matty-el.github.io/urban-paws/testing-files/desktop-shop-cat.html)
 
 Issues identified and resolution:
 
@@ -232,7 +232,7 @@ SEO (80)
 -   Crawling and Indexing: Links are not crawlable - link for modal so not relevant
 <br>
 
-[About Us page](https://matty-el.github.io/urban-paws/readme-files/desktop-about.html)
+[About Us page](https://matty-el.github.io/urban-paws/testing-files/desktop-about.html)
 
 Issues identified and resolution:
 
@@ -269,7 +269,7 @@ SEO (80)
 
 **Mobile:**
 
-[Home page](https://matty-el.github.io/urban-paws/readme-files/mobile-index.html)
+[Home page](https://matty-el.github.io/urban-paws/testing-files/mobile-index.html)
 
 Issues identified and resolution:
 
@@ -306,7 +306,7 @@ SEO (100)
 -   No issues identified.
 <br>
 
-[Shop Dog page](https://matty-el.github.io/urban-paws/readme-files/mobile-shop-dog.html)
+[Shop Dog page](https://matty-el.github.io/urban-paws/testing-files/mobile-shop-dog.html)
 
 Issues identified and resolution:
 
@@ -345,7 +345,7 @@ SEO (92)
 -   Crawling and Indexing: Links are not crawlable - link for modal so not relevant
 <br>
 
-- [Shop Cat page](https://matty-el.github.io/urban-paws/readme-files/mobile-shop-cat.html)
+- [Shop Cat page](https://matty-el.github.io/urban-paws/testing-files/mobile-shop-cat.html)
 
 Issues identified and resolution:
 
@@ -385,7 +385,7 @@ SEO (92)
 -   Crawling and Indexing: Links are not crawlable - link for modal so not relevant
 <br>
 
-[About Us page](https://matty-el.github.io/urban-paws/readme-files/mobile-about.html)
+[About Us page](https://matty-el.github.io/urban-paws/testing-files/mobile-about.html)
 
 Issues identified and resolution:
 
@@ -435,28 +435,28 @@ SEO (92)
 
 Home page:
 
-![Home page HTML Validator](readme-files/)
+![Home page HTML Validator](testing-files/)
 
 Issues identified and resolution
 
 
 Shop Dog page:
 
-![Shop Dog page HTML Validator](readme-files/)
+![Shop Dog page HTML Validator](testing-files/)
 
 Issues identified and resolution
 
 
 Shop Cat page:
 
-![Shop Cat page HTML Validator](readme-files/)
+![Shop Cat page HTML Validator](testing-files/)
 
 Issues identified and resolution
 
 
 About Us page:
 
-![About Us page HTML Validator](readme-files/)
+![About Us page HTML Validator](testing-files/)
 
 
 Issues identified and resolution
@@ -466,7 +466,7 @@ Issues identified and resolution
 
 [W3.org CSS validation service](https://jigsaw.w3.org/css-validator/)
 
-![About Us page HTML Validator](readme-files/)
+![About Us page HTML Validator](testing-files/)
 
 #### Functional, Usability and Compatibility Testing
 
@@ -476,19 +476,19 @@ To add details from Excel tracking table
 
 Desktop:
 
-- [Home page](readme-files/)
-- [Shop Dog page](readme-files/)
-- [Shop Cat page](readme-files/)
-- [About Us page](readme-files/)
+- [Home page](testing-files/)
+- [Shop Dog page](testing-files/)
+- [Shop Cat page](testing-files/)
+- [About Us page](testing-files/)
 
 Issues identified and resolution
 
 Mobile:
 
-- [Home page](readme-files/)
-- [Shop Dog page](readme-files/)
-- [Shop Cat page](readme-files/)
-- [About Us page](readme-files/)
+- [Home page](testing-files/)
+- [Shop Dog page](testing-files/)
+- [Shop Cat page](testing-files/)
+- [About Us page](testing-files/)
 
 Issues identified and resolution
 

@@ -175,6 +175,7 @@ nav {
 /* --------------------------- HERO IMAGE AND TITLE SECTION HOME PAGE */
 
 .hero-section {
+    background: url("../images/two-dachshunds-with-blue-cat.jpeg") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -190,8 +191,8 @@ nav {
 }
 
 .hero-section div {
-    background-color: rgba(0, 0, 0, 0.25);
-    border-color: rgba(0, 0, 0, 0.25);
+    background-color: rgba(0, 0, 0, 0.15);
+    border-color: rgba(0, 0, 0, 0.15);
     height: inherit;
     width: inherit;
     position: relative;
@@ -226,33 +227,6 @@ nav {
 .what-we-do-section-image {
     border-radius: 5px;
     margin-bottom: 40px;
-}
-
-@media all and (max-width: 992px) {
-    .what-we-do-section {
-        text-align: center;
-    }
-
-    .what-we-do-section h1 {
-        padding-top: 40px;
-    }
-}
-
-@media (max-width: 480px) {
-    .hero-section {
-        background: url("../images/two-dachshunds-with-blue-cat-mobile-tiny.jpeg") no-repeat center center;
-    }
-}
-
-@media (min-width: 481px) {
-    .hero-section {
-        background: url("../images/two-dachshunds-with-blue-cat-mobile-up-tiny.jpeg") no-repeat center center;
-    }
-
-    /*.what-we-do-section {
-        margin-top: 50px;
-    }*/
-
 }
 
 @media all and (max-width: 992px) {
@@ -467,7 +441,7 @@ nav {
 /* --------------------------- HERO IMAGE AND TITLE SECTION ABOUT US PAGE */
 
 .team-image-section {
-    background: url("../images/team-hero-small-tiny.jpeg") no-repeat top center;
+    background: url("../images/team-hero.jpeg") no-repeat top center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -483,8 +457,8 @@ nav {
 }
 
 .team-image-section div {
-    background-color: rgba(0, 0, 0, 0.25);
-    border-color: rgba(0, 0, 0, 0.25);
+    background-color: rgba(0, 0, 0, 0.15);
+    border-color: rgba(0, 0, 0, 0.15);
     height: inherit;
     width: inherit;
     position: relative;
