@@ -2,7 +2,7 @@
 
 # Urban Paws Website
 
-Working with the company director, this website has been developed as the first iteration for a new startup company Urban Paws. The website provides potential customers with an overview of the company and information in relation to products that are have been developed and products that are for sale via links to listings on Amazon.co.uk.
+Working with the company director, this website has been developed as the first iteration for a new startup company Urban Paws. The website provides potential customers with an overview of the company and information in relation to products that have been developed and products that are for sale via links to listings on Amazon.co.uk.
 
 The client requested a simple, attractive and modern website that is responsive and easy to navigate, allows potential customers to sign up for email updates on company news, provides links to the company social media accounts and links to enable the customer to purchase products.
 
@@ -72,9 +72,9 @@ The website has the following key elements:
 
 The wireframes were developed using [Balsamiq](https://balsamiq.com/).
 
--   Small device [wireframes](design/Urban_Paws_Wireframes_Small_v1.0.pdf)
--   Medium device [wireframes](design/Urban_Paws_Wireframes_Medium_v1.0.pdf)
--   Large device [wireframes](design/Urban_Paws_Wireframes_Large_v1.0.pdf)
+-   Small device [wireframes](design/urban-paws-wireframes-small-device-v1.pdf)
+-   Medium device [wireframes](design/urban-paws-wireframes-medium-device-v1.pdf)
+-   Large device [wireframes](design/urban-paws-wireframes-large-device-v1.pdf)
 
 After the initial design was agreed the following changes were made:
 
