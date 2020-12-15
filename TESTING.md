@@ -146,7 +146,7 @@ The following defects were raised in JIRA:
 
 **Responsiveness test results:**
 
-The website was tested for responsiveness using [Google Chrome DevTools - Lighthouse](https://developers.google.com/web/tools/chrome-devtools) and [Responsive Design Checker](https://www.responsivedesignchecker.com/).
+The website was tested for responsiveness using [Google Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) and [Responsive Design Checker](https://www.responsivedesignchecker.com/).
 
 ![Responsiveness](testing-files/responsiveness-test-cycle-1.png)
 
@@ -156,7 +156,7 @@ Due to the technical nature of some opportunities identified in the Lighthouse r
 
 **Desktop:**
 
-Lighthouse report for the [Home page](https://matty-el.github.io/urban-paws/testing-files/desktop-index-test-cycle-1.html)
+Lighthouse report for the [Home page](https://matty-el.github.io/urban-paws/testing-files/desktop-index-test-cycle-1.html).
 
 Issues identified for resolution:
 
@@ -180,7 +180,7 @@ SEO (90)
 -   Content Best Practices: Document does not have a meta-description - a meta-description is included and is now recognised.
 <br>
 
-Lighthouse report for the [Shop Dog page](https://matty-el.github.io/urban-paws/testing-files/desktop-shop-dog-test-cycle-1.html)
+Lighthouse report for the [Shop Dog page](https://matty-el.github.io/urban-paws/testing-files/desktop-shop-dog-test-cycle-1.html).
 
 Issues identified for resolution:
 
@@ -204,7 +204,7 @@ SEO (80)
 -   Content Best Practices: Document does not have a meta-description - a meta-description is included and now recognised.
 <br>
 
-Lighthouse report for the [Shop Cat page](https://matty-el.github.io/urban-paws/testing-files/desktop-shop-cat-test-cycle-1.html)
+Lighthouse report for the [Shop Cat page](https://matty-el.github.io/urban-paws/testing-files/desktop-shop-cat-test-cycle-1.html).
 
 Issues identified for resolution:
 
@@ -228,7 +228,7 @@ SEO (80)
 -   Content Best Practices: Document does not have a meta-description - a meta-description is included and is recognised.
 <br>
 
-Lighthouse report for the [About Us page](https://matty-el.github.io/urban-paws/testing-files/desktop-about-test-cycle-1.html)
+Lighthouse report for the [About Us page](https://matty-el.github.io/urban-paws/testing-files/desktop-about-test-cycle-1.html).
 
 Issues identified for resolution:
 
@@ -254,7 +254,7 @@ SEO (80)
 
 **Mobile:**
 
-Lighthouse report for the [Home page](https://matty-el.github.io/urban-paws/testing-files/mobile-index-test-cycle-1.html)
+Lighthouse report for the [Home page](https://matty-el.github.io/urban-paws/testing-files/mobile-index-test-cycle-1.html).
 
 Issues identified for resolution:
 
@@ -277,7 +277,7 @@ SEO (100)
 -   No issues identified.
 <br>
 
-Lighthouse report for the [Shop Dog page](https://matty-el.github.io/urban-paws/testing-files/mobile-shop-dog-test-cycle-1.html)
+Lighthouse report for the [Shop Dog page](https://matty-el.github.io/urban-paws/testing-files/mobile-shop-dog-test-cycle-1.html).
 
 Issues identified for resolution:
 
@@ -300,7 +300,7 @@ SEO (92)
 -   No significant issues.
 <br>
 
-Lighthouse report for the [Shop Cat page](https://matty-el.github.io/urban-paws/testing-files/mobile-shop-cat-test-cycle-1.html)
+Lighthouse report for the [Shop Cat page](https://matty-el.github.io/urban-paws/testing-files/mobile-shop-cat-test-cycle-1.html).
 
 Issues identified for resolution:
 
@@ -323,7 +323,7 @@ SEO (92)
 -   No significant issues.
 <br>
 
-Lighthouse report for the [About Us page](https://matty-el.github.io/urban-paws/testing-files/mobile-about-test-cycle-1.html)
+Lighthouse report for the [About Us page](https://matty-el.github.io/urban-paws/testing-files/mobile-about-test-cycle-1.html).
 
 Issues identified for resolution:
 
@@ -357,7 +357,7 @@ All issues identified during the first test cycle were resolved.
 
 **Home page:**
 
-Home page HTML validator [results](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fmatty-el.github.io%2Furban-paws%2Findex.html)
+Home page HTML validator [results](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fmatty-el.github.io%2Furban-paws%2Findex.html).
 
 Issues identified and resolution:
 
@@ -365,7 +365,7 @@ Issues identified and resolution:
 
 **Shop Dog page:**
 
-Shop Dog page HTML validator [results](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fmatty-el.github.io%2Furban-paws%2Fshop-dog.html)
+Shop Dog page HTML validator [results](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fmatty-el.github.io%2Furban-paws%2Fshop-dog.html).
 
 Issues identified and resolution:
 
@@ -373,7 +373,7 @@ Issues identified and resolution:
 
 **Shop Cat page:**
 
-Shop Cat page HTML validator [results](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fmatty-el.github.io%2Furban-paws%2Fshop-cat.html)
+Shop Cat page HTML validator [results](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fmatty-el.github.io%2Furban-paws%2Fshop-cat.html).
 
 Issues identified and resolution:
 
@@ -381,7 +381,7 @@ Issues identified and resolution:
 
 **About Us page:**
 
-About Us page HTML validator [results](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fmatty-el.github.io%2Furban-paws%2Fabout.html)
+About Us page HTML validator [results](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fmatty-el.github.io%2Furban-paws%2Fabout.html).
 
 Issues identified and resolution:
 
@@ -391,7 +391,7 @@ Issues identified and resolution:
 
 The CSS code was validated using the [W3.org CSS validation service](https://jigsaw.w3.org/css-validator/).
 
-CSS validator [results](testing-files/css-validation-test-cycle-2.png)
+CSS validator [results](testing-files/css-validation-test-cycle-2.png).
 
 Issues identified and resolution:
 
