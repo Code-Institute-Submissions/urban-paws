@@ -1,434 +1,445 @@
-[<img src="assets/images/urban-paws-transparent-tiny.png" width="230">](https://matty-el.github.io/urban-paws/)
+    [<img src="assets/images/urban-paws-logo.png" width="230">](https://matty-el.github.io/urban-paws/)
 
-# Test Strategy
+    # Test Strategy
 
-## Contents
+    ## Contents
 
-1.  [Scope and Overview](#scope-and-overview)
-2.  [Test Approach](#test-approach)
-3.  [Test Tools](#test-tools)
-4.  [Review and Approvals](#review-and-approvals)
-5.  [Test Results](#test-results)
-6.  [Approvals](#approvals)
+    1.  [Scope and Overview](#scope-and-overview)
+    2.  [Test Approach](#test-approach)
+    3.  [Test Tools](#test-tools)
+    4.  [Review and Approvals](#review-and-approvals)
+    5.  [Test Results](#test-results)
+    6.  [Approvals](#approvals)
 
-### Scope and Overview
+    ### Scope and Overview
 
-The Urban Paws website is a basic static website that has been developed for a startup company. The website enables users to find out more about the company, view products for sale and link to the Amazon listing for purchase of the products, link to the company social media accounts and contact the company via a contact form. The website is comprised of four pages - Home, Shop-Dog, Shop-Cat and About Us, with modals incorporated for the contact form and product size guides.
+    The Urban Paws website is a basic static website that has been developed for a startup company. The website enables users to find out more about the company, view products for sale and link to the Amazon listing for purchase of the products, link to the company social media accounts and contact the company via a contact form. The website is comprised of four pages - Home, Shop-Dog, Shop-Cat and About Us, with modals incorporated for the contact form and product size guides.
 
-The website has been developed using HTML5 and CSS3 and utilises the Bootstrap4 toolkit.
+    The website has been developed using HTML5 and CSS3 and utilises the Bootstrap4 toolkit.
 
-This document has been prepared to outline the testing strategy and will be approved by the owner of the Urban Paws business and website.
+    This document has been prepared to outline the testing strategy and will be approved by the owner of the Urban Paws business and website.
 
-The testing consists of two cycles, each with two phases. Within each test cycle the developer completes the first phase of testing prior to the business owner conducting their own testing.
+    The testing consists of two cycles, each with two phases. Within each test cycle the developer completes the first phase of testing prior to the business owner conducting their own testing.
 
-View the live website [here.](https://matty-el.github.io/urban-paws/)
+    View the live website [here.](https://matty-el.github.io/urban-paws/)
 
-### Test Approach
+    ### Test Approach
 
-The user requirements have been captured in the form of user stories and acceptance criteria have been defined against which to test the website functionality.
+    The user requirements have been captured in the form of user stories and acceptance criteria have been defined against which to test the website functionality.
 
-Defects identified during test cycle 1 of the testing process are captured in JIRA, fixed and then released to be re-tested in test cycle 2.
+    Defects identified during test cycle 1 of the testing process are captured in JIRA, fixed and then released to be re-tested in test cycle 2.
 
-The testing to be completed along with the roles completing the testing are outlined below:
+    The testing to be completed along with the roles completing the testing are outlined below:
 
-- Code validation - Roles: developer
-- Functional testing - Roles: developer and business owner
-- Usability testing - Roles: developer and business owner
-- Compatibility testing (browser compatibility, mobile compatibility and responsiveness) - Roles: developer
-- Performance testing - Roles: developer
-- Accessibility testing - Roles: developer
-- Best Practices testing - Roles: developer
-- SEO testing - Roles: developer
+    - Code validation - Roles: developer
+    - Functional testing - Roles: developer and business owner
+    - Usability testing - Roles: developer and business owner
+    - Compatibility testing (browser compatibility, mobile compatibility and responsiveness) - Roles: developer
+    - Performance testing - Roles: developer
+    - Accessibility testing - Roles: developer
+    - Best Practices testing - Roles: developer
+    - SEO testing - Roles: developer
 
-### Test Tools
+    ### Test Tools
 
-- Code validation: [W3.org markup validation service](https://validator.w3.org/), [W3.org CSS validation service](https://jigsaw.w3.org/css-validator/).
-- Compatibility testing (browser compatibility and mobile compatibility) - [Google Chrome DevTools - Lighthouse](https://developers.google.com/web/tools/lighthouse), [Responsiveness Checker](https:).
-- Performance testing: [Google Chrome DevTools - Lighthouse](https://developers.google.com/web/tools/lighthouse).
-- SEO testing: [Google Chrome DevTools - Lighthouse](https://developers.google.com/web/tools/lighthouse)
-- Defect capture and tracking: [JIRA](https://www.atlassian.com/software/jira).
+    - Code validation: [W3.org markup validation service](https://validator.w3.org/), [W3.org CSS validation service](https://jigsaw.w3.org/css-validator/).
+    - Compatibility testing (browser compatibility and mobile compatibility) - [Google Chrome DevTools - Lighthouse](https://developers.google.com/web/tools/lighthouse), [Responsiveness Checker](https:).
+    - Performance testing: [Google Chrome DevTools - Lighthouse](https://developers.google.com/web/tools/lighthouse).
+    - SEO testing: [Google Chrome DevTools - Lighthouse](https://developers.google.com/web/tools/lighthouse)
+    - Defect capture and tracking: [JIRA](https://www.atlassian.com/software/jira).
 
-### Review and Approvals
+    ### Review and Approvals
 
-Following the final cycle of testing the website will be approved for release by the Urban Paws business owner.
+    Following the final cycle of testing the website will be approved for release by the Urban Paws business owner.
 
-### Test Results
+    ### Test Results
 
-### Test Cycle 1
+    Following the two cycles of testing the website has been approved for release by the director of Urban Paws.
 
-#### Code validation
+    All defects identified during the first test cycle were fixed prior to the second test cycle and all acceptance criteria have passed testing.
 
-**HTML**
+    ### Test Cycle 1
 
-The HTML code was validated using the [W3.org markup validation service](https://validator.w3.org/).
+    #### Code validation
 
-[W3.org markup validation service](https://validator.w3.org/)
+    **HTML**
 
-Home page:
+    The HTML code was validated using the [W3.org markup validation service](https://validator.w3.org/).
 
-![Home page HTML Validator](testing-files/html-validation-index-test-cycle-1-1.png)
+    [W3.org markup validation service](https://validator.w3.org/)
 
-![Home page HTML Validator](testing-files/html-validation-index-test-cycle-1-2.png)
+    Home page:
 
-Issues identified and resolution:
+    ![Home page HTML Validator](testing-files/html-validation-index-test-cycle-1-1.png)
 
--   Error Attribute alt not allowed on element a at this point - removed alt attributes from anchor elements.
--   Error no p element in scope but a p end tag seen - removed erroneous paragraph closing tag.
--   Warning Possible misuse of aria-label - removed aria labels from icons and added to anchor elements.
--   Error Attribute type not allowed on element textarea at this point - removed type attribute from textarea element.
--   Error Element textarea is missing required attribute - added missing cols attribute to textarea element.
+    ![Home page HTML Validator](testing-files/html-validation-index-test-cycle-1-2.png)
 
-Shop Dog page:
+    Issues identified and resolution:
 
-![Shop Dog page HTML Validator](testing-files/html-validation-shop-dog-test-cycle-1-1.png)
+    -   Error Attribute alt not allowed on element a at this point - removed alt attributes from anchor elements.
+    -   Error no p element in scope but a p end tag seen - removed erroneous paragraph closing tag.
+    -   Warning Possible misuse of aria-label - removed aria labels from icons and added to anchor elements.
+    -   Error Attribute type not allowed on element textarea at this point - removed type attribute from textarea element.
+    -   Error Element textarea is missing required attribute - added missing cols attribute to textarea element.
 
-![Shop Dog page HTML Validator](testing-files/html-validation-shop-dog-test-cycle-1-2.png)
+    Shop Dog page:
 
-![Shop Dog page HTML Validator](testing-files/html-validation-shop-dog-test-cycle-1-3.png)
+    ![Shop Dog page HTML Validator](testing-files/html-validation-shop-dog-test-cycle-1-1.png)
 
-Issues identified and resolution:
+    ![Shop Dog page HTML Validator](testing-files/html-validation-shop-dog-test-cycle-1-2.png)
 
--   Warning Possible misuse of aria-label - removed aria labels from colour swatches.
--   Warning Possible misuse of aria-label - removed aria labels from icons and added to anchor elements.
--   Error Attribute type not allowed on element textarea at this point - removed type attribute from textarea element.
--   Error Element textarea is missing required attribute - added missing cols attribute to textarea element.
+    ![Shop Dog page HTML Validator](testing-files/html-validation-shop-dog-test-cycle-1-3.png)
 
-Shop Cat page:
+    Issues identified and resolution:
 
-![Shop Cat page HTML Validator](testing-files/html-validation-shop-cat-test-cycle-1-1.png)
+    -   Warning Possible misuse of aria-label - removed aria labels from colour swatches.
+    -   Warning Possible misuse of aria-label - removed aria labels from icons and added to anchor elements.
+    -   Error Attribute type not allowed on element textarea at this point - removed type attribute from textarea element.
+    -   Error Element textarea is missing required attribute - added missing cols attribute to textarea element.
 
-![Shop Cat page HTML Validator](testing-files/html-validation-shop-cat-test-cycle-1-2.png)
+    Shop Cat page:
 
-![Shop Cat page HTML Validator](testing-files/html-validation-shop-cat-test-cycle-1-3.png)
+    ![Shop Cat page HTML Validator](testing-files/html-validation-shop-cat-test-cycle-1-1.png)
 
-Issues identified and resolution:
+    ![Shop Cat page HTML Validator](testing-files/html-validation-shop-cat-test-cycle-1-2.png)
 
--   Warning Possible misuse of aria-label - removed aria labels from colour swatches.
--   Warning Possible misuse of aria-label - removed aria labels from icons and added to anchor elements.
--   Error Attribute type not allowed on element textarea at this point - removed type attribute from textarea element.
--   Error Element textarea is missing required attribute - added missing cols attribute to textarea element.
+    ![Shop Cat page HTML Validator](testing-files/html-validation-shop-cat-test-cycle-1-3.png)
 
-About Us page:
+    Issues identified and resolution:
 
-![About Us page HTML Validator](testing-files/html-validation-about-test-cycle-1-1.png)
+    -   Warning Possible misuse of aria-label - removed aria labels from colour swatches.
+    -   Warning Possible misuse of aria-label - removed aria labels from icons and added to anchor elements.
+    -   Error Attribute type not allowed on element textarea at this point - removed type attribute from textarea element.
+    -   Error Element textarea is missing required attribute - added missing cols attribute to textarea element.
 
-![About Us page HTML Validator](testing-files/html-validation-about-test-cycle-1-2.png)
+    About Us page:
 
-Issues identified and resolution:
+    ![About Us page HTML Validator](testing-files/html-validation-about-test-cycle-1-1.png)
 
--   Warning Possible misuse of aria-label - removed aria labels from icons and added to anchor elements.
--   Error Attribute type not allowed on element textarea at this point - removed type attribute from textarea element.
--   Error Element textarea is missing required attribute - added missing cols attribute to textarea element.
+    ![About Us page HTML Validator](testing-files/html-validation-about-test-cycle-1-2.png)
 
-**CSS**
+    Issues identified and resolution:
 
-The CSS code was validated using the [W3.org CSS validation service](https://jigsaw.w3.org/css-validator/).
+    -   Warning Possible misuse of aria-label - removed aria labels from icons and added to anchor elements.
+    -   Error Attribute type not allowed on element textarea at this point - removed type attribute from textarea element.
+    -   Error Element textarea is missing required attribute - added missing cols attribute to textarea element.
 
-![CSS Validator](testing-files/css-validation-test-cycle-1.png)
+    **CSS**
 
-#### Functional, Usability, Compatibility and Responsiveness Testing
+    The CSS code was validated using the [W3.org CSS validation service](https://jigsaw.w3.org/css-validator/).
 
-The functional, usability and compatibility test results and defect references are detailed in the [test tracker](testing-files/urban-paws-website-test-tracker-cycle-1.pdf).
+    ![CSS Validator](testing-files/css-validation-test-cycle-1.png)
 
-The website was tested for responsiveness using [Google Chrome DevTools - Lighthouse](https://developers.google.com/web/tools/chrome-devtools) and [Responsive Design Checker](https://www.responsivedesignchecker.com/)
+    #### Functional, Usability, Compatibility and Responsiveness Testing
 
-Results:
+    The functional, usability and compatibility test results and defect references are detailed in the [test tracker](testing-files/urban-paws-website-test-tracker-cycle-1.pdf).
 
-INCLUDE A TABLE
+    The following defects were raised in JIRA and fixed prior to test cycle 2:
 
+    -   UP-43
+    -   UP-44
 
+    ETC.
 
-#### Performance, Accessibility, Best Practices and SEO Testing
+    The website was tested for responsiveness using [Google Chrome DevTools - Lighthouse](https://developers.google.com/web/tools/chrome-devtools) and [Responsive Design Checker](https://www.responsivedesignchecker.com/)
 
-**Desktop:**
+    Results:
 
-[Home page](https://matty-el.github.io/urban-paws/testing-files/desktop-index-test-cycle-1.html)
+    INCLUDE A TABLE
 
-Issues identified and resolution:
 
-Due to the technical nature of some opportunities being beyond the scope of this project the following have been addressed:
 
-Performance (98)
+    #### Performance, Accessibility, Best Practices and SEO Testing
 
--   Opportunity: Properly size images - images resized.
--   Opportunity: Eliminate render-blocking resources - deferred the loading of Bootstrap scripts.
+    **Desktop:**
 
-Accessibility (98)
+    Lighthouse report for the [Home page](https://matty-el.github.io/urban-paws/testing-files/desktop-index-test-cycle-1.html)
 
--   Contrast: Background and foreground colours do not have sufficient contrast ratio - Shop, About Us and Contact menu items - changed text colour to #566465 to achieve greater contrast and the current page link changed to 500 weight font.
+    Issues identified and resolution:
 
-Best Practices (79)
+    Due to the technical nature of some opportunities being beyond the scope of this project the following opportunities have been identified and addressed:
 
--   Trust and Safety: Links to cross-origin destinations are unsafe - added rel="noopener and norefferer" tags to Links.
--   Trust and Safety: Includes front-end JavaScript libraries with known security vulnerabilities - updated to libraries with no vulnerabilities.
--   User Experience: Displays images with incorrect aspect ratio (Shop Cat image) - changed aspect ratio.
+    Performance (98)
 
-SEO (90)
+    -   Opportunity: Properly size images - images resized.
+    -   Opportunity: Eliminate render-blocking resources - deferred the loading of Bootstrap scripts.
 
--   Content Best Practices: Document does not have a meta-description - a meta-description is included and is now recognised.
-<br>
+    Accessibility (98)
 
-[Shop Dog page](https://matty-el.github.io/urban-paws/testing-files/desktop-shop-dog-test-cycle-1.html)
+    -   Contrast: Background and foreground colours do not have sufficient contrast ratio - Shop, About Us and Contact menu items - changed text colour to #566465 to achieve greater contrast and the current page link changed to 500 weight font.
 
-Due to the technical nature of some opportunities being beyond the scope of this project the following have been addressed:
+    Best Practices (79)
 
-Performance (98)
+    -   Trust and Safety: Links to cross-origin destinations are unsafe - added rel="noopener and norefferer" tags to Links.
+    -   Trust and Safety: Includes front-end JavaScript libraries with known security vulnerabilities - updated to libraries with no vulnerabilities.
+    -   User Experience: Displays images with incorrect aspect ratio (Shop Cat image) - changed aspect ratio.
 
--   Opportunity: Properly size images - images resized.
--   Opportunity: Eliminate render-blocking resources - deferred the loading of Bootstrap scripts.
+    SEO (90)
 
-Accessibility (98)
+    -   Content Best Practices: Document does not have a meta-description - a meta-description is included and is now recognised.
+    <br>
 
--   Contrast: Background and foreground colours do not have sufficient contrast ratio - Shop, About Us and Contact menu items - changed text colour to #566465 to achieve greater contrast and the current page link changed to 500 weight font.
+    Lighthouse report for the [Shop Dog page](https://matty-el.github.io/urban-paws/testing-files/desktop-shop-dog-test-cycle-1.html)
 
-Best Practices (79)
+    Due to the technical nature of some opportunities being beyond the scope of this project the following opportunities have been identified and addressed:
 
--   Trust and Safety: Links to cross-origin destinations are unsafe - added rel="noopener and norefferer" tags to Links.
--   Trust and Safety: Includes front-end JavaScript libraries with known security vulnerabilities - updated to libraries with no vulnerabilities.
--   User Experience: Displays images with incorrect aspect ratio (Shop Cat image) - changed aspect ratio.
+    Performance (98)
 
-SEO (80)
+    -   Opportunity: Properly size images - images resized.
+    -   Opportunity: Eliminate render-blocking resources - deferred the loading of Bootstrap scripts.
 
--   Content Best Practices: Document does not have a meta-description - a meta-description is included and now recognised.
+    Accessibility (98)
 
-<br>
+    -   Contrast: Background and foreground colours do not have sufficient contrast ratio - Shop, About Us and Contact menu items - changed text colour to #566465 to achieve greater contrast and the current page link changed to 500 weight font.
 
-[Shop Cat page](https://matty-el.github.io/urban-paws/testing-files/desktop-shop-cat-test-cycle-1.html)
+    Best Practices (79)
 
-Due to the technical nature of some opportunities being beyond the scope of this project the following have been addressed:
+    -   Trust and Safety: Links to cross-origin destinations are unsafe - added rel="noopener and norefferer" tags to Links.
+    -   Trust and Safety: Includes front-end JavaScript libraries with known security vulnerabilities - updated to libraries with no vulnerabilities.
+    -   User Experience: Displays images with incorrect aspect ratio (Shop Cat image) - changed aspect ratio.
 
-Performance (97)
+    SEO (80)
 
--   Opportunity: Properly size images - images resized.
--   Opportunity: Eliminate render-blocking resources - deferred the loading of Bootstrap scripts.
+    -   Content Best Practices: Document does not have a meta-description - a meta-description is included and now recognised.
 
-Accessibility (98)
+    <br>
 
--   Contrast: Background and foreground colours do not have sufficient contrast ratio - Shop, About Us and Contact menu items - changed text colour to #566465 to achieve greater contrast and the current page link changed to 500 weight font.
+    Lighthouse report for the [Shop Cat page](https://matty-el.github.io/urban-paws/testing-files/desktop-shop-cat-test-cycle-1.html)
 
-Best Practices (79)
+    Due to the technical nature of some opportunities being beyond the scope of this project the following opportunities have been identified and addressed:
 
--   Trust and Safety: Links to cross-origin destinations are unsafe - added rel="noopener and norefferer" tags to Links.
--   Trust and Safety: Includes front-end JavaScript libraries with known security vulnerabilities - updated to libraries with no vulnerabilities.
--   User Experience: Displays images with incorrect aspect ratio (Shop Cat image) - changed aspect ratio.
+    Performance (97)
 
-SEO (80)
+    -   Opportunity: Properly size images - images resized.
+    -   Opportunity: Eliminate render-blocking resources - deferred the loading of Bootstrap scripts.
 
--   Content Best Practices: Document does not have a meta-description - a meta-description is included and is recognised.
-<br>
+    Accessibility (98)
 
-[About Us page](https://matty-el.github.io/urban-paws/testing-files/desktop-about-test-cycle-1.html)
+    -   Contrast: Background and foreground colours do not have sufficient contrast ratio - Shop, About Us and Contact menu items - changed text colour to #566465 to achieve greater contrast and the current page link changed to 500 weight font.
 
-Due to the technical nature of some opportunities being beyond the scope of this project the following have been addressed:
+    Best Practices (79)
 
-Performance (98)
+    -   Trust and Safety: Links to cross-origin destinations are unsafe - added rel="noopener and norefferer" tags to Links.
+    -   Trust and Safety: Includes front-end JavaScript libraries with known security vulnerabilities - updated to libraries with no vulnerabilities.
+    -   User Experience: Displays images with incorrect aspect ratio (Shop Cat image) - changed aspect ratio.
 
--   Opportunity: Properly size images - images resized.
--   Opportunity: Eliminate render-blocking resources - deferred the loading of Bootstrap scripts.
+    SEO (80)
 
-Accessibility (97)
+    -   Content Best Practices: Document does not have a meta-description - a meta-description is included and is recognised.
+    <br>
 
--   Contrast: Background and foreground colours do not have sufficient contrast ratio - Shop, About Us and Contact menu items - changed text colour to #566465 to achieve greater contrast and the current page link changed to 500 weight font.
--   Navigation: Heading elements are not in sequentially-descending order - changed sequential order of headings.
+    Lighthouse report for the [About Us page](https://matty-el.github.io/urban-paws/testing-files/desktop-about-test-cycle-1.html)
 
-Best Practices (79)
+    Due to the technical nature of some opportunities being beyond the scope of this project the following opportunities have been identified and addressed:
 
--   Trust and Safety: Links to cross-origin destinations are unsafe - added rel="noopener and norefferer" tags to Links.
--   Trust and Safety: Includes front-end JavaScript libraries with known security vulnerabilities - updated to libraries with no vulnerabilities.
--   User Experience: Displays images with incorrect aspect ratio (Shop Cat image) - changed aspect ratio.
+    Performance (98)
 
-SEO (80)
+    -   Opportunity: Properly size images - images resized.
+    -   Opportunity: Eliminate render-blocking resources - deferred the loading of Bootstrap scripts.
 
--   Content Best Practices: Document does not have a meta-description - a meta-description is included so need to check why this issue is occurring.
+    Accessibility (97)
 
+    -   Contrast: Background and foreground colours do not have sufficient contrast ratio - Shop, About Us and Contact menu items - changed text colour to #566465 to achieve greater contrast and the current page link changed to 500 weight font.
+    -   Navigation: Heading elements are not in sequentially-descending order - changed sequential order of headings.
 
-**Mobile:**
+    Best Practices (79)
 
-[Home page](https://matty-el.github.io/urban-paws/testing-files/mobile-index-test-cycle-1.html)
+    -   Trust and Safety: Links to cross-origin destinations are unsafe - added rel="noopener and norefferer" tags to Links.
+    -   Trust and Safety: Includes front-end JavaScript libraries with known security vulnerabilities - updated to libraries with no vulnerabilities.
+    -   User Experience: Displays images with incorrect aspect ratio (Shop Cat image) - changed aspect ratio.
 
-Due to the technical nature of some opportunities being beyond the scope of this project the following have been addressed:
+    SEO (80)
 
-Performance (70)
+    -   Content Best Practices: Document does not have a meta-description - a meta-description is included so need to check why this issue is occurring.
 
--   Opportunity: Eliminate render-blocking resources - deferred the loading of Bootstrap scripts.
 
-Accessibility (100)
+    **Mobile:**
 
--   No issues identified
+    Lighthouse report for the [Home page](https://matty-el.github.io/urban-paws/testing-files/mobile-index-test-cycle-1.html)
 
-Best Practices (71)
+    Due to the technical nature of some opportunities being beyond the scope of this project the following opportunities have been identified and addressed:
 
--   Trust and Safety: Links to cross-origin destinations are unsafe - added rel="noopener and norefferer" tags to Links.
--   Trust and Safety: Includes front-end JavaScript libraries with known security vulnerabilities - updated to libraries with no vulnerabilities.
--   User Experience: Displays images with incorrect aspect ratio (Shop Cat image) - changed aspect ratio.
+    Performance (70)
 
-SEO (100)
+    -   Opportunity: Eliminate render-blocking resources - deferred the loading of Bootstrap scripts.
 
--   No issues identified.
-<br>
+    Accessibility (100)
 
-[Shop Dog page](https://matty-el.github.io/urban-paws/testing-files/mobile-shop-dog-test-cycle-1.html)
+    -   No issues identified
 
-Issues identified and resolution:
+    Best Practices (71)
 
-Performance (79)
+    -   Trust and Safety: Links to cross-origin destinations are unsafe - added rel="noopener and norefferer" tags to Links.
+    -   Trust and Safety: Includes front-end JavaScript libraries with known security vulnerabilities - updated to libraries with no vulnerabilities.
+    -   User Experience: Displays images with incorrect aspect ratio (Shop Cat image) - changed aspect ratio.
 
--   Opportunity: Eliminate render-blocking resources - deferred the loading of Bootstrap scripts.
+    SEO (100)
 
-Accessibility (97)
+    -   No issues identified.
+    <br>
 
--   Contrast: Background and foreground colours do not have sufficient contrast ratio - Shop, About Us and Contact menu items - changed text colour to #566465 to achieve greater contrast and the current page link changed to 500 weight font.
+    Lighthouse report for the [Shop Dog page](https://matty-el.github.io/urban-paws/testing-files/mobile-shop-dog-test-cycle-1.html)
 
-Best Practices (71)
+    Due to the technical nature of some opportunities being beyond the scope of this project the following opportunities have been identified and addressed:
 
--   Trust and Safety: Links to cross-origin destinations are unsafe - added rel="noopener and norefferer" tags to Links.
--   Trust and Safety: Includes front-end JavaScript libraries with known security vulnerabilities - updated to libraries with no vulnerabilities.
--   User Experience: Displays images with incorrect aspect ratio - changed aspect ratio.
+    Performance (79)
 
-SEO (92)
+    -   Opportunity: Eliminate render-blocking resources - deferred the loading of Bootstrap scripts.
 
--   No significant issues
-<br>
+    Accessibility (97)
 
-- [Shop Cat page](https://matty-el.github.io/urban-paws/testing-files/mobile-shop-cat-test-cycle-1.html)
+    -   Contrast: Background and foreground colours do not have sufficient contrast ratio - Shop, About Us and Contact menu items - changed text colour to #566465 to achieve greater contrast and the current page link changed to 500 weight font.
 
-Issues identified and resolution:
+    Best Practices (71)
 
-Performance (77)
+    -   Trust and Safety: Links to cross-origin destinations are unsafe - added rel="noopener and norefferer" tags to Links.
+    -   Trust and Safety: Includes front-end JavaScript libraries with known security vulnerabilities - updated to libraries with no vulnerabilities.
+    -   User Experience: Displays images with incorrect aspect ratio - changed aspect ratio.
 
--   Opportunity: Eliminate render-blocking resources - deferred the loading of Bootstrap scripts.
+    SEO (92)
 
-Accessibility (97)
+    -   No significant issues
+    <br>
 
--   Contrast: Background and foreground colours do not have sufficient contrast ratio - Shop, About Us and Contact menu items - changed text colour to #566465 to achieve greater contrast and the current page link changed to 500 weight font.
+    Lighthouse report for the [Shop Cat page](https://matty-el.github.io/urban-paws/testing-files/mobile-shop-cat-test-cycle-1.html)
 
-Best Practices (71)
+    Due to the technical nature of some opportunities being beyond the scope of this project the following opportunities have been identified and addressed:
 
--   Trust and Safety: Links to cross-origin destinations are unsafe - added rel="noopener and norefferer" tags to Links.
--   Trust and Safety: Includes front-end JavaScript libraries with known security vulnerabilities - updated to libraries with no vulnerabilities.
--   User Experience: Displays images with incorrect aspect ratio (Shop Cat image) - changed aspect ratio.
+    Performance (77)
 
-SEO (92)
+    -   Opportunity: Eliminate render-blocking resources - deferred the loading of Bootstrap scripts.
 
--   No significant issues.
-<br>
+    Accessibility (97)
 
-[About Us page](https://matty-el.github.io/urban-paws/testing-files/mobile-about-test-cycle-1.html)
+    -   Contrast: Background and foreground colours do not have sufficient contrast ratio - Shop, About Us and Contact menu items - changed text colour to #566465 to achieve greater contrast and the current page link changed to 500 weight font.
 
-Issues identified and resolution:
+    Best Practices (71)
 
-Performance (70)
+    -   Trust and Safety: Links to cross-origin destinations are unsafe - added rel="noopener and norefferer" tags to Links.
+    -   Trust and Safety: Includes front-end JavaScript libraries with known security vulnerabilities - updated to libraries with no vulnerabilities.
+    -   User Experience: Displays images with incorrect aspect ratio (Shop Cat image) - changed aspect ratio.
 
--   Opportunity: Eliminate render-blocking resources - deferred the loading of Bootstrap scripts.
+    SEO (92)
 
-Accessibility (98)
+    -   No significant issues.
+    <br>
 
--    Navigation: Heading elements are not in sequentially-descending order - changed sequential order of headings.
+    Lighthouse report for the [About Us page](https://matty-el.github.io/urban-paws/testing-files/mobile-about-test-cycle-1.html)
 
-Best Practices (71)
+    Due to the technical nature of some opportunities being beyond the scope of this project the following opportunities have been identified and addressed:
 
--   Trust and Safety: Links to cross-origin destinations are unsafe - added rel="noopener and norefferer" tags to Links.
--   Trust and Safety: Includes front-end JavaScript libraries with known security vulnerabilities - updated to libraries with no vulnerabilities.
--   User Experience: Displays images with incorrect aspect ratio (Shop Cat image) - changed aspect ratio.
+    Performance (70)
 
-SEO (92)
+    -   Opportunity: Eliminate render-blocking resources - deferred the loading of Bootstrap scripts.
 
--   No significant issues.
+    Accessibility (98)
 
+    -    Navigation: Heading elements are not in sequentially-descending order - changed sequential order of headings.
 
-### Test Cycle 2
+    Best Practices (71)
 
-#### Code validation
+    -   Trust and Safety: Links to cross-origin destinations are unsafe - added rel="noopener and norefferer" tags to Links.
+    -   Trust and Safety: Includes front-end JavaScript libraries with known security vulnerabilities - updated to libraries with no vulnerabilities.
+    -   User Experience: Displays images with incorrect aspect ratio (Shop Cat image) - changed aspect ratio.
 
-**HTML**
+    SEO (92)
 
-The HTML code was validated using the [W3.org markup validation service](https://validator.w3.org/).
+    -   No significant issues.
 
-All issues identified during the first test cycle were resolved.
 
-Home page:
+    ### Test Cycle 2
 
-![Home page HTML Validator](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fmatty-el.github.io%2Furban-paws%2Findex.html)
+    #### Code validation
 
-Issues identified and resolution:
+    **HTML**
 
--   No issues were identified.
+    The HTML code was validated using the [W3.org markup validation service](https://validator.w3.org/).
 
-Shop Dog page:
+    All issues identified during the first test cycle were resolved.
 
-![Shop Dog page HTML Validator](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fmatty-el.github.io%2Furban-paws%2Fshop-dog.html)
+    Home page:
 
-Issues identified and resolution:
+    Home page HTML validator [results](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fmatty-el.github.io%2Furban-paws%2Findex.html)
 
--   No issues were identified.
+    Issues identified and resolution:
 
-Shop Cat page:
+    -   No issues were identified.
 
-![Shop Cat page HTML Validator](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fmatty-el.github.io%2Furban-paws%2Fshop-cat.html)
+    Shop Dog page:
 
-Issues identified and resolution:
+    Shop Dog page HTML validator [results](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fmatty-el.github.io%2Furban-paws%2Fshop-dog.html)
 
--   No issues were identified.
+    Issues identified and resolution:
 
-About Us page:
+    -   No issues were identified.
 
-![About Us page HTML Validator](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fmatty-el.github.io%2Furban-paws%2Fabout.html)
+    Shop Cat page:
 
-Issues identified and resolution:
+    Shop Cat page HTML validator [results](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fmatty-el.github.io%2Furban-paws%2Fshop-cat.html)
 
--   No issues were identified.
+    Issues identified and resolution:
 
-**CSS**
+    -   No issues were identified.
 
-The CSS code was validated using the [W3.org CSS validation service](https://jigsaw.w3.org/css-validator/).
+    About Us page:
 
-![CSS Validator](testing-files/css-validation-test-cycle-2)
+    About Us page HTML validator [results](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fmatty-el.github.io%2Furban-paws%2Fabout.html)
 
-Issues identified and resolution:
+    Issues identified and resolution:
 
--   No issues were identified.
+    -   No issues were identified.
 
-#### Functional, Usability, Compatibility and Responsiveness Testing
+    **CSS**
 
-The functional, usability and compatibility test results and defect references are detailed in the [test tracker](testing-files/urban-paws-website-test-tracker-cycle-2.pdf).
+    The CSS code was validated using the [W3.org CSS validation service](https://jigsaw.w3.org/css-validator/).
 
-The website was tested for responsiveness using [Google Chrome DevTools - Lighthouse](https://developers.google.com/web/tools/chrome-devtools) and [Responsive Design Checker](https://www.responsivedesignchecker.com/)
+    CSS validator [results](testing-files/css-validation-test-cycle-2)
 
-Results:
+    Issues identified and resolution:
 
-INCLUDE A TABLE
+    -   No issues were identified.
 
+    #### Functional, Usability, Compatibility and Responsiveness Testing
 
+    The functional, usability and compatibility test results and defect references are detailed in the [test tracker](testing-files/urban-paws-website-test-tracker-cycle-2.pdf).
 
-#### Performance, Accessibility, Best Practices and SEO Testing
+    The website was tested for responsiveness using [Google Chrome DevTools - Lighthouse](https://developers.google.com/web/tools/chrome-devtools) and [Responsive Design Checker](https://www.responsivedesignchecker.com/)
 
-Desktop:
+    Results:
 
-All tests passed with only the performance tests for the Home page (score 99) and About Us page (score 99) not achieving the maximum score of 100.
+    INCLUDE A TABLE
 
-- [Home page](testing-files/desktop-home-test-cycle-2)
-- [Shop Dog page](testing-files/desktop-shop-dog-test-cycle-2)
-- [Shop Cat page](testing-files/desktop-shop-cat-test-cycle-2)
-- [About Us page](testing-files/desktop-about-test-cycle-2)
 
-Issues identified and resolution:
 
--   No significant issues were identified.
+    #### Performance, Accessibility, Best Practices and SEO Testing
 
-Mobile:
+    Desktop:
 
-Although the performance scores could be improved further technical enhancements no significant issues were identified.
+    All tests passed with only the performance tests for the Home page (score 99) and About Us page (score 99) not achieving the maximum score of 100.
 
-- [Home page](testing-files/mobile-home-test-cycle-2)
-- [Shop Dog page](testing-files/mobile-shop-dog-test-cycle-2)
-- [Shop Cat page](testing-files/mobile-shop-cat-test-cycle-2)
-- [About Us page](testing-files/mobile-about-test-cycle-2)
+    -   Lighthouse report for the [Home page](testing-files/desktop-home-test-cycle-2)
+    -   Lighthouse report for the [Shop Dog page](testing-files/desktop-shop-dog-test-cycle-2)
+    -   Lighthouse report for the [Shop Cat page](testing-files/desktop-shop-cat-test-cycle-2)
+    -   Lighthouse report for the [About Us page](testing-files/desktop-about-test-cycle-2)
 
-Issues identified and resolution:
+    Issues identified and resolution:
 
--   No significant issues were identified.
+    -   No significant issues were identified.
 
-### Approvals
+    Mobile:
 
+    Although the performance scores could be improved further technical enhancements no significant issues were identified.
 
-[Go back to README.md file](README.md).
+    -   Lighthouse report for the [Home page](testing-files/mobile-home-test-cycle-2)
+    -   Lighthouse report for the [Shop Dog page](testing-files/mobile-shop-dog-test-cycle-2)
+    -   Lighthouse report for the [Shop Cat page](testing-files/mobile-shop-cat-test-cycle-2)
+    -   Lighthouse report for the [About Us page](testing-files/mobile-about-test-cycle-2)
+
+    Issues identified and resolution:
+
+    -   No significant issues were identified.
+
+    ### Approvals
+
+
+    [Go back to README.md file](README.md).
