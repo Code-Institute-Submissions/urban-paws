@@ -21,7 +21,6 @@ View the live website [here.](https://matty-el.github.io/urban-paws/)
 5.  [Deployment](#deployment)
 6.  [Credits](#credits)
 
-
 ## User Experience Design
 
 ### Strategy
@@ -60,10 +59,10 @@ The Urban Paws website has been structured to provide a simple and easy to navig
 
 The website has the following key elements:
 
--   A simple navigation menu which enables the users to easily navigate between the website pages.
+-   A simple navigation menu that enables the users to easily navigate between the website pages.
 -   Links to social media sites so that users can follow the company on social media.
 -   Call to action buttons are present on the Home page to encourage the users to click through to the contact form and shop pages.
--   The shop pages contain the product listings along with size-guides and a link to enable the customers to purchase the   products via Amazon.co.uk.
+-   The shop pages contain the product listings along with size guides and a link to enable the customers to purchase the   products via Amazon.co.uk.
 -   The contact menu item provides a form which the users can populate to provide comments, make enquiries and / or sign up to the Urban Paws newsletter.
 
 ### Skeleton
@@ -99,7 +98,7 @@ A simple colour palette has been developed based on the three core Urban Paws co
 
 #### Typography
 
-The Montserrat font has been utilised for all menu and heading text across the website. Raleway font has been used for the main text sections. Full details of the typography used is contained in the [Urban Paws Branding Template](design/urban-paws-branding-template.pdf).
+The Montserrat font has been utilised for all menu and heading text across the website. Raleway font has been used for the main text sections. Full details of the typography used are contained in the [Urban Paws Branding Template](design/urban-paws-branding-template.pdf).
 
 ## Features
 
@@ -117,7 +116,7 @@ Header:
 
 Footer:
 
--   A footer section displaying copyright wording and links to Facebook, Twitter, YouTube, Instagram and Pinterest social media sites.
+-   A footer section displaying copyright wording, a Union Jack flag and links to Facebook, Twitter, YouTube, Instagram and Pinterest social media sites.
 
 #### Home page
 
@@ -152,7 +151,6 @@ PADD Suit section:
 -   Shopping cart
 -   eCommerce capabilities
 
-
 ## Technologies Used
 
 The following technologies have been used to complete the UX design, capture user stories and defects and assign for development and to develop the Urban Paws website.
@@ -184,7 +182,6 @@ The website functionality was captured in the form of user stories and acceptanc
 
 The testing strategy, plan and results are documented in a separate [testing document](TESTING.md).
 
-
 ## Deployment
 
 The Urban Paws project is hosted on GitHub Pages.
@@ -193,8 +190,10 @@ The Urban Paws project is hosted on GitHub Pages.
 
 1. Navigate to the menu at the top of the project repository on GitHub and select **Settings**.
 2. Scroll down to the GitHub **Pages** section.
-3. Click on the dropdown menu under **Source** and select **Master Branch**.
-4. The page will refresh automatically, and the website is now deployed - a green tick will be visible against a green background with the site URL. It may take a few minutes for the site to be published.
+3. Click on the dropdown menu under **Source** and select **master** branch.
+4. Ensure that the folder selected is the **(root)** folder.
+5. Click the **Save** button.
+6. The page will refresh automatically, and the website is now deployed - a green tick will be visible against a green background with the site URL. It may take a few minutes for the site to be published.
 
 A single master branch has been used for this project.
 
@@ -202,12 +201,12 @@ A single master branch has been used for this project.
 
 To clone this project from GitHub.
 
-1. Open the project repository on GitHub and click the Code dropdown button.
-2. Select **HTTPS** and copy the URL.
-3. In your preferred IDE, open **Git Bash**.
+1. Open the project repository on GitHub and click the **Code** dropdown button.
+2. Select the **HTTPS** tab and copy the URL.
+3. Open your terminal (Mac OS, Linux) or Git-Bash terminal (Windows).
 4. Change the current working directory to the location where you want the cloned directory to be created.
-5. Type **git clone**, and then paste the URL copied from GitHub.
-6. Press **Enter** and the local clone will be created.
+5. Type **git clone**, enter a space and then paste the URL copied from GitHub.
+6. Press **Enter** and the local clone will be created in the specified directory.
 
 ## Credits
 
