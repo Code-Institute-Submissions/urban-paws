@@ -71,16 +71,16 @@ The website has the following key elements:
 
 The wireframes were developed using [Balsamiq](https://balsamiq.com/).
 
--   Small device [wireframes](design/urban-paws-wireframes-small-device-v1.pdf)
--   Medium device [wireframes](design/urban-paws-wireframes-medium-device-v1.pdf)
--   Large device [wireframes](design/urban-paws-wireframes-large-device-v1.pdf)
+-   Small device [wireframes](design/urban-paws-wireframes-small-device-v1.pdf).
+-   Medium device [wireframes](design/urban-paws-wireframes-medium-device-v1.pdf).
+-   Large device [wireframes](design/urban-paws-wireframes-large-device-v1.pdf).
 
-After the initial design was agreed the following changes were made:
+After the initial design was finalised the following changes were agreed and made:
 
 -   The Contact Us page was replaced with a contact form modal as this was considered a cleaner implementation of the form.
--   The main Shop page was removed to simplify he website design and layout.
+-   The main Shop page was removed to simplify the website design and layout.
 -   An About Us page was added to include the team member profiles.
--   As shopping basket functionality has not been developed a decision was made to simplify the product card layout and provide a link to Amazon.co.uk.
+-   As shopping basket functionality will be a future development a decision was made to simplify the product card layout and provide a link to Amazon.co.uk.
 
 ### Surface
 
@@ -109,7 +109,7 @@ The Montserrat font has been utilised for all menu and heading text across the w
 Header:
 
 -   The brand logo linking to the Home page is displayed on the top left of each page.
--   A navigation menu on the right of the header that allows the user to navigate the website by clicking the links or open a contact form by selecting the Contact menu item. There is a dropdown menu for the individual Shop Dog and Shop Cat pages. The menu links change colour when hovered over and are highlighted in a different colour when the user is currently on that page.
+-   A navigation menu on the top right of each page that allows the user to navigate the website by clicking the links or open a contact form by selecting the Contact menu item. There is a dropdown menu for the individual Shop Dog and Shop Cat pages. The menu links change colour when hovered over and are highlighted in a different colour when the user is currently on that page.
 -   The contact form can be populated with mandatory first name, last name, email address and animal preference along with the options to add a comment or enquiry and to sign up to the company newsletter.
 
 *Note: The contact form does not currently submit any data. The final version of the form will submit data to a back-end database and will present a message to the user upon submitting the form.*
@@ -144,12 +144,12 @@ PADD Suit section:
 
 ### Features Left to Implement
 
--   Active product links to Amazon.co.uk
--   Contact form data submission and acknowledgement
--   Urban Paws Blog
--   Featured products
--   Shopping cart
--   eCommerce capabilities
+-   Active product links to Amazon.co.uk.
+-   Contact form data submission and acknowledgement.
+-   Urban Paws Blog.
+-   Featured products.
+-   Shopping cart.
+-   eCommerce capabilities.
 
 ## Technologies Used
 

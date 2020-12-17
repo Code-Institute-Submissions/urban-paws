@@ -11,7 +11,7 @@
 5.  [Test Results](#test-results)
 6.  [Approvals](#approvals)
 
-### Scope and Overview
+## Scope and Overview
 
 The Urban Paws website is a basic static website that has been developed for a startup company. The website enables users to find out more about the company, view products for sale and link to the Amazon listing for purchase of the products, link to the company social media accounts and contact the company via a contact form. The website is comprised of four pages - Home, Shop-Dog, Shop-Cat and About Us, with modals incorporated for the contact form and product size guides.
 
@@ -23,7 +23,7 @@ The testing consists of two cycles, each with two phases. Within each test cycle
 
 View the live website [here.](https://matty-el.github.io/urban-paws/)
 
-### Test Approach
+## Test Approach
 
 The user requirements have been captured in the form of user stories and acceptance criteria have been defined against which to test the website functionality.
 
@@ -40,7 +40,7 @@ The testing to be completed along with the roles completing the testing are outl
 -   Best Practice testing - Roles: developer
 -   SEO testing - Roles: developer
 
-### Test Tools
+## Test Tools
 
 -   Code validation: [W3.org markup validation service](https://validator.w3.org/), [W3.org CSS validation service](https://jigsaw.w3.org/css-validator/).
 -   Responsiveness testing - [Google Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools), [Responsiveness Checker](https://responsivedesignchecker.com/).
@@ -50,11 +50,11 @@ The testing to be completed along with the roles completing the testing are outl
 -   Best Practices testing: [Google Chrome DevTools - Lighthouse](https://developers.google.com/web/tools/lighthouse).
 -   Defect capture and tracking: [JIRA](https://www.atlassian.com/software/jira).
 
-### Review and Approvals
+## Review and Approvals
 
 Following the final cycle of testing the website will be approved for release by the Urban Paws business owner.
 
-### Test Results
+## Test Results
 
 Following the two cycles of testing the website has been approved for release by the director of Urban Paws.
 
@@ -229,7 +229,7 @@ Best Practices (79)
 
 SEO (80)
 
--   Content Best Practices: Document does not have a meta-description - a meta-description is included and is recognised.
+-   Content Best Practices: Document does not have a meta-description - a meta-description is included and is now recognised.
 <br>
 
 Lighthouse report for the [About Us page](https://matty-el.github.io/urban-paws/testing-files/desktop-about-test-cycle-1.html).
@@ -443,7 +443,7 @@ Issues identified and resolution:
 
 -   No significant issues were identified.
 
-### Approvals
+## Approvals
 
 Following testing the website received sign-off from the owner of Urban Paws.
 
